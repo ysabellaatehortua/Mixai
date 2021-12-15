@@ -1,3 +1,4 @@
+from sklearn.linear_model import LinearRegression
 from random import random
 import chromosome
 
@@ -6,6 +7,8 @@ class GeneticAlgorithm():
     def __init__(self, population, n):
         self.population = population
         self.n = n
+        self.train_input = list()
+        self.train_output = list()
     
     def crossover(self, c1, c2):
         crossover = random.randint(0, n) #generate random crossover point p 0,...,n
@@ -33,3 +36,11 @@ class GeneticAlgorithm():
         n = 0
         while n < 100:
             crossover(population)
+    
+    def create_fitness_func(self):
+        predictor = LinearRegression(n_jobs=-1)
+        predictor.fit(X=self.train_input, y=self.train_output)
+        test = []
+        outcome = predictor.predict(X=test)
+        coefficients = predictor.coef_
+        print('Outcome : {}\nCoefficients : {}'.format(outcome, coefficients))
