@@ -14,8 +14,9 @@ def main():
     for section in allDrinks:
         for drink in section:
             cocktails, ingredients, measurements, recipes = extractData(drink, cocktails, ingredients, measurements, recipes)
-    for drink in cocktails:
-        print(drink, recipes[drink])
+    # for drink in cocktails:
+    #     print(drink, recipes[drink])
+    return cocktails, ingredients, measurements, recipes
 
 def loadData(): #get json data from website
     allDrinks = []
@@ -53,7 +54,6 @@ def cleanDrink(drink, cocktails, ingredients, measurements, recipes): #take each
     drinkIngredients = [] #ingredients and measurements that are specific to this drink
     drinkMeasurements = []
     badMeasurement = False
-    measurements = []
     done = False
     j = 1
     while not done and j < 16: #loop through all possible ingredients

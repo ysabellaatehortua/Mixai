@@ -1,92 +1,56 @@
 import os
 import django
-
+from importDrinks import *
 from Mixai.wsgi import *
-from catalog.models import Cocktails, Ingredients, RecipeSteps, Tools, Measurements
+from catalog.models import Cocktails, Ingredients, RecipeSteps, Measurements
 
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'Mixai.settings')
 django.setup()
 
-drink1 = Cocktails(cocktail_name = "Mojito", alcoholic = True)
+Alcohols = ("Dark rum", "Light rum", "Vodka", "Absolut Kurant", "Malibu rum", "Lager", "Tequila", "Wild Turkey", "Goldschlager", "J\u00e4germeister", "Jack Daniels", "Johnnie Walker", "Jim Beam", "Gin", "Peach Vodka", "Vanilla vodka", "Absolut Citron", "Absolut Vodka", "Applejack", "Vermouth",  "Scotch", "Sweet Vermouth", "Dry Vermouth", "Blended whiskey", "Bourbon", "Blackberry brandy", "Champagne", "Rye Whiskey", "Rum", "Bacardi Limon", "151 proof rum", "Sloe gin", "Southern Comfort", "Cachaca", "Cherry brandy", "Spiced rum", "A\u00f1ejo rum", "blackstrap rum", "Port", "Brandy", "White rum", "Lillet Blanc", "Grain alcohol", "Pisco", "Whiskey", "Dubonnet Rouge", "Absinthe", "Apricot brandy", "Mezcal", "Firewater", "Absolut Peppar", "Cognac", "Beer", "Irish whiskey", "Peach brandy", "Anis", "Apple brandy", "Tennessee whiskey", "Cranberry vodka", "Red wine", "Blended Scotch", "Islay single malt Scotch", "Everclear", "Prosecco", "Coffee brandy", "Lime vodka", "Crown Royal", "Raspberry vodka", "Ricard", "Ruby Port", "Irish Whiskey", "Rosso Vermouth", "White Wine", "Apple Brandy", "Surge", "Gold rum", "Pernod", "Ouzo", "Zima")
 
-ingredient1 = Ingredients(ingredient_name = "light rum")
-ingredient2 = Ingredients(ingredient_name = "lime juice")
-ingredient3 = Ingredients(ingredient_name = "sugar")
-ingredient4 = Ingredients(ingredient_name = "mint")
-ingredient5 = Ingredients(ingredient_name = "soda water")
+Mixers = ("Orange juice", "Cranberry juice", "Pineapple juice", "Milk", "Vanilla ice-cream", "Coca-Cola", "7-Up", "Cranberry Juice", "Tonic water", "Grapefruit juice", "Apple juice", "Peach nectar", "Passion fruit juice", "Hot Chocolate", "Tomato juice", "Water", "Cider", "Ginger ale", "Ginger Beer", "Soda water", "Coffee", "Pomegranate juice", "Fruit juice", "Dr. Pepper", "Carbonated water", "Club soda", "Lemonade", "Iced tea", "Schweppes Russchian", "Pepsi Cola", "Tea", "Grape Soda", "Coconut milk", "Pink lemonade", "Lemon-lime soda", "Tonic Water", "Orange Juice", "Limeade", "Root beer")
 
-Measurement1 = Measurements(measurement_name = "ounce", quantity = 2, num_ounces = 0) #rum
-Measurement2 = Measurements(measurement_name = "ounce", quantity = 1, num_ounces = 0) #lime
-Measurement3 = Measurements(measurement_name = "ounce", quantity = .33, num_ounces = 0) #sugar
-Measurement4 = Measurements(measurement_name = "whole", quantity = 3, num_ounces = 0) #mint
-Measurement5 = Measurements(measurement_name = "ounce", quantity = 4, num_ounces = 0) #soda water
+Modifiers = ("Lemon juice", "Roses sweetened lime juice", "Heavy cream", "Lime juice", "Sugar", "Light cream", "Sugar syrup", "Sour mix", "Worcestershire sauce", "Powdered sugar", "Vanilla extract", "Chocolate", "demerara Sugar", "Chocolate syrup", "Salt", "Whipping cream", "Vanilla syrup", "Espresso", "Egg", "Rose", "Strawberries", "Honey", "Apricot Nectar", "Pineapple Syrup", "Yoghurt", "Lemon peel", "Grapefruit Juice", "Sweet and sour", "Maraschino Cherry", "Corn syrup", "Butter", "Half-and-half", "Brown sugar", "Whipped cream", "Aperol", "Lemon", "Orgeat syrup", "Cocoa powder", "Rosemary Syrup", "Honey syrup", "Ginger Syrup", "Pineapple", "Passion fruit syrup", "Fresh Lime Juice", "Lime", "Raspberry syrup", "Blood Orange", "Allspice", "Apple", "Coriander", "Cream", "Maple syrup", "Agave Syrup", "Ice", "Cream of coconut", "Fruit")
 
-recipeStep1 = RecipeSteps(cocktail = drink1, ingredient = ingredient1, measurement = Measurement1, step_number = 1)
-recipeStep2 = RecipeSteps(cocktail = drink1, ingredient = ingredient2, measurement = Measurement2, step_number = 2)
-recipeStep3 = RecipeSteps(cocktail = drink1, ingredient = ingredient3, measurement = Measurement3, step_number = 3)
-recipeStep4 = RecipeSteps(cocktail = drink1, ingredient = ingredient4, measurement = Measurement4, step_number = 4)
-recipeStep5 = RecipeSteps(cocktail = drink1, ingredient = ingredient5, measurement = Measurement5, step_number = 5)
-
-drink1.save()
-
-ingredient1.save()
-ingredient2.save()
-ingredient3.save()
-ingredient4.save()
-ingredient5.save()
-
-Measurement1.save()
-Measurement2.save()
-Measurement3.save()
-Measurement4.save()
-Measurement5.save()
-
-recipeStep1.save()
-recipeStep2.save()
-recipeStep3.save()
-recipeStep4.save()
-recipeStep5.save()
+Liqueurs = ("Grand Marnier", "Chambord raspberry liqueur", "Midori melon liqueur", "Amaretto", "Dark Creme de Cacao", "Cointreau", "Coconut liqueur", "Rumple Minze", "Triple sec", "Orange Curacao", "Grenadine", "Strawberry schnapps", "Kahlua", "maraschino liqueur", "Baileys irish cream", "Creme de Banane", "Sambuca", "Green Chartreuse", "Irish cream", "Peach schnapps", "Creme de Mure", "Blue Curacao", "Galliano", "Cherry Heering", "Falernum", "Campari", "Chocolate liqueur", "St. Germain", "Hot Damn", "Elderflower cordial", "Coffee liqueur", "Creme de Cacao", "Benedictine", "Raspberry Liqueur", "Lillet", "Green Creme de Menthe", "Yellow Chartreuse", "Apfelkorn", "Drambuie", "Tia maria", "Coconut Liqueur", "Butterscotch schnapps", "White Creme de Menthe", "Passoa", "Cherry liqueur", "Black Sambuca", "Creme de Cassis", "Amaro Montenegro", "Advocaat", "Godiva liqueur", "Anisette", "Creme De Banane", "Melon Liqueur", "Peachtree schnapps")
 
 
-drink2 = Cocktails(cocktail_name = "Mojito", alcoholic = True)
+importedCocktails, importedIngredients, importedMeasurements, importedRecipes = main()
 
-ingredient1 = Ingredients(ingredient_name = "light rum")
-ingredient2 = Ingredients(ingredient_name = "lime juice")
-ingredient3 = Ingredients(ingredient_name = "sugar")
-ingredient4 = Ingredients(ingredient_name = "mint")
-ingredient5 = Ingredients(ingredient_name = "soda water")
+for drink in importedCocktails:
+    alcoholic = importedRecipes[drink][0]
+    drinkToAdd = Cocktails(cocktail_name = drink, alcoholic = alcoholic)
+    drinkToAdd.save()
 
-Measurement1 = Measurements(measurement_name = "ounce", quantity = 2, num_ounces = 0) #rum
-Measurement2 = Measurements(measurement_name = "ounce", quantity = 1, num_ounces = 0) #lime
-Measurement3 = Measurements(measurement_name = "ounce", quantity = .33, num_ounces = 0) #sugar
-Measurement4 = Measurements(measurement_name = "whole", quantity = 3, num_ounces = 0) #mint
-Measurement5 = Measurements(measurement_name = "ounce", quantity = 4, num_ounces = 0) #soda water
+for ingredient in importedIngredients:
+    type = ""
+    if ingredient in Alcohols:
+        type = "alcohol"
+    elif ingredient in Mixers:
+        type = "mixer"
+    elif ingredient in Modifiers:
+        type = "modifier"
+    elif ingredient in Liqueurs:
+        type = "liqueur"
+    ingredientToAdd = Ingredients(ingredient_name = ingredient, ingredient_type = type)
+    ingredientToAdd.save()
 
-recipeStep1 = RecipeSteps(cocktail = drink1, ingredient = ingredient1, measurement = Measurement1, step_number = 1)
-recipeStep2 = RecipeSteps(cocktail = drink1, ingredient = ingredient2, measurement = Measurement2, step_number = 2)
-recipeStep3 = RecipeSteps(cocktail = drink1, ingredient = ingredient3, measurement = Measurement3, step_number = 3)
-recipeStep4 = RecipeSteps(cocktail = drink1, ingredient = ingredient4, measurement = Measurement4, step_number = 4)
-recipeStep5 = RecipeSteps(cocktail = drink1, ingredient = ingredient5, measurement = Measurement5, step_number = 5)
-
-drink1.save()
-
-ingredient1.save()
-ingredient2.save()
-ingredient3.save()
-ingredient4.save()
-ingredient5.save()
-
-Measurement1.save()
-Measurement2.save()
-Measurement3.save()
-Measurement4.save()
-Measurement5.save()
-
-recipeStep1.save()
-recipeStep2.save()
-recipeStep3.save()
-recipeStep4.save()
-recipeStep5.save()
+for measurement in importedMeasurements:
+    measurementToAdd = Measurements(num_ounces = measurement[0])  
+    measurementToAdd.save()
+        
+for drink in importedCocktails:
+    drinkIngredients = importedRecipes[drink][2]
+    drinkMeasurements = importedRecipes[drink][3]
+    drinkObj = Cocktails.objects.get(cocktail_name = drink)
+    for i in range(len(drinkIngredients)):
+        curIngredient = drinkIngredients[i]
+        curMeasurement = drinkMeasurements[i]
+        ingredientObj = Ingredients.objects.get(ingredient_name = curIngredient)
+        measurementObj = Measurements.objects.get(num_ounces = curMeasurement[0])
+        recipeStepToAdd = RecipeSteps(cocktail = drinkObj, ingredient = ingredientObj, measurement = measurementObj)
+        recipeStepToAdd.save()
 
 
 

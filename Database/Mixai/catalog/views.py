@@ -1,6 +1,6 @@
 from django.shortcuts import render
 
-from .models import Cocktails, Ingredients, RecipeSteps, Tools, Measurements
+from .models import Cocktails, Ingredients, RecipeSteps, Measurements
 
 
 # Create your views here.
