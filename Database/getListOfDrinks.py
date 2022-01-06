@@ -34,7 +34,8 @@ def main():
                         if measurementName not in knownMeasurements:
                             badMeasurement = True
                         else:
-                            goodIngredients.append(ingredient)
+                            if ingredient not in goodIngredients:
+                                goodIngredients.append(ingredient)
                     j+=1
                 if not badMeasurement:
                     goodDrinks.append(drinkName)

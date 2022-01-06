@@ -24,7 +24,8 @@ def main():
             done = True in [char.isdigit() for char in measurment]
         measurementstr = measurment.strip().lower()
         measurementNum = numify(numberstr)
-        print(measurementNum)
+        converted = convertToOz(measurementstr, measurementNum)
+        print(converted)
         curMeasurement = (numberstr, measurementstr)
         newMeasurements += curMeasurement
 
@@ -81,6 +82,8 @@ def convertToOz(measurementstr, num):
         convertedNum = num*15.34
     elif measurementstr =='can':
         convertedNum = num*12
+    else:
+        return "null"
     return convertedNum
 
 
