@@ -1,0 +1,362 @@
+Dark rum
+alcohol
+Light rum
+alcohol
+Vodka
+alcohol
+Orange juice
+mixer
+Gin
+alcohol
+Tequila
+alcohol
+Triple sec
+liqueur
+Coca-Cola
+mixer
+Peach Vodka
+alcohol
+Vanilla vodka
+alcohol
+Roses sweetened lime juice
+modifier
+Cranberry Juice
+mixer
+Absolut Citron
+alcohol
+Orange Curacao
+liqueur
+Grand Marnier
+liqueur
+Lemon Juice
+
+Grenadine
+liqueur
+Heavy cream
+modifier
+Milk
+mixer
+Lemon juice
+modifier
+Absolut Vodka
+alcohol
+Tonic water
+mixer
+Applejack
+alcohol
+Grapefruit juice
+mixer
+Strawberry schnapps
+liqueur
+Cranberry juice
+mixer
+Peach nectar
+mixer
+Kahlua
+liqueur
+Vermouth
+alcohol
+Lime juice
+modifier
+Sugar
+modifier
+Scotch
+alcohol
+Sweet Vermouth
+alcohol
+Dry Vermouth
+alcohol
+lemon juice
+
+maraschino liqueur
+liqueur
+Blended whiskey
+alcohol
+Pineapple juice
+mixer
+Bourbon
+alcohol
+Blackberry brandy
+alcohol
+Creme de Banane
+liqueur
+Champagne
+alcohol
+Peach schnapps
+liqueur
+Sugar syrup
+modifier
+Creme de Mure
+liqueur
+Blue Curacao
+liqueur
+Rye Whiskey
+alcohol
+Maraschino Liqueur
+
+Passion fruit juice
+mixer
+Rum
+alcohol
+Galliano
+liqueur
+Pineapple Juice
+
+Hot Chocolate
+mixer
+Green Chartreuse
+liqueur
+Cherry Heering
+liqueur
+151 proof rum
+alcohol
+Sloe gin
+alcohol
+Tomato juice
+mixer
+Maraschino liqueur
+
+Cherry brandy
+alcohol
+Light cream
+modifier
+Spiced rum
+alcohol
+Port
+alcohol
+Brandy
+alcohol
+Cointreau
+liqueur
+Triple Sec
+
+Lillet Blanc
+alcohol
+gin
+
+Ginger ale
+mixer
+demerara Sugar
+modifier
+Pisco
+alcohol
+Lime Juice
+
+Pineapple Syrup
+modifier
+St. Germain
+liqueur
+Dark Rum
+
+Ginger Beer
+mixer
+Dubonnet Rouge
+alcohol
+Absinthe
+alcohol
+Vanilla syrup
+modifier
+Espresso
+modifier
+Coffee
+mixer
+Egg
+modifier
+Apricot brandy
+alcohol
+Cachaca
+alcohol
+Mezcal
+alcohol
+Chocolate liqueur
+liqueur
+Coffee liqueur
+liqueur
+Rose
+modifier
+Strawberries
+modifier
+Amaretto
+liqueur
+Creme de Cacao
+liqueur
+Benedictine
+liqueur
+Honey
+modifier
+Apricot Nectar
+modifier
+Pomegranate juice
+mixer
+Raspberry Liqueur
+liqueur
+pineapple juice
+
+Lillet
+liqueur
+Cognac
+alcohol
+Sambuca
+liqueur
+Baileys irish cream
+liqueur
+Sugar Syrup
+
+Carbonated water
+mixer
+Water
+mixer
+Powdered sugar
+modifier
+Grapefruit Juice
+modifier
+Malibu rum
+alcohol
+Sweet and sour
+modifier
+Green Creme de Menthe
+liqueur
+White Rum
+
+Whiskey
+alcohol
+Maraschino Cherry
+modifier
+Lemonade
+mixer
+Iced tea
+mixer
+Irish whiskey
+alcohol
+Peach brandy
+alcohol
+Aperol
+modifier
+Jack Daniels
+alcohol
+Yellow Chartreuse
+liqueur
+Apple brandy
+alcohol
+Cranberry vodka
+alcohol
+Apfelkorn
+liqueur
+Schweppes Russchian
+mixer
+Apple juice
+mixer
+Drambuie
+liqueur
+Tia maria
+liqueur
+Coconut Liqueur
+liqueur
+Elderflower cordial
+liqueur
+Soda Water
+
+Orgeat syrup
+modifier
+Beer
+alcohol
+Tomato Juice
+
+Southern Comfort
+alcohol
+White Creme de Menthe
+liqueur
+Campari
+liqueur
+Sour mix
+modifier
+Rye whiskey
+
+Grape Soda
+mixer
+Blended Scotch
+alcohol
+Honey syrup
+modifier
+Ginger Syrup
+modifier
+Islay single malt Scotch
+alcohol
+Coconut milk
+mixer
+Pineapple
+modifier
+Everclear
+alcohol
+Passoa
+liqueur
+Passion fruit syrup
+modifier
+Cherry liqueur
+liqueur
+Fresh Lime Juice
+modifier
+Lime
+modifier
+Prosecco
+alcohol
+Coffee brandy
+alcohol
+Lime vodka
+alcohol
+Black Sambuca
+liqueur
+Red wine
+alcohol
+7-Up
+mixer
+Tonic Water
+mixer
+Raspberry syrup
+modifier
+Creme de Cassis
+liqueur
+Chambord raspberry liqueur
+liqueur
+Midori melon liqueur
+liqueur
+Ricard
+alcohol
+Amaro Montenegro
+liqueur
+Ruby Port
+alcohol
+Blood Orange
+modifier
+Advocaat
+liqueur
+Allspice
+modifier
+Salt
+modifier
+Anisette
+liqueur
+Irish Whiskey
+alcohol
+Creme De Banane
+liqueur
+Anis
+alcohol
+Rosso Vermouth
+alcohol
+Melon Liqueur
+liqueur
+Orange Juice
+mixer
+Maple syrup
+modifier
+Gold rum
+alcohol
+Pernod
+alcohol
+Jägermeister
+alcohol
+Root beer
+mixer
+Zima
+alcohol

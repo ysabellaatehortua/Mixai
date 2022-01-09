@@ -1,0 +1,214 @@
+155 belmont
+False
+410 gone
+False
+501 blue
+False
+a1
+False
+adam
+False
+at&t
+False
+a. j.
+False
+affair
+False
+abilene
+False
+addison
+False
+applecar
+False
+aviation
+False
+algonquin
+False
+after sex
+False
+bellini
+False
+bramble
+False
+bora bora
+False
+brigadier
+False
+blue lagoon
+False
+cherry rum
+False
+cream soda
+False
+casa blanca
+False
+city slicker
+False
+cosmopolitan
+False
+dark and stormy
+False
+english highball
+False
+espresso rumtini
+False
+empellón cocina's fat-washed mezcal
+False
+frosé
+False
+foxy lady
+False
+french martini
+False
+flying dutchman
+False
+french connection
+False
+flaming lamborghini
+False
+gg
+False
+godchild
+False
+godfather
+False
+godmother
+False
+greyhound
+False
+gin cooler
+False
+grand blue
+False
+honey bee
+False
+happy skipper
+False
+havana cocktail
+False
+harvey wallbanger
+False
+hawaiian cocktail
+False
+imperial cocktail
+False
+irish curdling cow
+False
+jackhammer
+False
+jewel of the nile
+False
+kamikaze
+False
+kentucky b and b
+False
+lord and lady
+False
+lone tree cooler
+False
+lone tree cocktail
+False
+margarita
+False
+moscow mule
+False
+monkey gland
+False
+negroni
+False
+old pal
+False
+orangeade
+False
+orange oasis
+False
+paloma
+False
+penicillin
+False
+pina colada
+False
+pink penocha
+False
+popped cherry
+False
+pornstar martini
+False
+port and starboard
+False
+port wine cocktail
+False
+queen charlotte
+False
+queen elizabeth
+False
+rose
+False
+radler
+False
+rum runner
+False
+rail splitter
+False
+rum milk punch
+False
+rum screwdriver
+False
+russian spring punch
+False
+radioactive long island iced tea
+False
+scooter
+False
+sidecar
+False
+stinger
+False
+salty dog
+False
+stone sour
+False
+sea breeze
+False
+screwdriver
+False
+sol y sombra
+False
+san francisco
+False
+tipperary
+False
+the last word
+False
+the jimmy conway
+False
+victor
+False
+vesper
+False
+veteran
+False
+van vleet
+False
+vodka russian
+False
+vermouth cassis
+False
+vodka and tonic
+False
+white lady
+False
+white russian
+False
+waikiki beachcomber
+False
+yellow bird
+False
+zenmeister
+False
+zima blaster
+False
+zimadori zinger
+False
+ziemes martini apfelsaft
+False

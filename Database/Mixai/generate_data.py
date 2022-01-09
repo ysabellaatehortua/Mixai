@@ -18,11 +18,40 @@ Liqueurs = ("Grand Marnier", "Chambord raspberry liqueur", "Midori melon liqueur
 
 importedCocktails, importedIngredients, importedMeasurements, importedRecipes = main()
 
+
+def writeToFile(allDrinks, allIngredients, allRecipes):
+    f = open("allDrinks.txt", "w")
+    for drink in allDrinks:
+        for part in drink:
+            f.write(part)
+            f.write('\n')
+    f.close()
+    f = open("allIngredients.txt", "w")
+    for ingredient in allIngredients:
+        for part in ingredient:
+            f.write(part)
+            f.write('\n')
+    f.close()
+    f = open("allRecipes.txt", "w")
+    for recipe in allRecipes:
+        f.write('\n')
+        for step in recipe:
+            for part in step:
+                f.write(part)
+                f.write('\n')
+        f.write('\n')
+        f.write('\n')
+    f.close()
+
+allDrinks = []
 for drink in importedCocktails:
     alcoholic = importedRecipes[drink][0]
-    drinkToAdd = Cocktails(cocktail_name = drink, alcoholic = alcoholic)
-    drinkToAdd.save()
+    # drinkToAdd = Cocktails(cocktail_name = drink, alcoholic = alcoholic)
+    # drinkToAdd.save()
+    drinkToAdd = (drink, str(alcoholic))
+    allDrinks.append(drinkToAdd)
 
+allIngredients = []
 for ingredient in importedIngredients:
     type = ""
     if ingredient in Alcohols:
@@ -33,24 +62,39 @@ for ingredient in importedIngredients:
         type = "modifier"
     elif ingredient in Liqueurs:
         type = "liqueur"
-    ingredientToAdd = Ingredients(ingredient_name = ingredient, ingredient_type = type)
-    ingredientToAdd.save()
+    # ingredientToAdd = Ingredients(ingredient_name = ingredient, ingredient_type = type)
+    # ingredientToAdd.save()
+    ingredientToAdd = (ingredient, type)
+    allIngredients.append(ingredientToAdd)
 
+allMeasurements = []
 for measurement in importedMeasurements:
-    measurementToAdd = Measurements(num_ounces = measurement[0])  
-    measurementToAdd.save()
-        
+    # measurementToAdd = Measurements(num_ounces = measurement[0])  
+    # measurementToAdd.save()
+    measurementToAdd = (measurement[0])
+    allMeasurements.append(measurementToAdd)
+
+
+allRecipes = []
 for drink in importedCocktails:
+    recipe = []
     drinkIngredients = importedRecipes[drink][2]
     drinkMeasurements = importedRecipes[drink][3]
-    drinkObj = Cocktails.objects.get(cocktail_name = drink)
+    # drinkObj = Cocktails.objects.get(cocktail_name = drink)
     for i in range(len(drinkIngredients)):
         curIngredient = drinkIngredients[i]
         curMeasurement = drinkMeasurements[i]
-        ingredientObj = Ingredients.objects.get(ingredient_name = curIngredient)
-        measurementObj = Measurements.objects.get(num_ounces = curMeasurement[0])
-        recipeStepToAdd = RecipeSteps(cocktail = drinkObj, ingredient = ingredientObj, measurement = measurementObj)
-        recipeStepToAdd.save()
+        # ingredientObj = Ingredients.objects.get(ingredient_name = curIngredient)
+        # measurementObj = Measurements.objects.get(num_ounces = curMeasurement[0])
+        # recipeStepToAdd = RecipeSteps(cocktail = drinkObj, ingredient = ingredientObj, measurement = measurementObj)
+        # recipeStepToAdd.save()
+        recipeStepToAdd = (drink, curIngredient, str(curMeasurement[0]), curMeasurement[1], curMeasurement[2], curMeasurement[3])
+        recipe.append(recipeStepToAdd)
+    allRecipes.append(recipe)
+
+
+writeToFile(allDrinks, allIngredients, allRecipes)
+
 
 
 

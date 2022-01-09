@@ -52,7 +52,7 @@ def cleanDrink(drink, cocktails, ingredients, measurements, recipes): #take each
     alcoholic = (drink["strAlcoholic"] == "\"Alcoholic\"")
     glass = drink["strGlass"]
     drinkIngredients = [] #ingredients and measurements that are specific to this drink
-    drinkMeasurements = []
+    drinkMeasurements = [] #in form of [measurement in ounces, 'oz', measurement in original units, original units]
     badMeasurement = False
     done = False
     j = 1
@@ -97,6 +97,8 @@ def getMeasureName(measurement):
     
 
 def parseMeasurement(measurement):
+    originalunit = ""
+    originalmeasurement = ""
     numberstr = "" 
     unitstr = ""
     done = True in [char.isdigit() for char in measurement] #check if there are more numbers left in the measurement
@@ -111,10 +113,12 @@ def parseMeasurement(measurement):
             unitstr += measurement[0].strip().lower()
             measurement = measurement[1:]
         done = True in [char.isdigit() for char in measurement]
+    originalunit = unitstr
+    originalmeasurement = numberstr
     unitstr += measurement.strip().lower()
     numberstr = numify(numberstr)
     convertedNum, unit = convertToOz(unitstr, numberstr)
-    parsedMeasure = (convertedNum, unit)
+    parsedMeasure = (convertedNum, unit, originalmeasurement, originalunit)
     return parsedMeasure
 
 
