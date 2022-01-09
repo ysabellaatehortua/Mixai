@@ -72,11 +72,11 @@ def cleanDrink(drink, cocktails, ingredients, measurements, recipes): #take each
                 break
             parsedMeasure = parseMeasurement(measurement)
             drinkMeasurements.append(parsedMeasure)
-            drinkIngredients.append(ingredient)
+            drinkIngredients.append(ingredient.strip().lower())
             if parsedMeasure not in measurements: #check if measurement and ingredient already present in list of all ingredients or measures
                 measurements.append(parsedMeasure)
-            if ingredient not in ingredients:
-                ingredients.append(ingredient)
+            if ingredient.strip().lower() not in ingredients:
+                ingredients.append(ingredient.strip().lower())
         j+=1
     if not badMeasurement and drinkName not in cocktails:
         cocktails.append(drinkName)
@@ -113,12 +113,13 @@ def parseMeasurement(measurement):
             unitstr += measurement[0].strip().lower()
             measurement = measurement[1:]
         done = True in [char.isdigit() for char in measurement]
-    originalunit = unitstr
     originalmeasurement = numberstr
     unitstr += measurement.strip().lower()
+    originalunit = unitstr
     numberstr = numify(numberstr)
     convertedNum, unit = convertToOz(unitstr, numberstr)
     parsedMeasure = (convertedNum, unit, originalmeasurement, originalunit)
+    print(originalunit)
     return parsedMeasure
 
 

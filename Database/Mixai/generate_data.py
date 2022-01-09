@@ -15,6 +15,25 @@ Modifiers = ("Lemon juice", "Roses sweetened lime juice", "Heavy cream", "Lime j
 
 Liqueurs = ("Grand Marnier", "Chambord raspberry liqueur", "Midori melon liqueur", "Amaretto", "Dark Creme de Cacao", "Cointreau", "Coconut liqueur", "Rumple Minze", "Triple sec", "Orange Curacao", "Grenadine", "Strawberry schnapps", "Kahlua", "maraschino liqueur", "Baileys irish cream", "Creme de Banane", "Sambuca", "Green Chartreuse", "Irish cream", "Peach schnapps", "Creme de Mure", "Blue Curacao", "Galliano", "Cherry Heering", "Falernum", "Campari", "Chocolate liqueur", "St. Germain", "Hot Damn", "Elderflower cordial", "Coffee liqueur", "Creme de Cacao", "Benedictine", "Raspberry Liqueur", "Lillet", "Green Creme de Menthe", "Yellow Chartreuse", "Apfelkorn", "Drambuie", "Tia maria", "Coconut Liqueur", "Butterscotch schnapps", "White Creme de Menthe", "Passoa", "Cherry liqueur", "Black Sambuca", "Creme de Cassis", "Amaro Montenegro", "Advocaat", "Godiva liqueur", "Anisette", "Creme De Banane", "Melon Liqueur", "Peachtree schnapps")
 
+lowerAlcohols = []
+
+for word in Alcohols:
+    lowerAlcohols.append(word.lower())
+
+lowerMixers = []
+
+for word in Mixers:
+    lowerMixers.append(word.lower())
+
+lowerModifiers = []
+
+for word in Modifiers:
+    lowerModifiers.append(word.lower())
+
+lowerLiqueurs = []
+
+for word in Liqueurs:
+    lowerLiqueurs.append(word.lower())
 
 importedCocktails, importedIngredients, importedMeasurements, importedRecipes = main()
 
@@ -29,16 +48,18 @@ def writeToFile(allDrinks, allIngredients, allRecipes):
     f = open("allIngredients.txt", "w")
     for ingredient in allIngredients:
         for part in ingredient:
-            f.write(part)
-            f.write('\n')
+            f.write(part+"  ")
+        f.write('\n')
     f.close()
     f = open("allRecipes.txt", "w")
     for recipe in allRecipes:
-        f.write('\n')
+        if recipe:
+            f.write(recipe[0][0])
+            f.write('\n')
         for step in recipe:
-            for part in step:
-                f.write(part)
-                f.write('\n')
+            for part in step[1:]:
+                f.write(part + " ")
+            f.write('\n')
         f.write('\n')
         f.write('\n')
     f.close()
@@ -54,13 +75,13 @@ for drink in importedCocktails:
 allIngredients = []
 for ingredient in importedIngredients:
     type = ""
-    if ingredient in Alcohols:
+    if ingredient.lower() in lowerAlcohols:
         type = "alcohol"
-    elif ingredient in Mixers:
+    elif ingredient.lower() in lowerMixers:
         type = "mixer"
-    elif ingredient in Modifiers:
+    elif ingredient.lower() in lowerModifiers:
         type = "modifier"
-    elif ingredient in Liqueurs:
+    elif ingredient.lower() in lowerLiqueurs:
         type = "liqueur"
     # ingredientToAdd = Ingredients(ingredient_name = ingredient, ingredient_type = type)
     # ingredientToAdd.save()
