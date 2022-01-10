@@ -7,8 +7,7 @@ orange juice 1.5 oz 1 shot
 
 410 gone
 peach vodka 2.5 oz 2-3 oz 
-
-
+coca cola 7.5 oz 7.5 oz
 
 
 a1
@@ -111,8 +110,9 @@ cherry brandy 0.25 oz 1 1/2 tsp
 light cream 0.5 oz 1 tblsp 
 
 
-cream soda
+papas cream soda
 spiced rum 1.0 oz 1 oz 
+cream soda 3 oz 3 oz
 
 
 casa blanca
@@ -297,8 +297,6 @@ benedictine 0.5 oz 1/2 oz
 lord and lady
 dark rum 1.5 oz 1 1/2 oz 
 tia maria 0.5 oz 1/2 oz 
-
-
 
 
 lone tree cocktail
@@ -503,6 +501,7 @@ grapefruit juice 1.0 oz 1 oz
 
 screwdriver
 vodka 2.0 oz 2 oz 
+orange juice 4.0 oz 4 oz 
 
 
 sol y sombra

@@ -160,3 +160,5 @@ pernod  alcohol
 jägermeister  alcohol  
 root beer  mixer  
 zima  alcohol  
+coca cola  mixer
+cream soda  mixer
