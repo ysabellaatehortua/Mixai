@@ -1,614 +1,2472 @@
-155 belmont
-dark rum 1.5 oz 1 shot 
-light rum 3.0 oz 2 shots 
-vodka 1.5 oz 1 shot 
-orange juice 1.5 oz 1 shot 
-
-
-410 gone
-peach vodka 2.5 oz 2-3 oz 
-coca cola 7.5 oz 7.5 oz
-
-
-a1
-gin 2.625 oz 1 3/4 shot 
-grand marnier 1.5 oz 1 shot 
-lemon juice 0.375 oz 1/4 shot 
-grenadine 0.1875 oz 1/8 shot 
-
-
-adam
-dark rum 2.0 oz 2 oz 
-lemon juice 1.0 oz 1 oz 
-grenadine 0.16666666666666666 oz 1 tsp 
-
-
-at&t
-absolut vodka 1.0 oz 1 oz 
-gin 1.0 oz 1 oz 
-tonic water 4.0 oz 4 oz 
-
-
-a. j.
-applejack 1.5 oz 1 1/2 oz 
-grapefruit juice 1.0 oz 1 oz 
-
-
-affair
-strawberry schnapps 2.0 oz 2 oz 
-orange juice 2.0 oz 2 oz 
-cranberry juice 2.0 oz 2 oz 
-
-
-abilene
-dark rum 1.5 oz 1 1/2 oz 
-peach nectar 2.0 oz 2 oz 
-orange juice 3.0 oz 3 oz 
-
-
-addison
-gin 2.25 oz 1 1/2 shot 
-vermouth 2.25 oz 1 1/2 shot 
-
-
-applecar
-applejack 1.0 oz 1 oz 
-triple sec 1.0 oz 1 oz 
-lemon juice 1.0 oz 1 oz 
-
-
-aviation
-gin 1.5218126479540075 oz 4.5 cl 
-lemon juice 0.5072708826513358 oz 1.5 cl 
-maraschino liqueur 0.5072708826513358 oz 1.5 cl 
-
-
-algonquin
-blended whiskey 1.5 oz 1 1/2 oz 
-dry vermouth 1.0 oz 1 oz 
-pineapple juice 1.0 oz 1 oz 
-
-
-after sex
-vodka 0.6763611768684478 oz 2 cl 
-creme de banane 0.3381805884342239 oz 1 cl 
-
-
-bellini
-champagne 6.0 oz 6 oz 
-peach schnapps 1.0 oz 1 oz 
-
-
-bramble
-gin 1.3527223537368955 oz 4 cl 
-lemon juice 0.5072708826513358 oz 1.5 cl 
-sugar syrup 0.3381805884342239 oz 1 cl 
-creme de mure 0.5072708826513358 oz 1.5 cl 
-
-
-bora bora
-pineapple juice 3.381805884342239 oz 10 cl 
-passion fruit juice 2.029083530605343 oz 6 cl 
-lemon juice 0.3381805884342239 oz 1 cl 
-grenadine 0.3381805884342239 oz 1 cl 
-
-
-brigadier
-hot chocolate 4.0 oz 4 oz 
-green chartreuse 1.0 oz 1 oz 
-cherry heering 1.0 oz 1 oz 
-
-
-blue lagoon
-vodka 1.0 oz 1 oz 
-blue curacao 1.0 oz 1 oz 
-
-
-cherry rum
-light rum 1.25 oz 1 1/4 oz 
-cherry brandy 0.25 oz 1 1/2 tsp 
-light cream 0.5 oz 1 tblsp 
-
-
-papas cream soda
-spiced rum 1.0 oz 1 oz 
-cream soda 3 oz 3 oz
-
-
-casa blanca
-light rum 2.0 oz 2 oz 
-triple sec 0.25 oz 1 1/2 tsp 
-lime juice 0.25 oz 1 1/2 tsp 
-maraschino liqueur 0.25 oz 1 1/2 tsp 
-
-
-city slicker
-brandy 2.0 oz 2 oz 
-triple sec 0.5 oz 1/2 oz 
-lemon juice 0.5 oz 1 tblsp 
-
-
-cosmopolitan
-absolut citron 1.25 oz 1 1/4 oz 
-lime juice 0.25 oz 1/4 oz 
-cointreau 0.25 oz 1/4 oz 
-cranberry juice 2.0 oz 1/4 cup 
-
-
-dark and stormy
-dark rum 1.6909029421711195 oz 5 cl 
-ginger beer 3.381805884342239 oz 10 cl 
-
-
-english highball
-brandy 0.75 oz 3/4 oz 
-gin 0.75 oz 3/4 oz 
-sweet vermouth 0.75 oz 3/4 oz 
-
-
-espresso rumtini
-rum 1.5 oz 1 shot 
-vanilla syrup 0.75 oz 1/2 shot 
-espresso 1.5 oz 1 shot 
-coffee 1.5 oz 1 shot 
-
-
-empellón cocina's fat-washed mezcal
-mezcal 2.0 oz 2 oz 
-chocolate liqueur 0.75 oz 3/4 oz 
-coffee liqueur 0.5 oz 1/2 oz 
-
-
-frosé
-rose 25.360113613308986 oz 750 ml 
-sugar 4.0 oz 1/2 cup 
-strawberries 8.0 oz 8 oz 
-lemon juice 2.5 oz 2-3 oz 
-
-
-foxy lady
-amaretto 0.5 oz 1/2 oz 
-creme de cacao 0.5 oz 1/2 oz 
-light cream 2.0 oz 2 oz 
-
-
-french martini
-vodka 1.5218126479540075 oz 4.5 cl 
-raspberry liqueur 0.5072708826513358 oz 1.5 cl 
-pineapple juice 0.5072708826513358 oz 1.5 cl 
-
-
-flying dutchman
-gin 2.0 oz 2 oz 
-triple sec 0.5 oz 1/2 oz 
-
-
-french connection
-cognac 1.5 oz 1 1/2 oz 
-amaretto 0.75 oz 3/4 oz 
-
-
-flaming lamborghini
-kahlua 1.0 oz 1 oz 
-sambuca 1.0 oz 1 oz 
-blue curacao 1.0 oz 1 oz 
-baileys irish cream 1.0 oz 1 oz 
-
-
-gg
-galliano 3.75 oz 2 1/2 shots 
-
-
-godchild
-vodka 1.0 oz 1 oz 
-amaretto 1.0 oz 1 oz 
-heavy cream 1.0 oz 1 oz 
-
-
-godfather
-scotch 1.5 oz 1 1/2 oz 
-amaretto 0.75 oz 3/4 oz 
-
-
-godmother
-vodka 1.5 oz 1 1/2 oz 
-amaretto 0.75 oz 3/4 oz 
-
-
-greyhound
-vodka 1.5 oz 1 1/2 oz 
-grapefruit juice 3.0 oz 3 oz 
-
-
-gin cooler
-gin 2.0 oz 2 oz 
-
-
-grand blue
-malibu rum 0.5072708826513358 oz 1 1/2 cl 
-peach schnapps 0.5072708826513358 oz 1 1/2 cl 
-blue curacao 0.5072708826513358 oz 1 1/2 cl 
-sweet and sour 1.0145417653026716 oz 3 cl 
-
-
-honey bee
-white rum 2.029083530605343 oz 6 cl 
-honey 0.6763611768684478 oz 2 cl 
-lemon juice 0.6763611768684478 oz 2 cl 
-
-
-happy skipper
-spiced rum 0.5072708826513358 oz 1 1/2 cl 
-
-
-havana cocktail
-light rum 1.0 oz 1 oz 
-pineapple juice 1.0 oz 1 oz 
-lemon juice 0.16666666666666666 oz 1 tsp 
-
-
-harvey wallbanger
-vodka 1.0 oz 1 oz 
-galliano 0.5 oz 1/2 oz 
-orange juice 4.0 oz 4 oz 
-
-
-hawaiian cocktail
-gin 2.0 oz 2 oz 
-triple sec 0.5 oz 1/2 oz 
-pineapple juice 0.5 oz 1 tblsp 
-
-
-imperial cocktail
-lime juice 1.3527223537368955 oz 4 cl 
-gin 0.6763611768684478 oz 2 cl 
-aperol 1.3527223537368955 oz 4 cl 
-
-
-irish curdling cow
-baileys irish cream 0.75 oz 3/4 oz 
-bourbon 0.75 oz 3/4 oz 
-vodka 0.75 oz 3/4 oz 
-orange juice 2.5 oz 2-3 oz 
-
-
-jackhammer
-jack daniels 1.0 oz 1 oz 
-amaretto 1.0 oz 1 oz 
-
-
-jewel of the nile
-gin 1.5 oz 1 1/2 oz 
-green chartreuse 0.5 oz 1/2 oz 
-yellow chartreuse 0.5 oz 1/2 oz 
-
-
-kamikaze
-vodka 1.0 oz 1 oz 
-triple sec 1.0 oz 1 oz 
-lime juice 1.0 oz 1 oz 
-
-
-kentucky b and b
-bourbon 2.0 oz 2 oz 
-benedictine 0.5 oz 1/2 oz 
-
-
-lord and lady
-dark rum 1.5 oz 1 1/2 oz 
-tia maria 0.5 oz 1/2 oz 
-
-
-lone tree cocktail
-sweet vermouth 0.75 oz 3/4 oz 
-gin 1.5 oz 1 1/2 oz 
-
-
-margarita
-tequila 1.5 oz 1 1/2 oz 
-triple sec 0.5 oz 1/2 oz 
-lime juice 1.0 oz 1 oz 
-
-
-moscow mule
-vodka 2.0 oz 2 oz 
-lime juice 2.0 oz 2 oz 
-ginger ale 8.0 oz 8 oz 
-
-
-monkey gland
-gin 2.0 oz 2 oz 
-benedictine 0.16666666666666666 oz 1 tsp 
-orange juice 0.5 oz 1/2 oz 
-grenadine 0.16666666666666666 oz 1 tsp 
-
-
-negroni
-gin 1.0 oz 1 oz 
-campari 1.0 oz 1 oz 
-sweet vermouth 1.0 oz 1 oz 
-
-
-old pal
-rye whiskey 2.0 oz 2 oz 
-campari 1.0 oz 1 oz 
-dry vermouth 1.0 oz 1 oz 
-
-
-orangeade
-lemon juice 1.6909029421711195 oz 5 cl 
-orange juice 5.072708826513359 oz 15 cl 
-sugar syrup 0.8454514710855597 oz 2-3 cl 
-
-
-orange oasis
-cherry brandy 0.5 oz 1/2 oz 
-gin 1.5 oz 1 1/2 oz 
-orange juice 4.0 oz 4 oz 
-
-
-paloma
-grape soda 3.0 oz 3 oz 
-tequila 1.5 oz 1 1/2 oz 
-
-
-penicillin
-blended scotch 2.0 oz 2 oz 
-lemon juice 0.75 oz 3/4 oz 
-honey syrup 0.3333333333333333 oz 2 tsp 
-ginger syrup 0.3333333333333333 oz 2 tsp 
-islay single malt scotch 0.25 oz 1/4 oz 
-
-
-pina colada
-light rum 3.0 oz 3 oz 
-coconut milk 1.5 oz 3 tblsp 
-pineapple 1.5 oz 3 tblsp 
-
-
-pink penocha
-everclear 25.360113613308986 oz 750 ml 
-vodka 59.1735984310543 oz 1750 ml 
-peach schnapps 59.1735984310543 oz 1750 ml 
-orange juice 128.0 oz 1 gal 
-cranberry juice 128.0 oz 1 gal 
-
-
-popped cherry
-vodka 2.0 oz 2 oz 
-cherry liqueur 2.0 oz 2 oz 
-cranberry juice 4.0 oz 4 oz 
-orange juice 4.0 oz 4 oz 
-
-
-pornstar martini
-vodka 1.0145417653026716 oz 3 cl 
-passoa 1.0145417653026716 oz 3 cl 
-passion fruit juice 0.3381805884342239 oz 1 cl 
-lime 0.3381805884342239 oz 1 cl 
-prosecco 1.5 oz 1 shot 
-
-
-port and starboard
-grenadine 0.5 oz 1 tblsp 
-green creme de menthe 0.5 oz 1/2 oz 
-
-
-port wine cocktail
-port 2.5 oz 2 1/2 oz 
-brandy 0.08333333333333333 oz 1/2 tsp 
-
-
-queen charlotte
-red wine 2.0 oz 2 oz 
-grenadine 1.0 oz 1 oz 
-
-
-queen elizabeth
-dry vermouth 0.5 oz 1/2 oz 
-gin 1.5 oz 1 1/2 oz 
-benedictine 0.25 oz 1 1/2 tsp 
-
-
-rose
-dry vermouth 0.5 oz 1/2 oz 
-gin 1.0 oz 1 oz 
-apricot brandy 0.5 oz 1/2 oz 
-lemon juice 0.08333333333333333 oz 1/2 tsp 
-grenadine 0.16666666666666666 oz 1 tsp 
-
-
-radler
-beer 12.0 oz 12 oz 
-7-up 12.0 oz 12 oz 
-
-
-rum runner
-malibu rum 1.5 oz 1 1/2 oz 
-blackberry brandy 1.0 oz 1 oz 
-orange juice 3.5 oz 3-4 oz 
-pineapple juice 3.5 oz 3-4 oz 
-cranberry juice 3.5 oz 3-4 oz 
-
-
-rail splitter
-sugar syrup 0.3333333333333333 oz 2 tsp 
-
-
-rum milk punch
-light rum 2.0 oz 2 oz 
-milk 8.0 oz 1 cup 
-powdered sugar 0.16666666666666666 oz 1 tsp 
-
-
-rum screwdriver
-light rum 1.5 oz 1 1/2 oz 
-orange juice 5.0 oz 5 oz 
-
-
-russian spring punch
-vodka 0.8454514710855597 oz 2.5 cl 
-creme de cassis 0.5072708826513358 oz 1.5 cl 
-sugar syrup 0.3381805884342239 oz 1 cl 
-lemon juice 0.8454514710855597 oz 2.5 cl 
-
-
-radioactive long island iced tea
-rum 1.0 oz 1 oz 
-vodka 1.0 oz 1 oz 
-tequila 1.0 oz 1 oz 
-gin 1.0 oz 1 oz 
-triple sec 1.0 oz 1 oz 
-chambord raspberry liqueur 1.0 oz 1 oz 
-midori melon liqueur 1.0 oz 1 oz 
-malibu rum 1.0 oz 1 oz 
-
-
-scooter
-brandy 1.0 oz 1 oz 
-amaretto 1.0 oz 1 oz 
-light cream 1.0 oz 1 oz 
-
-
-sidecar
-cognac 2.0 oz 2 oz 
-cointreau 0.5 oz 1/2 oz 
-lemon juice 1.0 oz 1 oz 
-
-
-stinger
-brandy 1.5 oz 1 1/2 oz 
-white creme de menthe 0.5 oz 1/2 oz 
-
-
-salty dog
-grapefruit juice 5.0 oz 5 oz 
-gin 1.5 oz 1 1/2 oz 
-salt 0.041666666666666664 oz 1/4 tsp 
-
-
-stone sour
-apricot brandy 1.0 oz 1 oz 
-orange juice 1.0 oz 1 oz 
-sweet and sour 1.0 oz 1 oz 
-
-
-sea breeze
-vodka 1.5 oz 1 1/2 oz 
-cranberry juice 4.0 oz 4 oz 
-grapefruit juice 1.0 oz 1 oz 
-
-
-screwdriver
-vodka 2.0 oz 2 oz 
-orange juice 4.0 oz 4 oz 
-
-
-sol y sombra
-brandy 1.5 oz 1 1/2 oz 
-anisette 1.5 oz 1 1/2 oz 
-
-
-san francisco
-vodka 0.6763611768684478 oz 2 cl 
-creme de banane 0.6763611768684478 oz 2 cl 
-
-
-tipperary
-irish whiskey 2.0 oz 2 oz 
-sweet vermouth 1.0 oz 1 oz 
-green chartreuse 0.5 oz 1/2 oz 
-
-
-the last word
-green chartreuse 1.0 oz 1 oz 
-maraschino liqueur 1.0 oz 1 oz 
-lime juice 1.0 oz 1 oz 
-
-
-the jimmy conway
-irish whiskey 1.6906742408872657 oz 50 ml 
-amaretto 1.6906742408872657 oz 50 ml 
-cranberry juice 4.0 oz 4 oz 
-
-
-victor
-gin 1.5 oz 1 1/2 oz 
-sweet vermouth 0.5 oz 1/2 oz 
-brandy 0.5 oz 1/2 oz 
-
-
-vesper
-gin 2.029083530605343 oz 6 cl 
-vodka 0.5072708826513358 oz 1.5 cl 
-lillet blanc 0.2536354413256679 oz 0.75 cl 
-
-
-veteran
-dark rum 2.0 oz 2 oz 
-cherry brandy 0.5 oz 1/2 oz 
-
-
-van vleet
-light rum 3.0 oz 3 oz 
-maple syrup 1.0 oz 1 oz 
-lemon juice 1.0 oz 1 oz 
-
-
-vodka russian
-vodka 2.0 oz 2 oz 
-
-
-vermouth cassis
-dry vermouth 1.5 oz 1 1/2 oz 
-creme de cassis 0.75 oz 3/4 oz 
-
-
-vodka and tonic
-vodka 2.0 oz 2 oz 
-
-
-white lady
-gin 1.3527223537368955 oz 4 cl 
-triple sec 1.0145417653026716 oz 3 cl 
-lemon juice 0.6763611768684478 oz 2 cl 
-
-
-white russian
-vodka 2.0 oz 2 oz 
-coffee liqueur 1.0 oz 1 oz 
-
-
-waikiki beachcomber
-triple sec 0.75 oz 3/4 oz 
-gin 0.75 oz 3/4 oz 
-pineapple juice 0.5 oz 1 tblsp 
-
-
-yellow bird
-white rum 1.0145417653026716 oz 3 cl 
-galliano 0.5072708826513358 oz 1.5 cl 
-triple sec 0.5072708826513358 oz 1.5 cl 
-lime juice 0.5072708826513358 oz 1.5 cl 
-
-
-zenmeister
-jägermeister 0.5 oz 1/2 oz 
-root beer 0.5 oz 1/2 oz 
-
-
-zima blaster
-zima 12.0 oz 12 oz 
-chambord raspberry liqueur 3.0 oz 3 oz 
-
-
-zimadori zinger
-midori melon liqueur 1.5 oz 1.5 oz 
-zima 12.0 oz 12 oz 
-
-
-ziemes martini apfelsaft
-vermouth 1.3527223537368955 oz 4 cl 
-apple juice 5.410889414947582 oz 16 cl 
-
+155 belmont:
+dark rum 1 shot  
+light rum 2 shots  
+vodka 1 shot  
+orange juice 1 shot  
+
+1-900-fuk-meup:
+absolut kurant 1/2 oz  
+grand marnier 1/4 oz  
+chambord raspberry liqueur 1/4 oz  
+midori melon liqueur 1/4 oz  
+malibu rum 1/4 oz  
+amaretto 1/4 oz  
+cranberry juice 1/2 oz  
+pineapple juice 1/4 oz  
+
+110 in the shade:
+lager 16 oz  
+tequila 1.5 oz  
+
+151 florida bushwacker:
+malibu rum 1/2 oz  
+light rum 1/2 oz  
+151 proof rum 1/2 oz Bacardi  
+dark creme de cacao 1 oz  
+cointreau 1 oz  
+milk 3 oz  
+coconut liqueur 1 oz  
+vanilla ice-cream 1 cup  
+
+252:
+151 proof rum 1/2 shot Bacardi  
+wild turkey 1/2 shot  
+
+24k nightmare:
+goldschlager 1/2 oz  
+jägermeister 1/2 oz  
+rumple minze 1/2 oz  
+151 proof rum 1/2 oz Bacardi  
+
+3 wise men:
+jack daniels 1/3 oz  
+johnnie walker 1/3 oz  
+jim beam 1/3 oz  
+
+3-mile long island iced tea:
+gin 1/2 oz 
+light rum 1/2 oz 
+tequila 1/2 oz 
+triple sec 1/2 oz 
+vodka 1/2 oz 
+coca-cola 1/2 oz 
+sweet and sour 1-2 dash  
+bitters 1 wedge  
+lemon Garnish with 
+
+410 gone:
+peach vodka 2-3 oz 
+
+50/50:
+vanilla vodka 2 1/2 oz  
+grand marnier 1 splash  
+orange juice Fill with  
+
+
+57 chevy with a white license plate:
+creme de cacao 1 oz white  
+vodka 1 oz  
+
+69 special:
+gin 2 oz dry  
+7-up 4 oz  
+lemon juice 0.75 oz  
+
+747:
+kahlua 1/3 part  
+baileys irish cream 1/3 part  
+frangelico 1/3 part  
+
+747 drink:
+vodka 1 oz 
+roses sweetened lime juice 1 oz 
+cranberry juice 1 oz 
+sprite Top 
+
+9 1/2 weeks:
+absolut citron 2 oz  
+orange curacao 1/2 oz  
+strawberry liqueur 1 splash  
+orange juice 1 oz  
+
+a1:
+gin 1 3/4 shot  
+grand marnier 1 Shot  
+lemon juice 1/4 Shot 
+grenadine 1/8 Shot 
+
+abc:
+amaretto 1/3  
+baileys irish cream 1/3  
+cognac 1/3  
+
+ace:
+gin 2 shots  
+grenadine 1/2 shot  
+heavy cream 1/2 shot  
+milk 1/2 shot 
+egg white 1/2 Fresh 
+
+adam:
+dark rum 2 oz  
+lemon juice 1 oz  
+grenadine 1 tsp  
+
+at&t:
+absolut vodka 1 oz  
+gin 1 oz  
+tonic water 4 oz  
+
+acid:
+151 proof rum 1 oz Bacardi  
+wild turkey 1 oz  
+
+a. j.:
+applejack 1 1/2 oz  
+grapefruit juice 1 oz  
+
+affair:
+strawberry schnapps 2 oz  
+orange juice 2 oz  
+cranberry juice 2 oz  
+
+apello:
+orange juice 4 cl  
+grapefruit juice 3 cl  
+apple juice 1 cl  
+maraschino cherry 1  
+
+avalon:
+vodka 3 parts 
+pisang ambon 1 part  
+apple juice 6 parts  
+lemon juice 1 1/2 part  
+
+abilene:
+dark rum 1 1/2 oz  
+peach nectar 2 oz  
+orange juice 3 oz  
+
+almeria:
+dark rum 2 oz  
+kahlua 1 oz  
+egg white 1  
+
+addison:
+gin 1 1/2 shot  
+vermouth 1 1/2 shot  
+
+acapulco:
+light rum 1 1/2 oz  
+triple sec 1 1/2 tsp  
+lime juice 1 tblsp  
+sugar 1 tsp  
+egg white 1  
+mint 1  
+
+affinity:
+scotch 1 1/2 oz  
+sweet vermouth 1 oz  
+dry vermouth 1 oz  
+orange bitters 2 dashes  
+
+applecar:
+applejack 1 oz  
+triple sec 1 oz  
+lemon juice 1 oz  
+
+aviation:
+gin 4.5 cl 
+lemon juice 1.5 cl 
+maraschino liqueur 1.5 cl 
+
+alexander:
+gin 1/2 oz  
+creme de cacao 1/2 oz white  
+light cream 2 oz  
+
+algonquin:
+blended whiskey 1 1/2 oz  
+dry vermouth 1 oz  
+pineapple juice 1 oz  
+
+allegheny:
+dry vermouth 1 oz  
+bourbon 1 oz  
+blackberry brandy 1 1/2 tsp  
+lemon juice 1 1/2 tsp  
+lemon peel 1 twist of  
+
+artillery:
+sweet vermouth 1 1/2 tsp  
+gin 1 1/2 oz  
+bitters 2 dashes  
+
+afterglow:
+grenadine 1 part  
+orange juice 4 parts  
+pineapple juice 4 parts  
+
+autodafé:
+vodka 4 cl  
+lime juice 1 dash  
+
+afternoon:
+kahlua 1 cl  
+baileys irish cream 1 cl  
+frangelico 1 1/2  
+coffee 4 cl hot  
+
+after sex:
+vodka 2 cl  
+creme de banane 1 cl  
+
+b-53:
+kahlua 1/3 shot  
+sambuca 1/3 shot  
+grand marnier 1/3 shot  
+
+b-52:
+baileys irish cream 1/3  
+grand marnier 1/3  
+kahlua 1/4  
+
+bijou:
+orange bitters 1 dash 
+green chartreuse 1 oz 
+gin 1 oz 
+sweet vermouth 1 oz 
+
+boxcar:
+gin 1 1/2 oz  
+triple sec 1 oz  
+lemon juice 1 tsp  
+grenadine 1/2 tsp  
+egg white 1  
+
+big red:
+irish cream 1/2 oz  
+goldschlager 1/2 oz  
+
+bellini:
+champagne 6 oz  
+peach schnapps 1 oz  
+
+bramble:
+gin 4 cl 
+lemon juice 1.5 cl 
+sugar syrup 1 cl 
+creme de mure 1.5 cl 
+
+balmoral:
+scotch 1 1/2 oz  
+sweet vermouth 1/2 oz  
+dry vermouth 1/2 oz  
+bitters 2 dashes  
+
+bluebird:
+gin 1 1/2 oz  
+triple sec 1/2 oz  
+blue curacao 1/2 oz  
+bitters 2 dashes  
+maraschino cherry 1  
+lemon peel 1 twist of  
+
+brooklyn:
+rye whiskey 2 oz 
+dry vermouth 1 oz 
+maraschino liqueur 1/4 oz 
+angostura bitters 3 dashes 
+maraschino cherry 1 
+
+boomerang:
+gin 2 oz  
+dry vermouth 1/2 oz  
+bitters 2 dashes  
+maraschino liqueur 1/2 tsp  
+maraschino cherry 1  
+
+bora bora:
+pineapple juice 10 cl  
+passion fruit juice 6 cl  
+lemon juice 1 cl  
+grenadine 1 cl  
+
+barracuda:
+rum 4.5 cl 
+galliano 1.5 cl 
+pineapple juice 6 cl 
+lime juice  1 dash 
+prosecco top up  
+
+buccaneer:
+corona 1  
+bacardi limon 1 shot  
+
+brigadier:
+hot chocolate 4 oz 
+green chartreuse 1 oz 
+cherry heering 1 oz 
+
+broadside:
+151 proof rum 1 shot 
+scotch 1/2 shot 
+bitters 3 drops 
+wormwood 1 Fresh 
+ice cubes 
+
+blackthorn:
+sweet vermouth 1 oz  
+sloe gin 1 1/2 oz  
+lemon peel 1 twist of  
+
+bob marley:
+midori melon liqueur 1/2 oz  
+jägermeister 1/2 oz  
+goldschlager 1/2 oz  
+
+bumble bee:
+baileys irish cream 1/3 oz  
+kahlua 1/3 oz  
+sambuca 1/3 oz  
+
+bubble gum:
+vodka 1/4  
+banana liqueur 1/4  
+orange juice 1/4  
+peach schnapps 1/4  
+
+bible belt:
+southern comfort 2 oz  
+triple sec 1/2 oz  
+lime 2 wedges  
+sour mix 2 oz  
+
+brain fart:
+everclear 1 fifth  
+vodka 1 fifth Smirnoff red label  
+mountain dew 2 L  
+surge 2 L  
+lemon juice 1 small bottle  
+rum 1 pint  
+
+bloody mary:
+vodka 1 1/2 oz  
+tomato juice 3 oz  
+lemon juice 1 dash  
+worcestershire sauce 1/2 tsp  
+tabasco sauce 2-3 drops  
+lime 1 wedge  
+
+blue lagoon:
+vodka 1 oz  
+blue curacao 1 oz  
+
+boston sour:
+blended whiskey 2 oz  
+lemon Juice of 1/2  
+powdered sugar 1 tsp  
+egg white 1  
+lemon 1 slice  
+cherry 1  
+
+casino:
+gin 2 oz  
+maraschino liqueur 1/4 tsp  
+lemon juice 1/4 tsp  
+orange bitters 2 dashes  
+cherry 1  
+
+caipirinha:
+sugar 2 tsp 
+lime 1  
+cachaca 2 1/2 oz  
+
+cherry rum:
+light rum 1 1/4 oz  
+cherry brandy 1 1/2 tsp  
+light cream 1 tblsp  
+
+cuba libre:
+light rum 2 oz  
+lime Juice of 1/2  
+
+cuba libra:
+dark rum 1-2 shot  
+lime Squeeze  
+coca-cola Fill with  
+
+cafe savoy:
+milk 1/2 oz  
+triple sec 1/2 oz  
+
+cream soda:
+spiced rum 1 oz  
+
+corn n oil:
+lime 1/2 
+falernum 1/3 oz 
+angostura bitters 2 dashes 
+añejo rum 1 oz 
+blackstrap rum 1 oz 
+
+casa blanca:
+light rum 2 oz  
+triple sec 1 1/2 tsp  
+lime juice 1 1/2 tsp  
+maraschino liqueur 1 1/2 tsp  
+
+clover club:
+gin 1 1/2 oz  
+grenadine 2 tsp  
+lemon Juice of 1/2  
+egg white 1  
+
+citrus coke:
+bacardi limon 1 part  
+coca-cola 2 parts  
+
+chicago fizz:
+light rum 1 oz  
+port 1 oz  
+lemon Juice of 1/2  
+powdered sugar 1 tsp  
+egg white 1  
+
+city slicker:
+brandy 2 oz  
+triple sec 1/2 oz  
+lemon juice 1 tblsp  
+
+coffee-vodka:
+water 2 cups  
+sugar 2 cups white  
+coffee 1/2 cup instant  
+vanilla 1/2 
+vodka 1 1/2 cup 
+
+caipirissima:
+lime 2  
+sugar 2 tblsp  
+white rum 2-3 oz  
+ice crushed  
+
+campari beer:
+lager 1 bottle  
+campari 1 1/2 cl  
+
+cosmopolitan:
+absolut citron 1 1/4 oz  
+lime juice 1/4 oz  
+cointreau 1/4 oz  
+cranberry juice 1/4 cup  
+
+casino royale:
+gin 2 oz  
+lemon juice 1/2 oz  
+maraschino liqueur 1 tsp  
+orange bitters 1 dash  
+egg yolk 1  
+
+clove cocktail:
+sweet vermouth 1 oz  
+sloe gin 1/2 oz  
+wine 1/2 oz Muscatel  
+
+coffee liqueur:
+coffee 10 tblsp instant  
+vanilla extract 4 tblsp  
+sugar 2 1/2 cups  
+vodka 1 qt  
+water 2 1/2 cups  
+
+chocolate milk:
+chocolate liqueur 1/2 shot  
+milk 1/2 shot  
+amaretto 1 dash  
+
+coke and drops:
+coca-cola 1 dl  
+lemon juice 7 drops  
+
+corpse reviver:
+gin 3/4 oz 
+triple sec 3/4 oz 
+lillet blanc 3/4 oz 
+lemon juice 3/4 oz 
+absinthe 1 dash 
+
+chocolate drink:
+chocolate 125 gr 
+milk 3/4 L  
+
+creme de menthe:
+sugar 8 cups  
+water 6 cups  
+grain alcohol 1 pint  
+peppermint extract 1 oz pure  
+food coloring 1 tblsp green  
+
+derby:
+gin 6 cl 
+peach bitters 2 dashes 
+mint 2 Fresh leaves 
+
+diesel:
+lager 1/2 pint  
+cider 1/2 pint  
+blackcurrant cordial 1 dash  
+
+daiquiri:
+light rum 1 1/2 oz  
+lime Juice of 1/2  
+powdered sugar 1 tsp  
+
+danbooka:
+coffee 3 parts  
+everclear 1 part  
+
+dragonfly:
+gin 1 1/2 oz  
+ginger ale 4 oz  
+lime 1  
+
+downshift:
+fruit punch 2 part  
+sprite 1 part  
+tequila 2 shots  
+151 proof rum Float Bacardi  
+
+dry rob roy:
+scotch 2 1/2 oz  
+dry vermouth 1 1/2 tsp  
+lemon peel 1 twist of  
+
+dry martini:
+gin 1 2/3 oz  
+dry vermouth 1/3 oz  
+olive 1  
+
+
+dirty martini:
+vodka 70ml/2fl oz 
+dry vermouth 1 tbsp 
+olive brine 2 tbsp 
+lemon 1 wedge 
+olive 1 
+
+darkwood sling:
+cherry heering 1 part  
+soda water 1 part  
+orange juice 1 part  
+ice cubes 
+
+dark caipirinha:
+demerara sugar 2 tsp  
+lime 1 
+cachaca 2 1/2 oz 
+
+duchamp's punch:
+pisco 5 cl 
+lime juice 2.5 cl 
+pineapple syrup 2.5 cl 
+st. germain 1.5 cl 
+angostura bitters 2 Dashes 
+pepper Pinch 
+lavender 2 sprigs 
+
+dark and stormy:
+dark rum 5 cl 
+ginger beer 10 cl 
+
+damned if you do:
+whiskey 0.75 oz  
+hot damn 0.25 oz  
+
+dubonnet cocktail:
+dubonnet rouge 1 1/2 oz  
+gin 3/4 oz  
+bitters 1 dash  
+lemon peel 1 twist of  
+
+drinking chocolate:
+heavy cream 2 oz  
+milk 6-8 oz  
+cinnamon 1 stick  
+vanilla 1  
+chocolate 2 oz finely chopped dark  
+whipped cream Fresh  
+
+death in the afternoon:
+absinthe 2 shots 
+champagne Top 
+
+egg cream:
+chocolate syrup 2 tblsp  
+milk 6 oz whole  
+soda water 6 oz  
+
+egg nog #4:
+egg yolk 6  
+sugar 1/4 cup  
+milk 2 cups  
+light rum 1/2 cup  
+bourbon 1/2 cup  
+vanilla extract 1 tsp  
+salt 1/4 tsp  
+whipping cream 1 cup  
+egg white 6  
+sugar 1/4 cup  
+nutmeg Ground  
+
+english highball:
+brandy 3/4 oz  
+gin 3/4 oz  
+sweet vermouth 3/4 oz  
+
+espresso martini:
+vodka 5 cl 
+kahlua 1 cl 
+sugar syrup 1 dash 
+
+espresso rumtini:
+rum 1 shot 
+vanilla syrup 1/2 shot 
+espresso 1 shot 
+coffee 1 shot 
+
+egg nog - healthy:
+egg 1/2 cup  
+sugar 3 tblsp  
+condensed milk 13 oz skimmed  
+milk 3/4 cup skimmed  
+vanilla extract 1 tsp  
+rum 1 tsp  
+nutmeg 
+ 
+
+english rose cocktail:
+apricot brandy 3/4 oz  
+gin 1 1/2 oz  
+dry vermouth 3/4 oz  
+grenadine 1 tsp  
+lemon juice 1/4 tsp  
+cherry 1  
+
+elderflower caipirinha:
+cachaca 60 ml 
+lime 1 
+elderflower cordial 3 cl 
+
+egg-nog - classic cooked:
+egg 6  
+sugar 1/4 cup  
+salt 1/4 tsp  
+milk 1 qt  
+vanilla extract 1 tsp  
+
+empellón cocina's fat-washed mezcal:
+mezcal 2 oz 
+chocolate liqueur 3/4 oz 
+coffee liqueur 1/2 oz 
+
+frosé:
+rose 750 ml 
+sugar 1/2 cup 
+strawberries 8 oz 
+lemon juice 2-3 oz 
+
+frappé:
+coffee 1/2 cup black  
+milk 1/2 cup  
+sugar 1-2 tsp  
+
+foxy lady:
+amaretto 1/2 oz  
+creme de cacao 1/2 oz  
+light cream 2 oz  
+
+french 75:
+gin 1 1/2 oz  
+sugar 2 tsp superfine  
+lemon juice 1 1/2 oz  
+champagne 4 oz Chilled  
+orange 1  
+maraschino cherry 1  
+
+frisco sour:
+blended whiskey 2 oz  
+benedictine 1/2 oz  
+lemon Juice of 1/4  
+lime Juice of 1/2  
+lemon 1 slice  
+lime 1 slice  
+
+fruit shake:
+yoghurt 1 cup fruit  
+banana 1  
+orange juice 4 oz frozen  
+fruit 1/2 piece textural  
+ice 6  
+
+figgy thyme:
+vodka 2 oz 
+honey 1 tsp 
+figs 3 
+thyme 1 Sprig 
+angostura bitters 2 dashes 
+tonic water Top 
+
+fruit cooler:
+apple juice 1 can frozen  
+strawberries 1 cup  
+sugar 2 tblsp  
+lemon 1  
+apple 1  
+soda water 1 L  
+
+freddy kruger:
+jägermeister 1/2 oz  
+sambuca 1/2 oz  
+vodka 1/2 oz  
+
+fuzzy asshole:
+coffee 1/2  
+peach schnapps 1/2  
+
+funk and soul:
+rum 2 shots 
+apricot nectar 1 shot 
+pomegranate juice 1 shot 
+lemon Juice of 1/2 
+soda water Top 
+
+french martini:
+vodka 4.5 cl 
+raspberry liqueur 1.5 cl 
+pineapple juice 1.5 cl 
+
+french negroni:
+gin 1 oz 
+lillet 1 oz 
+sweet vermouth 1 oz 
+orange peel 1 
+
+flying dutchman:
+gin 2 oz  
+triple sec 1/2 oz  
+
+frozen daiquiri:
+light rum 1 1/2 oz  
+triple sec 1 tblsp  
+lime juice 1 1/2 oz  
+sugar 1 tsp  
+cherry 1  
+ice 1 cup crushed  
+
+fruit flip-flop:
+yoghurt 1 cup  
+fruit juice 1 cup  
+
+fahrenheit 5000:
+firewater 1/2 oz  
+absolut peppar 1/2 oz  
+tabasco sauce 1 dash  
+
+flying scotchman:
+scotch 1 oz  
+sweet vermouth 1 oz  
+bitters 1 dash  
+sugar syrup 1/4 tsp  
+
+french connection:
+cognac 1 1/2 oz  
+amaretto 3/4 oz  
+
+flaming dr. pepper:
+amaretto 1 oz  
+vodka 1 oz  
+151 proof rum 1 oz Bacardi  
+dr. pepper 1 oz  
+beer 1 oz  
+
+flander's flake-out:
+sambuca 1/4 glass  
+sarsaparilla 3/4 glass  
+
+flaming lamborghini:
+kahlua 1 oz  
+sambuca 1 oz  
+blue curacao 1 oz  
+baileys irish cream 1 oz  
+
+frozen mint daiquiri:
+light rum 2 oz  
+lime juice 1 tblsp  
+mint 6  
+sugar 1 tsp  
+
+frozen pineapple daiquiri:
+light rum 1 1/2 oz  
+pineapple 4 chunks  
+lime juice 1 tblsp  
+sugar 1/2 tsp  
+
+gg:
+galliano 2 1/2 shots  
+
+gimlet:
+gin 2 1/2 oz 
+lime juice 1/2 oz 
+sugar syrup 1/2 oz 
+lime 1 
+
+gin fizz:
+gin 2 oz  
+lemon Juice of 1/2  
+powdered sugar 1 tsp  
+
+gin sour:
+gin 2 oz  
+lemon juice 1 oz  
+sugar 1/2 tsp superfine  
+orange 1  
+maraschino cherry 1  
+
+godchild:
+vodka 1 oz  
+amaretto 1 oz  
+heavy cream 1 oz  
+
+gin daisy:
+gin 2 oz  
+lemon juice 1 oz  
+sugar 1/2 tsp superfine  
+grenadine 1/2 tsp  
+maraschino cherry 1  
+orange 1  
+
+gin sling:
+gin 2 oz  
+lemon Juice of 1/2  
+powdered sugar 1 tsp  
+water 1 tsp  
+orange peel Twist of  
+
+gin smash:
+gin 2 oz  
+carbonated water 1 oz  
+sugar 1 cube  
+mint 4  
+orange 1 slice  
+cherry 1  
+
+gin toddy:
+gin 2 oz  
+water 2 tsp  
+powdered sugar 1/2 tsp  
+lemon peel 1 twist of  
+
+godfather:
+scotch 1 1/2 oz  
+amaretto 3/4 oz  
+
+godmother:
+vodka 1 1/2 oz  
+amaretto 3/4 oz  
+
+gagliardo:
+peach vodka 5 parts  
+lemon juice 3 parts  
+galliano 1 part  
+sirup of roses 1 part  
+
+gluehwein:
+red wine 1 L  
+water 125 ml  
+sugar 60 gr  
+cinnamon 1  
+cloves 3  
+lemon peel 1 tblsp  
+
+greyhound:
+vodka 1 1/2 oz 
+grapefruit juice 3 oz 
+
+gin cooler:
+gin 2 oz  
+
+gin squirt:
+gin 1 1/2 oz  
+grenadine 1 tsp  
+powdered sugar 1 tblsp  
+pineapple 3 chunks 
+strawberries 2  
+
+grand blue:
+malibu rum 1 1/2 cl  
+peach schnapps 1 1/2 cl  
+blue curacao 1 1/2 cl  
+sweet and sour 3 cl  
+
+gin rickey:
+gin 2 oz  
+grenadine 1 tsp  
+lemon Juice of 1/2  
+soda water Top up with 
+lime Garnish 
+
+gin swizzle:
+lime juice 1 1/2 oz  
+sugar 1 tsp superfine  
+gin 2 oz  
+bitters 1 dash  
+club soda 3 oz  
+
+grass skirt:
+gin 1 1/2 oz  
+triple sec 1 oz  
+pineapple juice 1 oz  
+grenadine 1/2 tsp  
+pineapple 1  
+
+grim reaper:
+kahlua 1 oz  
+151 proof rum 1 oz Bacardi  
+grenadine 1 dash  
+
+grasshopper:
+green creme de menthe 3/4 oz  
+creme de cacao 3/4 oz white  
+light cream 3/4 oz  
+
+grizzly bear:
+amaretto 1 part  
+jägermeister 1 part  
+kahlua 1 part  
+milk 2 1/2 parts  
+
+green goblin:
+cider 1/2 pint hard  
+lager 1/2 pint  
+blue curacao 1 shot  
+
+golden dream:
+galliano 2 parts 
+triple sec 2 parts 
+orange juice 2 parts 
+cream 1 part 
+
+h.d.:
+whisky 4 cl  
+baileys irish cream 8 cl  
+
+honey bee:
+white rum 6 cl 
+honey 2 cl 
+lemon juice 2 cl 
+
+hot toddy:
+whiskey 50 ml 
+honey 15 ml 
+cinnamon 1 
+lemon 1 
+cloves 2 
+
+herbal flame:
+hot damn 5 shots  
+tea very sweet  
+
+horse's neck:
+lemon peel 1 long strip  
+brandy 2 oz  
+ginger ale 5 oz  
+bitters 2 dashes  
+
+happy skipper:
+spiced rum 1 1/2 cl  
+
+hunter's moon:
+vermouth 25 ml 
+maraschino cherry 15 ml 
+sugar syrup 10 ml 
+lemonade 100 ml 
+blackberries 2 
+
+havana cocktail:
+light rum 1 oz  
+pineapple juice 1 oz  
+lemon juice 1 tsp  
+
+holloween punch:
+carbonated soft drink , orange
+ 
+
+hot creamy bush:
+irish whiskey 1 shot  
+baileys irish cream 3/4 shot  
+coffee 6 oz hot  
+
+homemade kahlua:
+sugar 2 1/2 cups  
+corn syrup 1 cup  
+coffee 1 1/2 oz instant  
+vanilla extract 2 oz  
+water 3 cups boiling  
+vodka 1 fifth  
+
+halloween punch:
+cherry juice 1 bottle 
+orange peel 3 
+red chili flakes 1 
+cloves 10 
+ginger 6 
+vodka 20 cl 
+
+harvey wallbanger:
+vodka 1 oz  
+galliano 1/2 oz  
+orange juice 4 oz  
+
+hawaiian cocktail:
+gin 2 oz  
+triple sec 1/2 oz  
+pineapple juice 1 tblsp  
+
+hemingway special:
+rum 12 parts 
+grapefruit juice 8 parts 
+maraschino liqueur 3 parts 
+lime juice 3 parts 
+
+highland fling cocktail:
+scotch 1 1/2 oz  
+sweet vermouth 3/4 oz  
+orange bitters 2 dashes  
+olive 1  
+
+hot chocolate to die for:
+chocolate 12 oz fine  
+butter 1 tsp  
+vanilla extract 1/2 tsp  
+half-and-half 1 cup  
+marshmallows mini  
+
+ipamena:
+lime ½ 
+brown sugar 2 tsp 
+passion fruit juice 4 cl 
+ginger ale top up with 
+ice fill 
+
+ice pick:
+vodka 1 1/2 oz  
+iced tea 6 oz  
+lemon juice  to taste
+ 
+
+iced coffee:
+coffee 1/4 cup instant  
+sugar 1/4 cup  
+water 1/4 cup hot  
+milk 4 cups cold  
+
+irish cream:
+scotch 1 cup  
+half-and-half 1 1/4 cup  
+condensed milk 1 can sweetened  
+coconut syrup 3 drops  
+chocolate syrup 1 tblsp  
+
+irish spring:
+irish whiskey 1 oz  
+peach brandy 1/2 oz  
+orange juice 1 oz  
+sweet and sour 1 oz  
+orange 1 slice  
+cherry 1  
+
+irish coffee:
+irish whiskey 1 1/2 oz  
+coffee 8 oz  
+sugar 1 tsp  
+whipped cream 1 tblsp  
+
+imperial fizz:
+light rum 1/2 oz  
+blended whiskey 1 1/2 oz  
+lemon Juice of 1/2  
+powdered sugar 1 tsp  
+
+irish russian:
+vodka 1 shot  
+kahlua 1 shot  
+coca-cola 1 dash  
+guinness stout Fill with  
+
+imperial cocktail:
+lime juice 4 cl  
+gin 2 cl  
+aperol 4 cl  
+
+iced coffee fillip:
+kahlua 2 tsp  
+coffee Strong cold  
+
+irish curdling cow:
+baileys irish cream 3/4 oz  
+bourbon 3/4 oz  
+vodka 3/4 oz  
+orange juice 2-3 oz  
+
+jitterbug:
+gin 2 jiggers  
+vodka 1 jigger  
+grenadine 3 dashes  
+lime juice 1 shot  
+sugar Around rim put 1 pinch  
+sugar syrup 3 dashes  
+soda water Fill to top with  
+
+jam donut:
+baileys irish cream 2/3 oz 
+chambord raspberry liqueur 1/3 oz 
+sugar syrup 1 tsp 
+sugar 2 pinches 
+
+jelly bean:
+blackberry brandy 1 oz  
+anis 1 oz  
+
+jackhammer:
+jack daniels 1 oz  
+amaretto 1 oz  
+
+jello shots:
+vodka 2 cups  
+jello 3 packages  
+water 3 cups  
+
+john collins:
+bourbon 2 oz  
+lemon juice 1 oz  
+sugar 1 tsp superfine  
+club soda 3 oz  
+maraschino cherry 1  
+orange 1  
+
+jamaica kiss:
+coffee liqueur 1 shot  
+light rum 1 shot Jamaican  
+ice cubes 
+
+japanese fizz:
+blended whiskey 1 1/2 oz  
+lemon Juice of 1/2  
+powdered sugar 1 tsp  
+port 1 tblsp 
+egg white 1  
+
+just a moonmint:
+milk 2 cups  
+
+jamaican coffee:
+rum 1/6 glass  
+coffee 1/6 glass strong black  
+water 1/2 glass cold  
+
+jewel of the nile:
+gin 1 1/2 oz  
+green chartreuse 1/2 oz  
+yellow chartreuse 1/2 oz  
+
+jack rose cocktail:
+apple brandy 1 1/2 oz  
+grenadine 1 tsp  
+lime Juice of 1/2  
+
+jack's vanilla coke:
+ice 4-5  
+tennessee whiskey 2 oz  
+vanilla extract 1 tsp  
+coca-cola 10-12 oz  
+
+kir:
+creme de cassis 1 part  
+champagne 5 parts  
+
+karsk:
+coffee 1 part  
+grain alcohol 2 parts  
+
+kamikaze:
+vodka 1 oz  
+triple sec 1 oz  
+lime juice 1 oz  
+
+kir royale:
+creme de cassis 1 part  
+champagne 5 parts  
+
+kurant tea:
+absolut kurant 4 cl  
+tea Turkish apple  
+sugar  (if needed)
+ 
+
+kiwi lemon:
+kiwi liqueur 1 part  
+bitter lemon 2 parts  
+ice cubes 
+
+kioki coffee:
+kahlua 1 oz  
+brandy 1/2 oz  
+
+kiwi martini:
+kiwi 1/2 
+sugar syrup 1 tsp 
+vodka 1 1/2 oz 
+kiwi Garnish with 
+
+kool-aid shot:
+vodka 1 shot  
+amaretto 1 shot  
+sloe gin 1 shot  
+triple sec 1 shot  
+
+kiss me quick:
+cranberry vodka 4 cl  
+apfelkorn 2 cl  
+schweppes russchian 7 cl  
+apple juice 8 cl  
+ice cubes 
+
+kool first aid:
+151 proof rum 2 oz light  
+kool-aid 1/2 tsp Tropical  
+
+kentucky b and b:
+bourbon 2 oz  
+benedictine 1/2 oz  
+
+kentucky colonel:
+bourbon 3 oz  
+benedictine 1/2 oz  
+lemon peel 1 twist of  
+
+kool-aid slammer:
+kool-aid 1/2 oz Grape  
+vodka 1/2 oz  
+
+kiwi papaya smoothie:
+kiwi 3  
+papaya 1/2  
+
+kill the cold smoothie:
+ginger 1 inch  
+lemon 1/4  
+water 1 cup hot  
+
+limeade:
+lime Juice of 1  
+sugar 1 tblsp  
+soda water  (seltzer water)
+ 
+
+lunch box:
+beer 3/4 bottle  
+amaretto 1 shot  
+orange juice 1 oz  
+
+lemon shot:
+galliano 1/2 oz  
+absolut citron 1/2 oz  
+lemon  wedge
+ 
+sugar Bacardi  
+
+long vodka:
+vodka 5 cl  
+lime 1/2  
+angostura bitters 4 dashes  
+tonic water 1 dl Schweppes  
+ice 4  
+
+lemon drop:
+absolut vodka 1 1/2 shot  
+cointreau 1 1/2 shot  
+lemon Juice of 1 wedge  
+
+loch lomond:
+scotch 2 oz  
+drambuie 1/2 oz  
+dry vermouth 1/2 oz  
+lemon peel 1 twist of  
+
+london town:
+gin 1 1/2 oz  
+maraschino liqueur 1/2 oz  
+orange bitters 2 dashes  
+
+lassi khara:
+yoghurt 1 cup  
+water 2 cups cold  
+salt 1 tsp  
+asafoetida 1 pinch  
+
+lassi raita:
+yoghurt 2 cups  
+ice 4-6  
+
+lemouroudji:
+ginger 2 pieces  
+water 1 gal  
+lemon 1 lb  
+sugar 1 cup  
+cayenne pepper ground  
+
+lord and lady:
+dark rum 1 1/2 oz  
+tia maria 1/2 oz  
+
+lassi - sweet:
+yoghurt 1 cup  
+water 2 cups cold  
+sugar 4 tblsp  
+salt pinch  
+lemon juice 2 tblsp  
+
+lassi - mango:
+mango 2  
+yoghurt 2 cups  
+sugar 1/2 cup  
+water 1 cup iced  
+
+limona corona:
+corona 1 bottle  
+bacardi limon 1 oz  
+
+lady love fizz:
+gin 2 oz  
+light cream 2 tsp  
+powdered sugar 1 tsp  
+lemon Juice of 1/2 
+egg white 1  
+
+long island tea:
+vodka 1/2 oz  
+light rum 1/2 oz  
+gin 1/2 oz  
+tequila 1/2 oz  
+lemon Juice of 1/2  
+coca-cola 1 splash  
+
+
+lone tree cocktail:
+sweet vermouth 3/4 oz  
+gin 1 1/2 oz  
+
+lazy coconut paloma:
+coconut liqueur 30 ml 
+grapefruit juice 75 ml 
+soda water Top 
+
+long island iced tea:
+vodka 1/2 oz  
+tequila 1/2 oz  
+light rum 1/2 oz  
+gin 1/2 oz  
+coca-cola 1 dash  
+lemon peel Twist of  
+
+lemon elderflower spritzer:
+elderflower cordial 2 tsp 
+vodka 1 shot 
+soda water 1/3 cup 
+fresh lemon juice Top 
+
+lassi - a south indian drink:
+yoghurt 1/2 cup plain  
+water 1 1/4 cup cold  
+cumin seed 1/2 tsp ground roasted  
+salt 1/4 tsp  
+mint 1/4 tsp dried  
+
+melya:
+honey Unsweetened  
+
+mojito:
+light rum 2-3 oz  
+lime Juice of 1  
+sugar 2 tsp  
+mint 2-4  
+
+mimosa:
+champagne Chilled  
+orange juice 2 oz  
+
+mai tai:
+light rum 1 oz  
+orgeat syrup 1/2 oz  
+triple sec 1/2 oz  
+sweet and sour 1 1/2 oz  
+cherry 1  
+
+martini:
+gin 1 2/3 oz  
+dry vermouth 1/3 oz  
+olive 1  
+
+margarita:
+tequila 1 1/2 oz  
+triple sec 1/2 oz  
+lime juice 1 oz  
+
+manhattan:
+sweet vermouth 3/4 oz  
+bourbon 2 1/2 oz Blended  
+angostura bitters dash  
+ice 2 or 3  
+maraschino cherry 1  
+orange peel 1 twist of  
+
+michelada:
+beer 4 oz 
+tomato juice 4 oz 
+lime juice 1 tblsp 
+hot sauce Dash 
+worcestershire sauce Dash 
+soy sauce Dash 
+
+miami vice:
+151 proof rum 5 oz Bacardi  
+pina colada mix frozen  
+daiquiri mix frozen  
+
+mudslinger:
+southern comfort 750 ml  
+orange juice 1 L  
+pepsi cola 750 ml  
+
+moranguito:
+absinthe 2/5  
+tequila 2/5  
+grenadine 1/5  
+
+mint julep:
+mint 4 fresh  
+bourbon 2 1/2 oz  
+powdered sugar 1 tsp  
+water 2 tsp  
+
+martinez 2:
+gin 1 1/2 oz 
+sweet vermouth 1 1/2 oz 
+maraschino liqueur 1 tsp 
+angostura bitters 2 dashes 
+
+masala chai:
+water 2 cups  
+tea 3-4 tsp  
+ginger 1 chunk dried  
+cardamom 3-4 crushed  
+cloves 3  
+cinnamon 1 piece  
+black pepper 1-2 whole  
+sugar  to taste
+ 
+
+mulled wine:
+water 3 cups  
+sugar 1 cup  
+cloves 12  
+cinnamon 2  
+lemon peel 1  
+red wine 750 ml  
+brandy 1/4 cup  
+
+moscow mule:
+vodka 2 oz  
+lime juice 2 oz  
+ginger ale 8 oz  
+
+mocha-berry:
+coffee 6 oz  
+chambord raspberry liqueur 2 oz  
+cocoa powder 2 tblsp  
+
+munich mule:
+gin 5 cl 
+lime juice 2 cl 
+ginger beer 10 cl 
+cucumber Chopped 
+lemon Chopped 
+
+mojito extra:
+mint 1/2 handful  
+lemon juice 3 cl  
+dark rum 1/8 L Jamaican  
+club soda 1/8 L  
+angostura bitters 8 drops  
+
+monkey gland:
+gin 2 oz  
+benedictine 1 tsp  
+orange juice 1/2 oz  
+grenadine 1 tsp  
+
+mango mojito:
+lime 3 
+mango 1 Fresh 
+mint Sprig 
+white rum 200 ml 
+ice cubes 
+soda water Top 
+mango Garnish with 
+
+monkey wrench:
+light rum 1 1/2 oz  
+grapefruit juice 3 oz  
+bitters 1 dash  
+
+midnight manx:
+kahlua 1 oz  
+baileys irish cream 1 oz  
+goldschlager dash  
+heavy cream 2 oz  
+coffee 2 oz Hazlenut  
+
+mother's milk:
+goldschlager 1 oz  
+butterscotch schnapps 1 oz  
+milk 1 oz  
+
+midnight mint:
+baileys irish cream 1 oz  
+white creme de menthe 3/4 oz  
+cream 3/4 oz double  
+
+negroni:
+gin 1 oz  
+campari 1 oz  
+sweet vermouth 1 oz  
+
+new york sour:
+blended whiskey 2 oz  
+lemon Juice of 1/2  
+sugar 1 tsp  
+red wine  (Claret)
+ 
+
+nutty irishman:
+baileys irish cream 1 part  
+frangelico 1 part  
+milk 1 part  
+
+national aquarium:
+rum 1/2 oz  
+vodka 1/2 oz  
+gin 1/2 oz  
+blue curacao 1/2 oz  
+sour mix 2 oz  
+lemon-lime soda 1 splash  
+
+new york lemonade:
+absolut citron 2 oz  
+grand marnier 1 oz  
+lemon juice 2 oz sweetened  
+club soda 1 oz  
+
+nuked hot chocolate:
+cocoa powder 2 tsp  
+sugar 1 tsp  
+vanilla extract 1/2 tsp  
+milk 12 oz  
+
+orgasm:
+creme de cacao 1/2 oz white  
+amaretto 1/2 oz  
+triple sec 1/2 oz  
+vodka 1/2 oz  
+light cream 1 oz  
+
+old pal:
+rye whiskey 2 oz 
+campari 1 oz 
+dry vermouth 1 oz 
+
+orangeade:
+lemon juice 5 cl  
+orange juice 15 cl  
+sugar syrup 2-3 cl  
+
+orange whip:
+orange juice 4 oz  
+rum 1 oz  
+vodka 1 oz  
+cream 1 package  
+ice Over  
+
+orange oasis:
+cherry brandy 1/2 oz  
+gin 1 1/2 oz  
+orange juice 4 oz  
+
+orange crush:
+vodka 1 oz  
+triple sec 1 oz  
+orange juice 1 oz  
+
+old fashioned:
+bourbon 4.5 cL 
+angostura bitters 2 dashes 
+sugar 1 cube 
+water dash 
+
+oreo mudslide:
+vodka 1 oz  
+kahlua 1 oz  
+baileys irish cream 1 oz  
+vanilla ice-cream 2 scoops  
+oreo cookie 1  
+
+orange push-up:
+spiced rum 1.5 oz  
+grenadine 0.5 oz  
+orange juice 4 oz  
+sour mix 1 splash  
+
+oatmeal cookie:
+kahlua 2 parts 
+bailey 2 parts 
+butterscotch schnapps 4 parts 
+jagermeister 1 part 
+goldschlager 1/2 part 
+
+orange rosemary collins:
+gin 1 shot 
+orange juice Top 
+lemon juice Top 
+rosemary syrup 25 ml 
+soda water Top 
+rosemary Garnish with 
+orange peel Garnish with 
+
+orange scented hot chocolate:
+milk 2 cups  
+chocolate 4 oz chopped bittersweet or semi-sweet  
+orange peel 3 2-inch strips  
+espresso 1/2 tsp instant  
+nutmeg 1/8 tsp ground  
+
+owen's grandmother's revenge:
+whiskey 12 oz  
+beer 12 oz  
+lemonade 12 oz frozen  
+ice 1 cup crushed  
+
+paloma:
+grape soda 3 oz 
+tequila 1 1/2 oz 
+
+pink gin:
+bitters 3 dashes  
+gin 2 oz  
+
+paradise:
+gin 7 parts 
+apricot brandy 4 parts 
+orange juice 3 parts  
+
+pink lady:
+gin 1 1/2 oz  
+grenadine 1 tsp  
+light cream 1 tsp  
+egg white 1  
+
+pegu club:
+gin 1 1/2 oz 
+orange curacao 3/4 oz 
+lime juice 3/4 oz 
+angostura bitters 1 dash 
+orange bitters 1 dash 
+
+pink moon:
+gin 1 shot 
+coconut liqueur 1 shot 
+elderflower cordial 25 ml 
+lime juice 30 ml 
+blackberries Garnish with 
+
+pisco sour:
+pisco 2 oz  
+lemon juice 1 oz  
+sugar 1-2 tblsp  
+ice 1 
+
+porto flip:
+brandy 3 parts 
+port 9 parts 
+egg yolk 2 parts 
+
+penicillin:
+blended scotch 2 oz 
+lemon juice 3/4 oz 
+honey syrup 2 tsp 
+ginger syrup 2 tsp 
+islay single malt scotch 1/4 oz 
+
+pina colada:
+light rum 3 oz  
+coconut milk 3 tblsp  
+pineapple 3 tblsp  
+
+pink penocha:
+everclear 750 ml  
+vodka 1750 ml  
+peach schnapps 1750 ml  
+orange juice 1 gal  
+cranberry juice 1 gal  
+
+pure passion:
+rum 40 ml 
+passoa 20 ml 
+lime juice 30 ml 
+passion fruit syrup 15 ml 
+peach bitters Dash 
+mint Garnish with 
+
+popped cherry:
+vodka 2 oz  
+cherry liqueur 2 oz  
+cranberry juice 4 oz  
+orange juice 4 oz  
+
+poppy cocktail:
+gin 1 1/2 oz  
+creme de cacao 3/4 oz white  
+
+port wine flip:
+port 1 1/2 oz  
+light cream 2 tsp  
+powdered sugar 1 tsp  
+egg 1 whole  
+
+planter's punch:
+dark rum 1 part  
+orgeat syrup 1/2 part  
+orange juice 2 parts  
+pineapple juice 1 part  
+
+pineapple paloma:
+tequila 4 oz 
+grapefruit juice 4 oz 
+fresh lime juice 1 oz 
+pineapple juice 8 oz 
+lime Garnish with 
+pepper Rimmed 
+
+pornstar martini:
+vodka 3 cl 
+passoa 3 cl 
+passion fruit juice 1 cl 
+lime 1 cl 
+prosecco 1 shot 
+
+port and starboard:
+grenadine 1 tblsp  
+green creme de menthe 1/2 oz  
+
+port wine cocktail:
+port 2 1/2 oz  
+brandy 1/2 tsp  
+
+pysch vitamin light:
+orange juice 1 part  
+apple juice 1 part  
+pineapple juice 1 part  
+
+pink panty pulldowns:
+sprite 1 L  
+pink lemonade 2 cups  
+vodka 2 cups  
+
+passion fruit martini:
+vodka 1 shot 
+sugar syrup 1/2 shot 
+passion fruit juice Full Glass 
+
+pineapple gingerale smoothie:
+ginger 1/4 inch  
+pineapple 1/2  
+
+quentin:
+dark rum 1 1/2 oz  
+kahlua 1/2 oz  
+light cream 1 oz  
+nutmeg 1/8 tsp grated  
+
+queen bee:
+coffee brandy 1 oz  
+lime vodka 1 1/2 oz  
+sherry 1/2 oz cream  
+
+quick f**k:
+kahlua 1 part  
+midori melon liqueur 1 part  
+baileys irish cream 1 part  
+
+quick-sand:
+black sambuca 25 ml  
+orange juice Add 250 ml  
+
+queen charlotte:
+red wine 2 oz  
+grenadine 1 oz  
+
+queen elizabeth:
+dry vermouth 1/2 oz  
+gin 1 1/2 oz  
+benedictine 1 1/2 tsp  
+
+quaker's cocktail:
+light rum 3/4 oz  
+brandy 3/4 oz  
+lemon Juice of 1/4  
+raspberry syrup 2 tsp  
+
+quarter deck cocktail:
+light rum 1 1/2  
+sherry 1/3 oz cream  
+lime Juice of 1/2  
+
+rose:
+dry vermouth 1/2 oz  
+gin 1 oz  
+apricot brandy 1/2 oz  
+lemon juice 1/2 tsp  
+grenadine 1 tsp  
+
+radler:
+beer 12 oz  
+7-up 12 oz  
+
+rum sour:
+light rum 2 oz  
+lemon juice 1 oz  
+sugar 1/2 tsp superfine  
+orange 1  
+maraschino cherry 1  
+
+rum toddy:
+rum 2 oz light or dark  
+powdered sugar 2 tsp  
+lemon peel 1 twist of  
+water 2 tsp  
+
+rum punch:
+rum mikey bottle  
+ginger ale large bottle  
+fruit punch 355 ml frozen  
+orange juice 355 ml frozen  
+ice crushed  
+
+royal fizz:
+gin 1 oz  
+sweet and sour 2 oz  
+egg 1 whole  
+
+rum cooler:
+rum 2 oz light or dark  
+lemon-lime soda 4 oz  
+lemon 1  
+
+rusty nail:
+scotch 1 1/2 oz  
+drambuie 1/2 oz  
+lemon peel 1 twist of  
+
+rum runner:
+malibu rum 1 1/2 oz  
+blackberry brandy 1 oz  
+orange juice 3-4 oz  
+pineapple juice 3-4 oz  
+cranberry juice 3-4 oz  
+
+rum cobbler:
+sugar 1 tsp superfine  
+club soda 3 oz  
+lemon 1  
+dark rum 2 oz  
+maraschino cherry 1  
+orange 1  
+
+red snapper:
+crown royal 1 shot  
+amaretto 1 shot  
+cranberry juice 1 shot  
+
+royal flush:
+crown royal 1 1/2 oz  
+peach schnapps 1 oz  
+chambord raspberry liqueur 1/2 oz  
+cranberry juice 1 oz  
+
+royal bitch:
+frangelico 1 part  
+crown royal 1 part  
+
+ruby tuesday:
+gin 2 oz  
+cranberry juice 5 oz  
+grenadine 2 splashes  
+
+rail splitter:
+sugar syrup 2 tsp  
+
+rosemary blue:
+gin 50 ml 
+blue curacao 15 ml 
+tonic water 100 ml 
+rosemary Garnish with 
+
+royal gin fizz:
+gin 2 oz  
+lemon Juice of 1/2  
+powdered sugar 1 tsp  
+egg 1 whole  
+
+rum milk punch:
+light rum 2 oz  
+milk 1 cup  
+powdered sugar 1 tsp  
+
+raspberry julep:
+bourbon 2 oz 
+raspberry syrup 1/2 oz 
+mint 8 
+
+rum screwdriver:
+light rum 1 1/2 oz  
+orange juice 5 oz  
+
+raspberry cooler:
+raspberry vodka 2 oz  
+lemon-lime soda 4 oz  
+
+rum old-fashioned:
+light rum 1 1/2 oz  
+151 proof rum 1 tsp  
+powdered sugar 1/2 tsp  
+bitters 1 dash  
+water 1 tsp  
+lime peel Twist of  
+
+russian spring punch:
+vodka 2.5 cl 
+creme de cassis 1.5 cl 
+sugar syrup 1 cl 
+lemon juice 2.5 cl 
+
+radioactive long island iced tea:
+rum 1 oz  
+vodka 1 oz  
+tequila 1 oz  
+gin 1 oz  
+triple sec 1 oz  
+chambord raspberry liqueur 1 oz  
+midori melon liqueur 1 oz  
+malibu rum 1 oz  
+
+smut:
+red wine 1/3 part  
+peach schnapps 1 shot  
+pepsi cola 1/3 part  
+orange juice 1/3 part  
+
+spritz:
+prosecco 6 cl 
+campari 4 cl 
+soda water splash 
+
+sazerac:
+ricard 1 tsp  
+sugar 1/2 tsp superfine  
+peychaud bitters 2 dashes  
+water 1 tsp  
+bourbon 2 oz  
+lemon peel 1 twist of  
+
+scooter:
+brandy 1 oz  
+amaretto 1 oz  
+light cream 1 oz  
+
+sidecar:
+cognac 2 oz  
+cointreau 1/2 oz  
+lemon juice 1 oz  
+
+sangria:
+red wine 1 bottle  
+sugar 1/2 cup  
+orange juice 1 cup  
+lemon juice 1 cup  
+
+stinger:
+brandy 1 1/2 oz  
+white creme de menthe 1/2 oz  
+
+snowday:
+vodka 1 oz 
+amaro montenegro 1 oz 
+ruby port 1 oz 
+blood orange 1 tsp 
+angostura bitters Dash 
+orange peel Garnish with 
+
+snowball:
+advocaat 1 1/2 oz  
+lemonade 8-10 oz cold  
+lemon 1 slice  
+ice cubes 
+
+shot-gun:
+jim beam 1 part  
+jack daniels 1 part  
+wild turkey 1 oz  
+
+spice 75:
+sugar 60 ml 
+allspice 1 tblsp 
+rum 20 cl 
+lime juice 90 ml 
+champagne 6 cl 
+orange spiral Garnish with 
+
+salty dog:
+grapefruit juice 5 oz  
+gin 1 1/2 oz  
+salt 1/4 tsp  
+
+stone sour:
+apricot brandy 1 oz  
+orange juice 1 oz  
+sweet and sour 1 oz  
+
+sea breeze:
+vodka 1 1/2 oz  
+cranberry juice 4 oz  
+grapefruit juice 1 oz  
+
+scotch sour:
+scotch 1 1/2 oz  
+lime Juice of 1/2  
+powdered sugar 1/2 tsp  
+lemon 1/2 slice  
+cherry 1  
+
+screwdriver:
+vodka 2 oz  
+
+sherry flip:
+sherry 1 1/2 oz cream  
+light cream 2 tsp  
+powdered sugar 1 tsp  
+egg 1 whole  
+
+sweet tooth:
+godiva liqueur 2 shots  
+
+sol y sombra:
+brandy 1 1/2 oz  
+anisette 1 1/2 oz  
+
+shark attack:
+lemonade 1 can  
+water 3 cans  
+vodka 1 1/2 cup  
+
+sherry eggnog:
+sherry 2 oz cream  
+powdered sugar 1 tsp  
+egg 1 whole  
+
+sweet bananas:
+milk 2 cups  
+banana 1  
+honey 1 tblsp  
+
+sweet sangria:
+red wine 2 bottles  
+sugar 1 cup  
+water 2 cups hot  
+apple 1 cup 
+orange  wedges
+ 
+lime  wedges
+ 
+
+san francisco:
+vodka 2 cl  
+creme de banane 2 cl  
+
+space odyssey:
+151 proof rum 1 shot Bacardi  
+malibu rum 1 shot  
+pineapple juice 1 shot  
+
+thriller:
+scotch 1 1/2 oz  
+wine 1 oz Green Ginger  
+orange juice 1 oz  
+
+tia-maria:
+water 1 cup  
+brown sugar 3/4-1 cup  
+coffee 4 tsp  
+rum 1 cup  
+vanilla extract 4 tsp  
+
+tipperary:
+irish whiskey 2 oz 
+sweet vermouth 1 oz 
+green chartreuse 1/2 oz 
+
+the galah:
+dark rum 1 shot 
+campari 1 shot 
+creme de banane 1/2 shot 
+pineapple juice Top 
+lime juice Top 
+
+turkeyball:
+wild turkey 1 oz  
+amaretto 3/4 oz  
+pineapple juice 1 splash  
+
+tom collins:
+gin 2 oz  
+lemon juice 1 oz  
+sugar 1 tsp superfine  
+club soda 3 oz  
+maraschino cherry 1  
+orange 1  
+
+tomato tang:
+tomato juice 2 cups  
+lemon juice 1-2 tblsp  
+celery salt 1 dash  
+
+thai coffee:
+coffee 6 tblsp ground 
+coriander 1/4 tsp  
+cardamom 4-5 whole green  
+
+texas sling:
+kahlua 1/2 oz  
+irish cream 1/2 oz  
+amaretto 1/2 oz  
+151 proof rum 1/2 oz Bacardi  
+cream 1 oz  
+
+tequila fizz:
+tequila 2 oz  
+lemon juice 1 tblsp  
+grenadine 3/4 oz  
+egg white 1  
+
+tequila sour:
+tequila 2 oz  
+lemon Juice of 1/2  
+powdered sugar 1 tsp  
+lemon 1/2 slice  
+cherry 1  
+
+talos coffee:
+grand marnier 3 parts  
+coffee 1 part  
+
+tennesee mud:
+coffee 8 oz  
+jack daniels 4 oz  
+amaretto 4 oz  
+
+turf cocktail:
+dry vermouth 1 oz  
+gin 1 oz  
+anis 1/4 tsp  
+bitters 2 dashes  
+orange peel Twist of  
+
+thai iced tea:
+tea 1/4 cup Thai  
+water 1/2 cup boiling  
+condensed milk 2 tsp sweetened  
+ice cubes 
+mint garnish 
+
+the last word:
+green chartreuse 1 oz 
+maraschino liqueur 1 oz 
+lime juice 1 oz 
+
+the laverstoke:
+gin 50 ml 
+elderflower cordial 15 ml 
+rosso vermouth 15 ml 
+tonic water 75 ml 
+lime 2 Wedges 
+ginger 1 Slice 
+mint 1 Large Sprig 
+
+tuxedo cocktail:
+dry vermouth 1 1/2 oz  
+gin 1 1/2 oz  
+maraschino liqueur 1/4 tsp  
+anis 1/4 tsp  
+orange bitters 2 dashes  
+cherry 1  
+
+tequila sunrise:
+tequila 2 measures  
+
+tequila slammer:
+tequila 1 shot 
+7-up 1 part 
+
+the philosopher:
+gin 1 shot 
+melon liqueur 1 shot 
+orange bitters 1 dash 
+lemon juice 1 dash 
+prosecco Top 
+
+thai iced coffee:
+coffee black 
+cream  pods
+ 
+
+tequila surprise:
+tequila full glass  
+tabasco sauce About 8 drops  
+
+the jimmy conway:
+irish whiskey 50 ml 
+amaretto 50 ml 
+cranberry juice 4 oz 
+
+texas rattlesnake:
+yukon jack 1 part  
+cherry brandy 1/2 part  
+southern comfort 1 part  
+sweet and sour 1 splash  
+
+victor:
+gin 1 1/2 oz  
+sweet vermouth 1/2 oz  
+brandy 1/2 oz  
+
+vesper:
+gin 6 cl 
+vodka 1.5 cl 
+lillet blanc 0.75 cl 
+
+vesuvio:
+light rum 1 oz  
+sweet vermouth 1/2 oz  
+lemon Juice of 1/2  
+powdered sugar 1 tsp  
+egg white 1  
+
+veteran:
+dark rum 2 oz  
+cherry brandy 1/2 oz  
+
+vampiro:
+tequila 6 cl 
+tomato juice 3 cl 
+orange juice 3 cl 
+lime juice 1.5 cl 
+sugar syrup 1 dash 
+salt 1 pinch 
+
+van vleet:
+light rum 3 oz  
+maple syrup 1 oz  
+lemon juice 1 oz  
+
+vodka fizz:
+vodka 2 oz  
+half-and-half 2 oz  
+limeade 2 oz  
+
+vodka martini:
+vodka 1 1/2 oz  
+dry vermouth 3/4 oz  
+olive 1  
+
+vodka russian:
+vodka 2 oz  
+
+vermouth cassis:
+dry vermouth 1 1/2 oz  
+creme de cassis 3/4 oz  
+
+victory collins:
+vodka 1 1/2 oz  
+lemon juice 3 oz  
+grape juice 3 oz unsweetened  
+powdered sugar 1 tsp  
+orange 1 slice  
+
+vodka and tonic:
+vodka 2 oz  
+
+valencia cocktail:
+apricot brandy 1 1/2 oz  
+orange juice 1 tblsp  
+orange bitters 2 dashes  
+
+whisky mac:
+scotch 1 1/2 oz  
+wine 1 oz Green Ginger  
+
+wine punch:
+red wine 1 bottle  
+lemon 2  
+orange juice 1 cup  
+orange 3  
+pineapple juice 1 cup  
+
+white lady:
+gin 4cl 
+triple sec 3cl 
+lemon juice 2cl 
+
+wine cooler:
+red wine 2 oz white or  
+lemon-lime soda 5 oz  
+ice cubes 
+
+winter rita:
+tequila 1 2/3 oz 
+campari 1/4 oz 
+lime juice 3/4 oz 
+orange juice 1/2 oz 
+rosemary syrup 1/2 oz 
+salt Dash 
+
+whiskey sour:
+blended whiskey 2 oz  
+lemon Juice of 1/2  
+powdered sugar 1/2 tsp  
+cherry 1  
+lemon 1/2 slice  
+
+white russian:
+vodka 2 oz  
+coffee liqueur 1 oz  
+
+winter paloma:
+tequila 2 shots 
+grapefruit juice Top 
+lime juice Juice of 1 
+agave syrup 1 tsp 
+pepper Dash 
+
+whitecap margarita:
+ice 1 cup  
+tequila 2 oz  
+cream of coconut 1/4 cup  
+lime juice 3 tblsp fresh  
+
+white wine sangria:
+lime 1 
+lemon 1 
+white wine 750 ml 
+strawberries 1 cup 
+apple 1 cup 
+apple brandy 3 shots 
+soda water Top 
+
+waikiki beachcomber:
+triple sec 3/4 oz  
+gin 3/4 oz  
+pineapple juice 1 tblsp  
+
+yellow bird:
+white rum 3 cl 
+galliano 1.5 cl 
+triple sec 1.5 cl 
+lime juice 1.5 cl 
+
+yoghurt cooler:
+yoghurt 1 cup  
+fruit 1 cup  
+
+zorro:
+sambuca 2 cl  
+baileys irish cream 2 cl  
+white creme de menthe 2 cl  
+
+zinger:
+peachtree schnapps 4 shots  
+surge 4 shots  
+
+zoksel:
+coca-cola  slice
+ 
+
+zombie:
+rum 1 1/2 oz 
+gold rum 1 1/2 oz 
+151 proof rum 1 oz 
+pernod 1 tsp 
+grenadine 1 tsp 
+lime juice 1 tsp 
+angostura bitters 1 drop 
+
+zambeer:
+sambuca 1 1/2 oz  
+root beer Add 10 oz  
+ice cubes 
+
+zorbatini:
+vodka 1 1/4 oz Stoli  
+ouzo 1/4 oz  
+
+zenmeister:
+jägermeister 1/2 oz  
+root beer 1/2 oz  
+
+zipperhead:
+chambord raspberry liqueur 1 shot  
+vodka 1 shot  
+soda water Fill with  
+
+zima blaster:
+zima 12 oz  
+chambord raspberry liqueur 3 oz  
+
+zizi coin-coin:
+cointreau 5 cl  
+lemon juice 2 cl  
+ice cubes 
+lemon  or lime
+ 
+
+zippy's revenge:
+amaretto 2 oz  
+rum 2 oz  
+kool-aid 4 oz Grape  
+
+zimadori zinger:
+midori melon liqueur 1.5 oz  
+zima 12 oz  
+
+ziemes martini apfelsaft:
+vermouth 4 cl  
+apple juice 16 cl  
 

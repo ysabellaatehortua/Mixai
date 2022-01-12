@@ -1,0 +1,390 @@
+
+abilene:(Ordinary Drink, Alcoholic)
+dark rum 1 1/2 oz  
+peach nectar 2 oz  
+orange juice 3 oz  
+
+bloody mary:(Ordinary Drink, Alcoholic)
+vodka 1 1/2 oz  
+tomato juice 3 oz  
+lemon juice 1 dash  
+worcestershire sauce 1/2 tsp  
+tabasco sauce 2-3 drops  
+lime 1 wedge  
+
+cuba libra:(Ordinary Drink, Alcoholic)
+dark rum 1-2 shot  
+lime Squeeze  
+coca-cola Fill with  
+ice  
+
+cream soda:(Cocktail, Alcoholic)
+spiced rum 1 oz  
+ginger ale  
+
+
+caipirissima:(Ordinary Drink, Alcoholic)
+lime 2  
+sugar 2 tblsp  
+white rum 2-3 oz  
+ice crushed  
+
+daiquiri:(Ordinary Drink, Alcoholic)
+light rum 1 1/2 oz  
+lime Juice of 1/2  
+powdered sugar 1 tsp  
+
+dragonfly:(Ordinary Drink, Alcoholic)
+gin 1 1/2 oz  
+ginger ale 4 oz  
+lime 1  
+
+dark and stormy:(Ordinary Drink, Alcoholic)
+dark rum 5 cl 
+ginger beer 10 cl 
+
+espresso martini:(Cocktail, Alcoholic)
+vodka 5 cl 
+kahlua 1 cl 
+sugar syrup 1 dash 
+
+frozen mint daiquiri:(Ordinary Drink, Alcoholic)
+light rum 2 oz  
+lime juice 1 tblsp  
+mint 6  
+sugar 1 tsp  
+
+frozen pineapple daiquiri:(Ordinary Drink, Alcoholic)
+light rum 1 1/2 oz  
+pineapple 4 chunks  
+lime juice 1 tblsp  
+sugar 1/2 tsp  
+
+gimlet:(Cocktail, Alcoholic)
+gin 2 1/2 oz 
+lime juice 1/2 oz 
+sugar syrup 1/2 oz 
+lime 1 
+
+gin fizz:(Ordinary Drink, Alcoholic)
+gin 2 oz  
+lemon Juice of 1/2  
+powdered sugar 1 tsp  
+carbonated water  
+
+gin sling:(Ordinary Drink, Alcoholic)
+gin 2 oz  
+lemon Juice of 1/2  
+powdered sugar 1 tsp  
+water 1 tsp  
+orange peel Twist of  
+
+gin smash:(Ordinary Drink, Alcoholic)
+gin 2 oz  
+carbonated water 1 oz  
+sugar 1 cube  
+mint 4  
+orange 1 slice  
+cherry 1  
+
+gin toddy:(Ordinary Drink, Alcoholic)
+gin 2 oz  
+water 2 tsp  
+powdered sugar 1/2 tsp  
+lemon peel 1 twist of  
+
+greyhound:(Cocktail, Alcoholic)
+vodka 1 1/2 oz 
+grapefruit juice 3 oz 
+
+grass skirt:(Ordinary Drink, Alcoholic)
+gin 1 1/2 oz  
+triple sec 1 oz  
+pineapple juice 1 oz  
+grenadine 1/2 tsp  
+pineapple 1  
+
+honey bee:(Cocktail, Alcoholic)
+white rum 6 cl 
+honey 2 cl 
+lemon juice 2 cl 
+
+hot toddy:(Cocktail, Alcoholic)
+whiskey 50 ml 
+honey 15 ml 
+cinnamon 1 
+lemon 1 
+cloves 2 
+
+happy skipper:(Ordinary Drink, Alcoholic)
+spiced rum 1 1/2 cl  
+ginger ale  
+lime  
+ice  
+
+havana cocktail:(Ordinary Drink, Alcoholic)
+light rum 1 oz  
+pineapple juice 1 oz  
+lemon juice 1 tsp  
+
+hawaiian cocktail:(Ordinary Drink, Alcoholic)
+gin 2 oz  
+triple sec 1/2 oz  
+pineapple juice 1 tblsp  
+
+ipamena:(Ordinary Drink, Non alcoholic)
+lime ½ 
+brown sugar 2 tsp 
+passion fruit juice 4 cl 
+ginger ale top up with 
+ice fill 
+
+ice pick:(Ordinary Drink, Alcoholic)
+vodka 1 1/2 oz  
+iced tea 6 oz  
+lemon juice  to taste
+
+
+irish russian:(Beer, Alcoholic)
+vodka 1 shot  
+kahlua 1 shot  
+coca-cola 1 dash  
+guinness stout Fill with  
+
+jitterbug:(Cocktail, Alcoholic)
+gin 2 jiggers  
+vodka 1 jigger  
+grenadine 3 dashes  
+lime juice 1 shot  
+sugar Around rim put 1 pinch  
+sugar syrup 3 dashes  
+soda water Fill to top with  
+
+jello shots:(Shot, Alcoholic)
+vodka 2 cups  
+jello 3 packages  
+water 3 cups  
+
+kamikaze:(Ordinary Drink, Alcoholic)
+vodka 1 oz  
+triple sec 1 oz  
+lime juice 1 oz  
+
+kiwi martini:(Cocktail, Alcoholic)
+kiwi 1/2 
+sugar syrup 1 tsp 
+vodka 1 1/2 oz 
+kiwi Garnish with 
+
+kool-aid slammer:(Shot, Alcoholic)
+kool-aid 1/2 oz Grape  
+vodka 1/2 oz    
+
+long island tea:(Ordinary Drink, Alcoholic)
+vodka 1/2 oz  
+light rum 1/2 oz  
+gin 1/2 oz  
+tequila 1/2 oz  
+lemon Juice of 1/2  
+coca-cola 1 splash  
+
+mojito:(Cocktail, Alcoholic)
+light rum 2-3 oz  
+lime Juice of 1  
+sugar 2 tsp  
+mint 2-4  
+soda water  
+
+margarita:(Ordinary Drink, Alcoholic)
+tequila 1 1/2 oz  
+triple sec 1/2 oz  
+lime juice 1 oz  
+salt  
+
+mint julep:(Ordinary Drink, Alcoholic)
+mint 4 fresh  
+bourbon 2 1/2 oz  
+powdered sugar 1 tsp  
+water 2 tsp  
+
+moscow mule:(Punch / Party Drink, Alcoholic)
+vodka 2 oz  
+lime juice 2 oz  
+ginger ale 8 oz  
+
+munich mule:(Cocktail, Alcoholic)
+gin 5 cl 
+lime juice 2 cl 
+ginger beer 10 cl 
+cucumber Chopped 
+lemon Chopped 
+
+mango mojito:(Cocktail, Alcoholic)
+lime 3 
+mango 1 Fresh 
+mint Sprig 
+white rum 200 ml 
+ice cubes 
+soda water Top 
+mango Garnish with 
+
+monkey wrench:(Ordinary Drink, Alcoholic)
+light rum 1 1/2 oz  
+grapefruit juice 3 oz  
+bitters 1 dash  
+
+orange whip:(Other/Unknown, Alcoholic)
+orange juice 4 oz  
+rum 1 oz  
+vodka 1 oz  
+cream 1 package  
+ice Over  
+
+orange crush:(Shot, Alcoholic)
+vodka 1 oz  
+triple sec 1 oz  
+orange juice 1 oz  
+
+oreo mudslide:(Ordinary Drink, Alcoholic)
+vodka 1 oz  
+kahlua 1 oz  
+baileys irish cream 1 oz  
+vanilla ice-cream 2 scoops  
+oreo cookie 1  
+
+orange push-up:(Ordinary Drink, Alcoholic)
+spiced rum 1.5 oz  
+grenadine 0.5 oz  
+orange juice 4 oz  
+sour mix 1 splash  
+
+paloma:(Cocktail, Alcoholic)
+grape soda 3 oz 
+tequila 1 1/2 oz 
+
+pineapple paloma:(Cocktail, Alcoholic)
+tequila 4 oz 
+grapefruit juice 4 oz 
+fresh lime juice 1 oz 
+pineapple juice 8 oz 
+lime Garnish with 
+pepper Rimmed 
+
+pink panty pulldowns:(Ordinary Drink, Alcoholic)
+sprite 1 L  
+pink lemonade 2 cups  
+vodka 2 cups  
+
+passion fruit martini:(Cocktail, Alcoholic)
+vodka 1 shot 
+sugar syrup 1/2 shot 
+passion fruit juice Full Glass 
+
+quentin:(Ordinary Drink, Alcoholic)
+dark rum 1 1/2 oz  
+kahlua 1/2 oz  
+light cream 1 oz  
+nutmeg 1/8 tsp grated  
+
+rum toddy:(Ordinary Drink, Alcoholic)
+rum 2 oz light or dark  
+powdered sugar 2 tsp  
+lemon peel 1 twist of  
+water 2 tsp  
+
+rum screwdriver:(Ordinary Drink, Alcoholic)
+light rum 1 1/2 oz  
+orange juice 5 oz  
+
+sangria:(Punch / Party Drink, Alcoholic)
+red wine 1 bottle  
+sugar 1/2 cup  
+orange juice 1 cup  
+lemon juice 1 cup  
+cloves  
+cinnamon  
+
+salty dog:(Ordinary Drink, Alcoholic)
+grapefruit juice 5 oz  
+gin 1 1/2 oz  
+salt 1/4 tsp  
+
+sea breeze:(Ordinary Drink, Alcoholic)
+vodka 1 1/2 oz  
+cranberry juice 4 oz  
+grapefruit juice 1 oz  
+
+scotch sour:(Ordinary Drink, Alcoholic)
+scotch 1 1/2 oz  
+lime Juice of 1/2  
+powdered sugar 1/2 tsp  
+lemon 1/2 slice  
+cherry 1  
+
+screwdriver:(Ordinary Drink, Alcoholic)
+vodka 2 oz  
+orange juice  
+
+tequila sour:(Ordinary Drink, Alcoholic)
+tequila 2 oz  
+lemon Juice of 1/2  
+powdered sugar 1 tsp  
+lemon 1/2 slice  
+cherry 1  
+
+tequila sunrise:(Cocktail, Alcoholic)
+tequila 2 measures  
+orange juice  
+grenadine  
+
+tequila slammer:(Shot, Alcoholic)
+tequila 1 shot 
+7-up 1 part 
+
+vampiro:(Ordinary Drink, Alcoholic)
+tequila 6 cl 
+tomato juice 3 cl 
+orange juice 3 cl 
+lime juice 1.5 cl 
+sugar syrup 1 dash 
+salt 1 pinch 
+
+van vleet:(Ordinary Drink, Alcoholic)
+light rum 3 oz  
+maple syrup 1 oz  
+lemon juice 1 oz  
+
+vodka fizz:(Other/Unknown, Alcoholic)
+vodka 2 oz  
+half-and-half 2 oz  
+limeade 2 oz  
+ice  
+nutmeg  
+
+victory collins:(Ordinary Drink, Alcoholic)
+vodka 1 1/2 oz  
+lemon juice 3 oz  
+grape juice 3 oz unsweetened  
+powdered sugar 1 tsp  
+orange 1 slice  
+
+vodka and tonic:(Ordinary Drink, Alcoholic)
+vodka 2 oz  
+tonic water  
+
+white lady:(Ordinary Drink, Alcoholic)
+gin 4cl 
+triple sec 3cl 
+lemon juice 2cl 
+
+white russian:(Ordinary Drink, Alcoholic)
+vodka 2 oz  
+coffee liqueur 1 oz  
+light cream  
+
+winter paloma:(Cocktail, Alcoholic)
+tequila 2 shots 
+grapefruit juice Top 
+lime juice Juice of 1 
+agave syrup 1 tsp 
+pepper Dash 

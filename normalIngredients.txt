@@ -1,0 +1,148 @@
+dark rum  type: Rum  Alcohol?: Yes  ABV: 40
+light rum  type: Rum  Alcohol?: Yes  ABV: null
+vodka  type: Vodka  Alcohol?: Yes  ABV: 40
+orange juice  type: null  Alcohol?: null  ABV: null
+malibu rum  type: Rum  Alcohol?: Yes  ABV: 21
+cranberry juice  type: Juice  Alcohol?: null  ABV: null
+pineapple juice  type: null  Alcohol?: null  ABV: null
+tequila  type: Spirit  Alcohol?: Yes  ABV: 40
+milk  type: Drink  Alcohol?: null  ABV: null
+vanilla ice-cream  type: null  Alcohol?: null  ABV: null
+jack daniels  type: Whiskey  Alcohol?: Yes  ABV: null
+jim beam  type: Whiskey  Alcohol?: Yes  ABV: null
+gin  type: Gin  Alcohol?: Yes  ABV: 40
+triple sec  type: Liqueur  Alcohol?: Yes  ABV: null
+coca-cola  type: Soft Drink  Alcohol?: null  ABV: null
+bitters  type: null  Alcohol?: null  ABV: null
+lemon  type: Fruit  Alcohol?: null  ABV: null
+peach vodka  type: Vodka  Alcohol?: Yes  ABV: null
+7-up  type: Soft Drink  Alcohol?: null  ABV: null
+lemon juice  type: null  Alcohol?: null  ABV: null
+kahlua  type: Liqueur  Alcohol?: Yes  ABV: null
+baileys irish cream  type: Liqueur  Alcohol?: Yes  ABV: 13
+sprite  type: null  Alcohol?: null  ABV: null
+grenadine  type: Syrup  Alcohol?: null  ABV: null
+cognac  type: Brandy  Alcohol?: Yes  ABV: null
+heavy cream  type: Cream  Alcohol?: null  ABV: null
+egg white  type: null  Alcohol?: null  ABV: null
+absolut vodka  type: Vodka  Alcohol?: Yes  ABV: 40
+tonic water  type: Soft Drink  Alcohol?: null  ABV: null
+grapefruit juice  type: null  Alcohol?: null  ABV: null
+apple juice  type: null  Alcohol?: null  ABV: null
+peach nectar  type: null  Alcohol?: null  ABV: null
+lime juice  type: null  Alcohol?: null  ABV: null
+sugar  type: null  Alcohol?: null  ABV: null
+mint  type: Flower  Alcohol?: null  ABV: null
+scotch  type: Whisky  Alcohol?: Yes  ABV: null
+light cream  type: null  Alcohol?: null  ABV: null
+bourbon  type: Whiskey  Alcohol?: Yes  ABV: null
+lemon peel  type: null  Alcohol?: null  ABV: null
+coffee  type: Coffee  Alcohol?: null  ABV: null
+sugar syrup  type: null  Alcohol?: null  ABV: null
+passion fruit juice  type: null  Alcohol?: null  ABV: null
+rum  type: Rum  Alcohol?: Yes  ABV: 40
+hot chocolate  type: null  Alcohol?: null  ABV: null
+ice  type: null  Alcohol?: null  ABV: null
+lime  type: Fruit  Alcohol?: null  ABV: null
+sour mix  type: Soft Drink  Alcohol?: null  ABV: null
+everclear  type: null  Alcohol?: null  ABV: null
+mountain dew  type: null  Alcohol?: null  ABV: null
+surge  type: null  Alcohol?: null  ABV: null
+tomato juice  type: Soft Drink  Alcohol?: null  ABV: null
+worcestershire sauce  type: Sauce  Alcohol?: null  ABV: null
+tabasco sauce  type: null  Alcohol?: null  ABV: null
+powdered sugar  type: null  Alcohol?: null  ABV: null
+cherry  type: null  Alcohol?: null  ABV: null
+spiced rum  type: null  Alcohol?: null  ABV: null
+brandy  type: Spirit  Alcohol?: Yes  ABV: null
+water  type: Water  Alcohol?: null  ABV: null
+vanilla  type: null  Alcohol?: null  ABV: null
+white rum  type: Rum  Alcohol?: Yes  ABV: null
+egg yolk  type: null  Alcohol?: null  ABV: null
+vanilla extract  type: null  Alcohol?: null  ABV: null
+chocolate  type: null  Alcohol?: null  ABV: null
+cider  type: Cider  Alcohol?: Yes  ABV: 4
+ginger ale  type: Soft Drink  Alcohol?: null  ABV: null
+fruit punch  type: Juice  Alcohol?: null  ABV: null
+soda water  type: null  Alcohol?: null  ABV: null
+pineapple syrup  type: Fruit Juice  Alcohol?: No  ABV: null
+st. germain  type: Liquor  Alcohol?: Yes  ABV: null
+pepper  type: null  Alcohol?: null  ABV: null
+lavender  type: Flower  Alcohol?: No  ABV: null
+ginger beer  type: Soft Drink  Alcohol?: null  ABV: null
+whiskey  type: Whisky  Alcohol?: Yes  ABV: 40
+cinnamon  type: null  Alcohol?: null  ABV: null
+whipped cream  type: Cream  Alcohol?: null  ABV: null
+chocolate syrup  type: null  Alcohol?: null  ABV: null
+salt  type: Mineral  Alcohol?: null  ABV: null
+whipping cream  type: Cream  Alcohol?: null  ABV: null
+nutmeg  type: null  Alcohol?: null  ABV: null
+vanilla syrup  type: null  Alcohol?: null  ABV: null
+espresso  type: null  Alcohol?: null  ABV: null
+egg  type: null  Alcohol?: null  ABV: null
+condensed milk  type: null  Alcohol?: null  ABV: null
+mezcal  type: null  Alcohol?: null  ABV: null
+coffee liqueur  type: Liqueur  Alcohol?: Yes  ABV: null
+strawberries  type: Fruit  Alcohol?: null  ABV: null
+orange  type: Fruit  Alcohol?: null  ABV: null
+yoghurt  type: Cream  Alcohol?: null  ABV: null
+banana  type: null  Alcohol?: null  ABV: null
+fruit  type: Fruit  Alcohol?: null  ABV: null
+honey  type: null  Alcohol?: null  ABV: null
+thyme  type: Herb  Alcohol?: No  ABV: null
+apple  type: null  Alcohol?: null  ABV: null
+pomegranate juice  type: Fruit Juice  Alcohol?: No  ABV: null
+orange peel  type: null  Alcohol?: null  ABV: null
+fruit juice  type: Juice  Alcohol?: null  ABV: null
+dr. pepper  type: Soft Drink  Alcohol?: null  ABV: null
+pineapple  type: Fruit  Alcohol?: null  ABV: null
+carbonated water  type: null  Alcohol?: null  ABV: null
+red wine  type: Wine  Alcohol?: Yes  ABV: 14
+cloves  type: null  Alcohol?: null  ABV: null
+club soda  type: null  Alcohol?: null  ABV: null
+cream  type: null  Alcohol?: null  ABV: null
+whisky  type: Whisky  Alcohol?: Yes  ABV: 40
+tea  type: null  Alcohol?: null  ABV: null
+lemonade  type: Soft Drink  Alcohol?: null  ABV: null
+blackberries  type: null  Alcohol?: null  ABV: null
+carbonated soft drink  type: null  Alcohol?: null  ABV: null
+ginger  type: null  Alcohol?: null  ABV: null
+butter  type: null  Alcohol?: null  ABV: null
+half-and-half  type: Soft Drink  Alcohol?: null  ABV: null
+marshmallows  type: null  Alcohol?: null  ABV: null
+brown sugar  type: null  Alcohol?: null  ABV: null
+iced tea  type: null  Alcohol?: null  ABV: null
+guinness stout  type: Stout  Alcohol?: Yes  ABV: null
+jello  type: null  Alcohol?: null  ABV: null
+kiwi  type: null  Alcohol?: null  ABV: null
+kool-aid  type: null  Alcohol?: null  ABV: null
+papaya  type: null  Alcohol?: null  ABV: null
+cayenne pepper  type: null  Alcohol?: null  ABV: null
+mango  type: null  Alcohol?: null  ABV: null
+fresh lemon juice  type: Juice  Alcohol?: null  ABV: null
+hot sauce  type: null  Alcohol?: null  ABV: null
+soy sauce  type: null  Alcohol?: null  ABV: null
+pina colada mix  type: null  Alcohol?: null  ABV: null
+daiquiri mix  type: null  Alcohol?: null  ABV: null
+pepsi cola  type: null  Alcohol?: null  ABV: null
+cardamom  type: null  Alcohol?: null  ABV: null
+black pepper  type: null  Alcohol?: null  ABV: null
+cocoa powder  type: null  Alcohol?: null  ABV: null
+cucumber  type: null  Alcohol?: null  ABV: null
+lemon-lime soda  type: null  Alcohol?: null  ABV: null
+oreo cookie  type: null  Alcohol?: null  ABV: null
+bailey  type: Liqueur  Alcohol?: Yes  ABV: 13
+rosemary  type: Garnish  Alcohol?: null  ABV: null
+grape soda  type: null  Alcohol?: null  ABV: null
+fresh lime juice  type: Fruit  Alcohol?: null  ABV: null
+pink lemonade  type: null  Alcohol?: null  ABV: null
+lime peel  type: null  Alcohol?: null  ABV: null
+allspice  type: null  Alcohol?: No  ABV: null
+orange spiral  type: null  Alcohol?: null  ABV: null
+maple syrup  type: null  Alcohol?: null  ABV: null
+limeade  type: null  Alcohol?: null  ABV: null
+grape juice  type: null  Alcohol?: null  ABV: null
+agave syrup  type: Syrup  Alcohol?: No  ABV: null
+white wine  type: Wine  Alcohol?: Yes  ABV: null
+gold rum  type: Rum  Alcohol?: Yes  ABV: null
+root beer  type: Soft Drink  Alcohol?: null  ABV: null

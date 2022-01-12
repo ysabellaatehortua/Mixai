@@ -1,0 +1,909 @@
+155 belmont:(Cocktail, Alcoholic)
+dark rum 1 shot  
+light rum 2 shots  
+vodka 1 shot  
+orange juice 1 shot  
+
+410 gone:(Ordinary Drink, Alcoholic)
+peach vodka 2-3 oz 
+coca-cola  
+
+69 special:(Ordinary Drink, Alcoholic)
+gin 2 oz dry  
+7-up 4 oz  
+lemon juice 0.75 oz  
+
+ace:(Cocktail, Alcoholic)
+gin 2 shots  
+grenadine 1/2 shot  
+heavy cream 1/2 shot  
+milk 1/2 shot 
+egg white 1/2 Fresh 
+
+adam:(Ordinary Drink, Alcoholic)
+dark rum 2 oz  
+lemon juice 1 oz  
+grenadine 1 tsp  
+
+at&t:(Ordinary Drink, Alcoholic)
+absolut vodka 1 oz  
+gin 1 oz  
+tonic water 4 oz  
+
+abilene:(Ordinary Drink, Alcoholic)
+dark rum 1 1/2 oz  
+peach nectar 2 oz  
+orange juice 3 oz  
+
+almeria:(Ordinary Drink, Alcoholic)
+dark rum 2 oz  
+kahlua 1 oz  
+egg white 1  
+
+acapulco:(Ordinary Drink, Alcoholic)
+light rum 1 1/2 oz  
+triple sec 1 1/2 tsp  
+lime juice 1 tblsp  
+sugar 1 tsp  
+egg white 1  
+mint 1  
+
+afterglow:(Cocktail, Non alcoholic)
+grenadine 1 part  
+orange juice 4 parts  
+pineapple juice 4 parts  
+
+autodafé:(Ordinary Drink, Alcoholic)
+vodka 4 cl  
+lime juice 1 dash  
+soda water  
+
+boxcar:(Ordinary Drink, Alcoholic)
+gin 1 1/2 oz  
+triple sec 1 oz  
+lemon juice 1 tsp  
+grenadine 1/2 tsp  
+egg white 1  
+
+bora bora:(Cocktail, Non alcoholic)
+pineapple juice 10 cl  
+passion fruit juice 6 cl  
+lemon juice 1 cl  
+grenadine 1 cl  
+
+brain fart:(Punch / Party Drink, Alcoholic)
+everclear 1 fifth  
+vodka 1 fifth Smirnoff red label  
+mountain dew 2 L  
+surge 2 L  
+lemon juice 1 small bottle  
+rum 1 pint  
+
+bloody mary:(Ordinary Drink, Alcoholic)
+vodka 1 1/2 oz  
+tomato juice 3 oz  
+lemon juice 1 dash  
+worcestershire sauce 1/2 tsp  
+tabasco sauce 2-3 drops  
+lime 1 wedge  
+
+cuba libre:(Ordinary Drink, Alcoholic)
+light rum 2 oz  
+lime Juice of 1/2  
+coca-cola  
+
+cuba libra:(Ordinary Drink, Alcoholic)
+dark rum 1-2 shot  
+lime Squeeze  
+coca-cola Fill with  
+ice  
+
+cafe savoy:(Coffee / Tea, Alcoholic)
+coffee  
+milk 1/2 oz  
+triple sec 1/2 oz  
+brandy  
+
+cream soda:(Cocktail, Alcoholic)
+spiced rum 1 oz  
+ginger ale  
+
+clover club:(Ordinary Drink, Alcoholic)
+gin 1 1/2 oz  
+grenadine 2 tsp  
+lemon Juice of 1/2  
+egg white 1  
+
+city slicker:(Ordinary Drink, Alcoholic)
+brandy 2 oz  
+triple sec 1/2 oz  
+lemon juice 1 tblsp  
+
+caipirissima:(Ordinary Drink, Alcoholic)
+lime 2  
+sugar 2 tblsp  
+white rum 2-3 oz  
+ice crushed  
+
+coffee liqueur:(Homemade Liqueur, Alcoholic)
+coffee 10 tblsp instant  
+vanilla extract 4 tblsp  
+sugar 2 1/2 cups  
+vodka 1 qt  
+water 2 1/2 cups  
+
+coke and drops:(Soft Drink / Soda, Non alcoholic)
+coca-cola 1 dl  
+lemon juice 7 drops  
+
+chocolate drink:(Cocoa, Non alcoholic)
+chocolate 125 gr 
+milk 3/4 L  
+water  
+
+daiquiri:(Ordinary Drink, Alcoholic)
+light rum 1 1/2 oz  
+lime Juice of 1/2  
+powdered sugar 1 tsp  
+
+danbooka:(Coffee / Tea, Alcoholic)
+coffee 3 parts  
+everclear 1 part  
+
+dragonfly:(Ordinary Drink, Alcoholic)
+gin 1 1/2 oz  
+ginger ale 4 oz  
+lime 1  
+
+dark and stormy:(Ordinary Drink, Alcoholic)
+dark rum 5 cl 
+ginger beer 10 cl 
+
+drinking chocolate:(Cocoa, Non alcoholic)
+heavy cream 2 oz  
+milk 6-8 oz  
+cinnamon 1 stick  
+vanilla 1  
+chocolate 2 oz finely chopped dark  
+whipped cream Fresh  
+
+egg cream:(Other/Unknown, Non alcoholic)
+chocolate syrup 2 tblsp  
+milk 6 oz whole  
+soda water 6 oz  
+
+egg nog #4:(Punch / Party Drink, Optional alcohol)
+egg yolk 6  
+sugar 1/4 cup  
+milk 2 cups  
+light rum 1/2 cup  
+bourbon 1/2 cup  
+vanilla extract 1 tsp  
+salt 1/4 tsp  
+whipping cream 1 cup  
+egg white 6  
+sugar 1/4 cup  
+nutmeg Ground  
+
+espresso martini:(Cocktail, Alcoholic)
+vodka 5 cl 
+kahlua 1 cl 
+sugar syrup 1 dash 
+
+espresso rumtini:(Cocktail, Alcoholic)
+rum 1 shot 
+vanilla syrup 1/2 shot 
+espresso 1 shot 
+coffee 1 shot 
+
+egg nog - healthy:(Punch / Party Drink, Optional alcohol)
+egg 1/2 cup  
+sugar 3 tblsp  
+condensed milk 13 oz skimmed  
+milk 3/4 cup skimmed  
+vanilla extract 1 tsp  
+rum 1 tsp  
+nutmeg 
+ 
+
+egg-nog - classic cooked:(Punch / Party Drink, Optional alcohol)
+egg 6  
+sugar 1/4 cup  
+salt 1/4 tsp  
+milk 1 qt  
+vanilla extract 1 tsp  
+
+frappé:(Coffee / Tea, Non alcoholic)
+coffee 1/2 cup black  
+milk 1/2 cup  
+sugar 1-2 tsp  
+
+fruit shake:(Other/Unknown, Non alcoholic)
+yoghurt 1 cup fruit  
+banana 1  
+orange juice 4 oz frozen  
+fruit 1/2 piece textural  
+ice 6  
+
+fruit cooler:(Other/Unknown, Non alcoholic)
+apple juice 1 can frozen  
+strawberries 1 cup  
+sugar 2 tblsp  
+lemon 1  
+apple 1  
+soda water 1 L  
+ice  
+
+flying dutchman:(Ordinary Drink, Alcoholic)
+gin 2 oz  
+triple sec 1/2 oz  
+
+frozen daiquiri:(Ordinary Drink, Alcoholic)
+light rum 1 1/2 oz  
+triple sec 1 tblsp  
+lime juice 1 1/2 oz  
+sugar 1 tsp  
+cherry 1  
+ice 1 cup crushed  
+
+fruit flip-flop:(Other/Unknown, Non alcoholic)
+yoghurt 1 cup  
+fruit juice 1 cup  
+
+frozen mint daiquiri:(Ordinary Drink, Alcoholic)
+light rum 2 oz  
+lime juice 1 tblsp  
+mint 6  
+sugar 1 tsp  
+
+frozen pineapple daiquiri:(Ordinary Drink, Alcoholic)
+light rum 1 1/2 oz  
+pineapple 4 chunks  
+lime juice 1 tblsp  
+sugar 1/2 tsp  
+
+gimlet:(Cocktail, Alcoholic)
+gin 2 1/2 oz 
+lime juice 1/2 oz 
+sugar syrup 1/2 oz 
+lime 1 
+
+gin fizz:(Ordinary Drink, Alcoholic)
+gin 2 oz  
+lemon Juice of 1/2  
+powdered sugar 1 tsp  
+carbonated water  
+
+gin sling:(Ordinary Drink, Alcoholic)
+gin 2 oz  
+lemon Juice of 1/2  
+powdered sugar 1 tsp  
+water 1 tsp  
+orange peel Twist of  
+
+gin smash:(Ordinary Drink, Alcoholic)
+gin 2 oz  
+carbonated water 1 oz  
+sugar 1 cube  
+mint 4  
+orange 1 slice  
+cherry 1  
+
+gin toddy:(Ordinary Drink, Alcoholic)
+gin 2 oz  
+water 2 tsp  
+powdered sugar 1/2 tsp  
+lemon peel 1 twist of  
+
+gluehwein:(Punch / Party Drink, Optional alcohol)
+red wine 1 L  
+water 125 ml  
+sugar 60 gr  
+cinnamon 1  
+cloves 3  
+lemon peel 1 tblsp  
+
+greyhound:(Cocktail, Alcoholic)
+vodka 1 1/2 oz 
+grapefruit juice 3 oz 
+
+gin cooler:(Ordinary Drink, Alcoholic)
+gin 2 oz  
+carbonated water  
+powdered sugar  
+orange spiral  
+lemon peel  
+
+gin squirt:(Ordinary Drink, Alcoholic)
+gin 1 1/2 oz  
+grenadine 1 tsp  
+powdered sugar 1 tblsp  
+pineapple 3 chunks 
+strawberries 2  
+carbonated water  
+
+gin rickey:(Cocktail, Alcoholic)
+gin 2 oz  
+grenadine 1 tsp  
+lemon Juice of 1/2  
+soda water Top up with 
+lime Garnish 
+
+gin swizzle:(Ordinary Drink, Alcoholic)
+lime juice 1 1/2 oz  
+sugar 1 tsp superfine  
+gin 2 oz  
+bitters 1 dash  
+club soda 3 oz  
+
+grass skirt:(Ordinary Drink, Alcoholic)
+gin 1 1/2 oz  
+triple sec 1 oz  
+pineapple juice 1 oz  
+grenadine 1/2 tsp  
+pineapple 1  
+
+h.d.:(Coffee / Tea, Alcoholic)
+whisky 4 cl  
+baileys irish cream 8 cl  
+coffee  
+
+honey bee:(Cocktail, Alcoholic)
+white rum 6 cl 
+honey 2 cl 
+lemon juice 2 cl 
+
+hot toddy:(Cocktail, Alcoholic)
+whiskey 50 ml 
+honey 15 ml 
+cinnamon 1 
+lemon 1 
+cloves 2 
+
+horse's neck:(Ordinary Drink, Alcoholic)
+lemon peel 1 long strip  
+brandy 2 oz  
+ginger ale 5 oz  
+bitters 2 dashes  
+
+happy skipper:(Ordinary Drink, Alcoholic)
+spiced rum 1 1/2 cl  
+ginger ale  
+lime  
+ice  
+
+havana cocktail:(Ordinary Drink, Alcoholic)
+light rum 1 oz  
+pineapple juice 1 oz  
+lemon juice 1 tsp  
+
+hawaiian cocktail:(Ordinary Drink, Alcoholic)
+gin 2 oz  
+triple sec 1/2 oz  
+pineapple juice 1 tblsp  
+
+hot chocolate to die for:(Cocoa, Non alcoholic)
+chocolate 12 oz fine  
+butter 1 tsp  
+vanilla extract 1/2 tsp  
+half-and-half 1 cup  
+marshmallows mini  
+
+ipamena:(Ordinary Drink, Non alcoholic)
+lime ½ 
+brown sugar 2 tsp 
+passion fruit juice 4 cl 
+ginger ale top up with 
+ice fill 
+
+ice pick:(Ordinary Drink, Alcoholic)
+vodka 1 1/2 oz  
+iced tea 6 oz  
+lemon juice  to taste
+ 
+
+iced coffee:(Coffee / Tea, Non alcoholic)
+coffee 1/4 cup instant  
+sugar 1/4 cup  
+water 1/4 cup hot  
+milk 4 cups cold  
+
+irish russian:(Beer, Alcoholic)
+vodka 1 shot  
+kahlua 1 shot  
+coca-cola 1 dash  
+guinness stout Fill with  
+
+iced coffee fillip:(Coffee / Tea, Alcoholic)
+kahlua 2 tsp  
+coffee Strong cold  
+
+irish curdling cow:(Cocktail, Alcoholic)
+baileys irish cream 3/4 oz  
+bourbon 3/4 oz  
+vodka 3/4 oz  
+orange juice 2-3 oz  
+
+jitterbug:(Cocktail, Alcoholic)
+gin 2 jiggers  
+vodka 1 jigger  
+grenadine 3 dashes  
+lime juice 1 shot  
+sugar Around rim put 1 pinch  
+sugar syrup 3 dashes  
+soda water Fill to top with  
+
+jello shots:(Shot, Alcoholic)
+vodka 2 cups  
+jello 3 packages  
+water 3 cups  
+
+jamaica kiss:(Milk / Float / Shake, Alcoholic)
+coffee liqueur 1 shot  
+light rum 1 shot Jamaican  
+ice cubes 
+milk  
+
+jamaican coffee:(Coffee / Tea, Alcoholic)
+rum 1/6 glass  
+coffee 1/6 glass strong black  
+water 1/2 glass cold  
+whipped cream  
+
+kamikaze:(Ordinary Drink, Alcoholic)
+vodka 1 oz  
+triple sec 1 oz  
+lime juice 1 oz  
+
+kioki coffee:(Coffee / Tea, Alcoholic)
+kahlua 1 oz  
+brandy 1/2 oz  
+coffee  
+
+kiwi martini:(Cocktail, Alcoholic)
+kiwi 1/2 
+sugar syrup 1 tsp 
+vodka 1 1/2 oz 
+kiwi Garnish with 
+
+kool-aid slammer:(Shot, Alcoholic)
+kool-aid 1/2 oz Grape  
+vodka 1/2 oz  
+
+kiwi papaya smoothie:(Other/Unknown, Non alcoholic)
+kiwi 3  
+papaya 1/2  
+
+kill the cold smoothie:(Other/Unknown, Non alcoholic)
+ginger 1 inch  
+lemon 1/4  
+water 1 cup hot  
+
+limeade:(Other/Unknown, Non alcoholic)
+lime Juice of 1  
+sugar 1 tblsp  
+soda water  (seltzer water)
+ 
+lime peel  
+
+lassi raita:(Other/Unknown, Non alcoholic)
+yoghurt 2 cups  
+ice 4-6  
+sugar  
+lime  
+salt  
+
+lemouroudji:(Other/Unknown, Non alcoholic)
+ginger 2 pieces  
+water 1 gal  
+lemon 1 lb  
+sugar 1 cup  
+cayenne pepper ground  
+
+lassi - sweet:(Other/Unknown, Non alcoholic)
+yoghurt 1 cup  
+water 2 cups cold  
+sugar 4 tblsp  
+salt pinch  
+lemon juice 2 tblsp  
+
+lassi - mango:(Other/Unknown, Non alcoholic)
+mango 2  
+yoghurt 2 cups  
+sugar 1/2 cup  
+water 1 cup iced  
+
+lady love fizz:(Ordinary Drink, Alcoholic)
+gin 2 oz  
+light cream 2 tsp  
+powdered sugar 1 tsp  
+lemon Juice of 1/2 
+egg white 1  
+carbonated water  
+
+long island tea:(Ordinary Drink, Alcoholic)
+vodka 1/2 oz  
+light rum 1/2 oz  
+gin 1/2 oz  
+tequila 1/2 oz  
+lemon Juice of 1/2  
+coca-cola 1 splash  
+
+long island iced tea:(Ordinary Drink, Alcoholic)
+vodka 1/2 oz  
+tequila 1/2 oz  
+light rum 1/2 oz  
+gin 1/2 oz  
+coca-cola 1 dash  
+lemon peel Twist of  
+
+melya:(Coffee / Tea, Non alcoholic)
+espresso  
+honey Unsweetened  
+cocoa powder  
+
+mojito:(Cocktail, Alcoholic)
+light rum 2-3 oz  
+lime Juice of 1  
+sugar 2 tsp  
+mint 2-4  
+soda water  
+
+margarita:(Ordinary Drink, Alcoholic)
+tequila 1 1/2 oz  
+triple sec 1/2 oz  
+lime juice 1 oz  
+salt  
+
+mint julep:(Ordinary Drink, Alcoholic)
+mint 4 fresh  
+bourbon 2 1/2 oz  
+powdered sugar 1 tsp  
+water 2 tsp  
+
+masala chai:(Coffee / Tea, Non alcoholic)
+water 2 cups  
+tea 3-4 tsp  
+ginger 1 chunk dried  
+cardamom 3-4 crushed  
+cloves 3  
+cinnamon 1 piece  
+black pepper 1-2 whole  
+sugar  to taste
+ 
+milk  
+
+mulled wine:(Punch / Party Drink, Alcoholic)
+water 3 cups  
+sugar 1 cup  
+cloves 12  
+cinnamon 2  
+lemon peel 1  
+red wine 750 ml  
+brandy 1/4 cup  
+
+moscow mule:(Punch / Party Drink, Alcoholic)
+vodka 2 oz  
+lime juice 2 oz  
+ginger ale 8 oz  
+
+munich mule:(Cocktail, Alcoholic)
+gin 5 cl 
+lime juice 2 cl 
+ginger beer 10 cl 
+cucumber Chopped 
+lemon Chopped 
+
+mango mojito:(Cocktail, Alcoholic)
+lime 3 
+mango 1 Fresh 
+mint Sprig 
+white rum 200 ml 
+ice cubes 
+soda water Top 
+mango Garnish with 
+
+monkey wrench:(Ordinary Drink, Alcoholic)
+light rum 1 1/2 oz  
+grapefruit juice 3 oz  
+bitters 1 dash  
+
+nuked hot chocolate:(Cocoa, Non alcoholic)
+cocoa powder 2 tsp  
+sugar 1 tsp  
+vanilla extract 1/2 tsp  
+milk 12 oz  
+
+orangeade:(Cocktail, Non alcoholic)
+lemon juice 5 cl  
+orange juice 15 cl  
+sugar syrup 2-3 cl  
+soda water  
+
+orange whip:(Other/Unknown, Alcoholic)
+orange juice 4 oz  
+rum 1 oz  
+vodka 1 oz  
+cream 1 package  
+ice Over  
+
+orange crush:(Shot, Alcoholic)
+vodka 1 oz  
+triple sec 1 oz  
+orange juice 1 oz  
+
+oreo mudslide:(Ordinary Drink, Alcoholic)
+vodka 1 oz  
+kahlua 1 oz  
+baileys irish cream 1 oz  
+vanilla ice-cream 2 scoops  
+oreo cookie 1  
+
+orange push-up:(Ordinary Drink, Alcoholic)
+spiced rum 1.5 oz  
+grenadine 0.5 oz  
+orange juice 4 oz  
+sour mix 1 splash  
+
+orange scented hot chocolate:(Cocoa, Non alcoholic)
+milk 2 cups  
+chocolate 4 oz chopped bittersweet or semi-sweet  
+orange peel 3 2-inch strips  
+espresso 1/2 tsp instant  
+nutmeg 1/8 tsp ground  
+
+paloma:(Cocktail, Alcoholic)
+grape soda 3 oz 
+tequila 1 1/2 oz 
+
+pink gin:(Ordinary Drink, Alcoholic)
+bitters 3 dashes  
+gin 2 oz  
+
+pink lady:(Ordinary Drink, Alcoholic)
+gin 1 1/2 oz  
+grenadine 1 tsp  
+light cream 1 tsp  
+egg white 1  
+
+pineapple paloma:(Cocktail, Alcoholic)
+tequila 4 oz 
+grapefruit juice 4 oz 
+fresh lime juice 1 oz 
+pineapple juice 8 oz 
+lime Garnish with 
+pepper Rimmed 
+
+pysch vitamin light:(Ordinary Drink, Non alcoholic)
+orange juice 1 part  
+apple juice 1 part  
+pineapple juice 1 part  
+ice  
+
+pink panty pulldowns:(Ordinary Drink, Alcoholic)
+sprite 1 L  
+pink lemonade 2 cups  
+vodka 2 cups  
+
+passion fruit martini:(Cocktail, Alcoholic)
+vodka 1 shot 
+sugar syrup 1/2 shot 
+passion fruit juice Full Glass 
+
+pineapple gingerale smoothie:(Other/Unknown, Non alcoholic)
+ginger 1/4 inch  
+pineapple 1/2  
+
+quentin:(Ordinary Drink, Alcoholic)
+dark rum 1 1/2 oz  
+kahlua 1/2 oz  
+light cream 1 oz  
+nutmeg 1/8 tsp grated  
+
+queen charlotte:(Ordinary Drink, Alcoholic)
+red wine 2 oz  
+grenadine 1 oz  
+lemon-lime soda  
+
+rum toddy:(Ordinary Drink, Alcoholic)
+rum 2 oz light or dark  
+powdered sugar 2 tsp  
+lemon peel 1 twist of  
+water 2 tsp  
+
+rum punch:(Punch / Party Drink, Alcoholic)
+rum mikey bottle  
+ginger ale large bottle  
+fruit punch 355 ml frozen  
+orange juice 355 ml frozen  
+ice crushed  
+
+rum cooler:(Ordinary Drink, Alcoholic)
+rum 2 oz light or dark  
+lemon-lime soda 4 oz  
+lemon 1  
+
+ruby tuesday:(Cocktail, Alcoholic)
+gin 2 oz  
+cranberry juice 5 oz  
+grenadine 2 splashes  
+
+rail splitter:(Cocktail, Non alcoholic)
+sugar syrup 2 tsp  
+lemon juice  
+ginger ale  
+
+royal gin fizz:(Ordinary Drink, Alcoholic)
+gin 2 oz  
+lemon Juice of 1/2  
+powdered sugar 1 tsp  
+egg 1 whole  
+carbonated water  
+
+rum milk punch:(Ordinary Drink, Alcoholic)
+light rum 2 oz  
+milk 1 cup  
+powdered sugar 1 tsp  
+nutmeg  
+
+rum screwdriver:(Ordinary Drink, Alcoholic)
+light rum 1 1/2 oz  
+orange juice 5 oz  
+
+sangria:(Punch / Party Drink, Alcoholic)
+red wine 1 bottle  
+sugar 1/2 cup  
+orange juice 1 cup  
+lemon juice 1 cup  
+cloves  
+cinnamon  
+
+salty dog:(Ordinary Drink, Alcoholic)
+grapefruit juice 5 oz  
+gin 1 1/2 oz  
+salt 1/4 tsp  
+
+sea breeze:(Ordinary Drink, Alcoholic)
+vodka 1 1/2 oz  
+cranberry juice 4 oz  
+grapefruit juice 1 oz  
+
+scotch sour:(Ordinary Drink, Alcoholic)
+scotch 1 1/2 oz  
+lime Juice of 1/2  
+powdered sugar 1/2 tsp  
+lemon 1/2 slice  
+cherry 1  
+
+screwdriver:(Ordinary Drink, Alcoholic)
+vodka 2 oz  
+orange juice  
+
+shark attack:(Cocktail, Alcoholic)
+lemonade 1 can  
+water 3 cans  
+vodka 1 1/2 cup  
+
+sweet bananas:(Milk / Float / Shake, Non alcoholic)
+milk 2 cups  
+banana 1  
+honey 1 tblsp  
+
+tia-maria:(Homemade Liqueur, Alcoholic)
+water 1 cup  
+brown sugar 3/4-1 cup  
+coffee 4 tsp  
+rum 1 cup  
+vanilla extract 4 tsp  
+
+tequila fizz:(Ordinary Drink, Alcoholic)
+tequila 2 oz  
+lemon juice 1 tblsp  
+grenadine 3/4 oz  
+egg white 1  
+ginger ale  
+
+tequila sour:(Ordinary Drink, Alcoholic)
+tequila 2 oz  
+lemon Juice of 1/2  
+powdered sugar 1 tsp  
+lemon 1/2 slice  
+cherry 1  
+
+thai iced tea:(Coffee / Tea, Non alcoholic)
+tea 1/4 cup Thai  
+water 1/2 cup boiling  
+condensed milk 2 tsp sweetened  
+ice cubes 
+mint garnish 
+
+tequila sunrise:(Cocktail, Alcoholic)
+tequila 2 measures  
+orange juice  
+grenadine  
+
+tequila slammer:(Shot, Alcoholic)
+tequila 1 shot 
+7-up 1 part 
+
+thai iced coffee:(Coffee / Tea, Non alcoholic)
+coffee black 
+sugar  
+cream  pods
+ 
+cardamom  
+
+tequila surprise:(Shot, Alcoholic)
+tequila full glass  
+tabasco sauce About 8 drops  
+
+vampiro:(Ordinary Drink, Alcoholic)
+tequila 6 cl 
+tomato juice 3 cl 
+orange juice 3 cl 
+lime juice 1.5 cl 
+sugar syrup 1 dash 
+salt 1 pinch 
+
+van vleet:(Ordinary Drink, Alcoholic)
+light rum 3 oz  
+maple syrup 1 oz  
+lemon juice 1 oz  
+
+vodka fizz:(Other/Unknown, Alcoholic)
+vodka 2 oz  
+half-and-half 2 oz  
+limeade 2 oz  
+ice  
+nutmeg  
+
+victory collins:(Ordinary Drink, Alcoholic)
+vodka 1 1/2 oz  
+lemon juice 3 oz  
+grape juice 3 oz unsweetened  
+powdered sugar 1 tsp  
+orange 1 slice  
+
+vodka and tonic:(Ordinary Drink, Alcoholic)
+vodka 2 oz  
+tonic water  
+
+wine punch:(Punch / Party Drink, Alcoholic)
+red wine 1 bottle  
+lemon 2  
+orange juice 1 cup  
+orange 3  
+pineapple juice 1 cup  
+
+white lady:(Ordinary Drink, Alcoholic)
+gin 4cl 
+triple sec 3cl 
+lemon juice 2cl 
+
+wine cooler:(Punch / Party Drink, Optional alcohol)
+red wine 2 oz white or  
+lemon-lime soda 5 oz  
+ice cubes 
+
+white russian:(Ordinary Drink, Alcoholic)
+vodka 2 oz  
+coffee liqueur 1 oz  
+light cream  
+
+winter paloma:(Cocktail, Alcoholic)
+tequila 2 shots 
+grapefruit juice Top 
+lime juice Juice of 1 
+agave syrup 1 tsp 
+pepper Dash 
+
+waikiki beachcomber:(Ordinary Drink, Alcoholic)
+triple sec 3/4 oz  
+gin 3/4 oz  
+pineapple juice 1 tblsp  
+
+yoghurt cooler:(Other/Unknown, Non alcoholic)
+yoghurt 1 cup  
+fruit 1 cup  
+ice  
+
