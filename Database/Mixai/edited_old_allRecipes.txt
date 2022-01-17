@@ -1,0 +1,384 @@
+155 belmont
+dark rum 1.5 oz 1 shot 
+light rum 3.0 oz 2 shots 
+vodka 1.5 oz 1 shot 
+orange juice 1.5 oz 1 shot 
+
+
+410 gone
+peach vodka 2.5 oz 2-3 oz 
+coca cola 7.5 oz 7.5 oz
+
+
+a1
+gin 2.625 oz 1 3/4 shot 
+lemon juice 0.375 oz 1/4 shot 
+grenadine 0.1875 oz 1/8 shot 
+
+
+adam
+dark rum 2.0 oz 2 oz 
+lemon juice 1.0 oz 1 oz 
+grenadine 0.16666666666666666 oz 1 tsp 
+
+
+at&t
+absolut vodka 1.0 oz 1 oz 
+gin 1.0 oz 1 oz 
+tonic water 4.0 oz 4 oz 
+
+
+abilene
+dark rum 1.5 oz 1 1/2 oz 
+peach nectar 2.0 oz 2 oz 
+orange juice 3.0 oz 3 oz 
+
+
+addison
+gin 2.25 oz 1 1/2 shot 
+vermouth 2.25 oz 1 1/2 shot 
+
+
+aviation
+gin 1.5218126479540075 oz 4.5 cl 
+lemon juice 0.5072708826513358 oz 1.5 cl 
+maraschino cherry 0.5072708826513358 oz 1.5 cl 
+
+
+algonquin
+blended whiskey 1.5 oz 1 1/2 oz 
+dry vermouth 1.0 oz 1 oz 
+pineapple juice 1.0 oz 1 oz 
+
+
+bellini
+champagne 6.0 oz 6 oz 
+peach schnapps 1.0 oz 1 oz 
+
+
+bora bora
+pineapple juice 3.381805884342239 oz 10 cl 
+passion fruit juice 2.029083530605343 oz 6 cl 
+lemon juice 0.3381805884342239 oz 1 cl 
+grenadine 0.3381805884342239 oz 1 cl 
+
+
+brigadier
+hot chocolate 4.0 oz 4 oz 
+tequila 2.0 oz 2 oz
+lime juice 0.5 oz 0.5 oz
+
+
+applejack
+hot chocolate 4.0 oz 4 oz
+spiced rum 2.0 oz 2 oz
+
+
+blue lagoon
+vodka 1.0 oz 1 oz 
+blue curacao 1.0 oz 1 oz 
+
+
+papas cream soda
+spiced rum 1.0 oz 1 oz 
+cream soda 3 oz 3 oz
+
+
+casa blanca
+light rum 2.0 oz 2 oz 
+triple sec 0.25 oz 1 1/2 tsp 
+lime juice 0.25 oz 1 1/2 tsp 
+maraschino cherry 0.25 oz 1 1/2 tsp 
+
+
+cosmopolitan
+absolut citron 1.25 oz 1 1/4 oz 
+lime juice 0.25 oz 1/4 oz 
+cointreau 0.25 oz 1/4 oz 
+cranberry juice 2.0 oz 1/4 cup 
+
+
+dark and stormy
+dark rum 1.6909029421711195 oz 5 cl 
+ginger beer 3.381805884342239 oz 10 cl 
+
+
+espresso rumtini
+rum 1.5 oz 1 shot 
+vanilla syrup 0.75 oz 1/2 shot 
+espresso 1.5 oz 1 shot 
+coffee 1.5 oz 1 shot 
+
+
+empellón cocina's fat-washed mezcal
+mezcal 2.0 oz 2 oz 
+chocolate liqueur 0.75 oz 3/4 oz 
+coffee liqueur 0.5 oz 1/2 oz 
+
+
+frosé
+rose 25.360113613308986 oz 750 ml 
+sugar 4.0 oz 1/2 cup 
+strawberries 8.0 oz 8 oz 
+lemon juice 2.5 oz 2-3 oz 
+
+
+french martini
+vodka 1.5218126479540075 oz 4.5 cl 
+raspberry liqueur 0.5072708826513358 oz 1.5 cl 
+pineapple juice 0.5072708826513358 oz 1.5 cl 
+
+
+flying dutchman
+gin 2.0 oz 2 oz 
+triple sec 0.5 oz 1/2 oz 
+
+
+french connection
+cognac 1.5 oz 1 1/2 oz 
+amaretto 0.75 oz 3/4 oz 
+
+
+flaming lamborghini
+kahlua 1.0 oz 1 oz 
+sambuca 1.0 oz 1 oz 
+blue curacao 1.0 oz 1 oz 
+baileys irish cream 1.0 oz 1 oz 
+
+
+godchild
+vodka 1.0 oz 1 oz 
+amaretto 1.0 oz 1 oz 
+heavy cream 1.0 oz 1 oz 
+
+
+godfather
+scotch 1.5 oz 1 1/2 oz 
+amaretto 0.75 oz 3/4 oz 
+
+
+godmother
+vodka 1.5 oz 1 1/2 oz 
+amaretto 0.75 oz 3/4 oz 
+
+
+greyhound
+vodka 1.5 oz 1 1/2 oz 
+grapefruit juice 3.0 oz 3 oz 
+
+
+grand blue
+malibu rum 0.5072708826513358 oz 1 1/2 cl 
+peach schnapps 0.5072708826513358 oz 1 1/2 cl 
+blue curacao 0.5072708826513358 oz 1 1/2 cl 
+sweet and sour 1.0145417653026716 oz 3 cl 
+
+
+honey bee
+white rum 2.029083530605343 oz 6 cl 
+honey 0.6763611768684478 oz 2 cl 
+lemon juice 0.6763611768684478 oz 2 cl 
+
+
+havana cocktail
+light rum 1.0 oz 1 oz 
+pineapple juice 1.0 oz 1 oz 
+lemon juice 0.16666666666666666 oz 1 tsp  
+
+
+hawaiian cocktail
+gin 2.0 oz 2 oz 
+triple sec 0.5 oz 1/2 oz 
+pineapple juice 0.5 oz 1 tblsp 
+
+
+irish curdling cow
+baileys irish cream 0.75 oz 3/4 oz 
+bourbon 0.75 oz 3/4 oz 
+vodka 0.75 oz 3/4 oz 
+orange juice 2.5 oz 2-3 oz 
+
+
+jackhammer
+jack daniels 1.0 oz 1 oz 
+amaretto 1.0 oz 1 oz 
+
+
+kamikaze
+vodka 1.0 oz 1 oz 
+triple sec 1.0 oz 1 oz 
+lime juice 1.0 oz 1 oz 
+
+
+margarita
+tequila 1.5 oz 1 1/2 oz 
+triple sec 0.5 oz 1/2 oz 
+lime juice 1.0 oz 1 oz 
+
+
+moscow mule
+vodka 2.0 oz 2 oz 
+lime juice 2.0 oz 2 oz 
+ginger ale 8.0 oz 8 oz 
+
+
+monkey gland
+gin 2.0 oz 2 oz 
+tonic water 0.16666666666666666 oz 1 tsp 
+orange juice 0.5 oz 1/2 oz 
+grenadine 0.16666666666666666 oz 1 tsp 
+
+
+negroni
+gin 1.0 oz 1 oz 
+campari 1.0 oz 1 oz 
+sweet vermouth 1.0 oz 1 oz 
+
+
+old pal
+rye whiskey 2.0 oz 2 oz 
+campari 1.0 oz 1 oz 
+dry vermouth 1.0 oz 1 oz 
+
+
+orangeade
+lemon juice 1.6909029421711195 oz 5 cl 
+orange juice 5.072708826513359 oz 15 cl 
+sugar syrup 0.8454514710855597 oz 2-3 cl 
+
+
+paloma
+grapefruit juice 3.0 oz 3 oz 
+tequila 1.5 oz 1 1/2 oz 
+
+
+penicillin
+blended scotch 2.0 oz 2 oz 
+lemon juice 0.75 oz 3/4 oz 
+honey syrup 0.3333333333333333 oz 2 tsp 
+ginger syrup 0.3333333333333333 oz 2 tsp 
+islay single malt scotch 0.25 oz 1/4 oz 
+
+
+pina colada
+light rum 3.0 oz 3 oz 
+coconut milk 1.5 oz 3 tblsp 
+pineapple 1.5 oz 3 tblsp 
+
+
+pink penocha
+vodka 59.1735984310543 oz 1750 ml 
+peach schnapps 59.1735984310543 oz 1750 ml 
+orange juice 128.0 oz 1 gal 
+cranberry juice 128.0 oz 1 gal 
+
+
+popped cherry
+vodka 2.0 oz 2 oz 
+cherry liqueur 2.0 oz 2 oz 
+cranberry juice 4.0 oz 4 oz 
+orange juice 4.0 oz 4 oz 
+
+
+pornstar martini
+vodka 1.0145417653026716 oz 3 cl 
+passoa 1.0145417653026716 oz 3 cl 
+passion fruit juice 0.3381805884342239 oz 1 cl 
+lime 0.3381805884342239 oz 1 cl 
+prosecco 1.5 oz 1 shot 
+
+
+queen charlotte
+red wine 2.0 oz 2 oz 
+grenadine 1.0 oz 1 oz 
+
+
+radler
+beer 12.0 oz 12 oz 
+7-up 12.0 oz 12 oz 
+
+
+rum runner
+malibu rum 1.5 oz 1 1/2 oz 
+orange juice 3.5 oz 3-4 oz 
+pineapple juice 3.5 oz 3-4 oz 
+cranberry juice 3.5 oz 3-4 oz 
+
+
+rum milk punch
+light rum 2.0 oz 2 oz 
+milk 8.0 oz 1 cup 
+powdered sugar 0.16666666666666666 oz 1 tsp 
+
+
+rum screwdriver
+light rum 1.5 oz 1 1/2 oz 
+orange juice 5.0 oz 5 oz 
+
+
+radioactive long island iced tea
+rum 1.0 oz 1 oz 
+vodka 1.0 oz 1 oz 
+tequila 1.0 oz 1 oz 
+gin 1.0 oz 1 oz 
+triple sec 1.0 oz 1 oz 
+raspberry liqueur 1.0 oz 1 oz 
+midori melon liqueur 1.0 oz 1 oz 
+malibu rum 1.0 oz 1 oz 
+
+
+sidecar
+cognac 2.0 oz 2 oz 
+cointreau 0.5 oz 1/2 oz 
+lemon juice 1.0 oz 1 oz 
+
+
+salty dog
+grapefruit juice 5.0 oz 5 oz 
+gin 1.5 oz 1 1/2 oz 
+salt 0.041666666666666664 oz 1/4 tsp  
+
+
+sea breeze
+vodka 1.5 oz 1 1/2 oz 
+cranberry juice 4.0 oz 4 oz 
+grapefruit juice 1.0 oz 1 oz 
+
+
+screwdriver
+vodka 2.0 oz 2 oz 
+orange juice 4.0 oz 4 oz 
+
+
+the jimmy conway
+whiskey 1.6906742408872657 oz 50 ml 
+amaretto 1.6906742408872657 oz 50 ml 
+cranberry juice 4.0 oz 4 oz 
+
+
+van vleet
+light rum 3.0 oz 3 oz 
+maple syrup 1.0 oz 1 oz 
+lemon juice 1.0 oz 1 oz 
+
+
+vodka and tonic
+vodka 2.0 oz 2 oz 
+tonic water 6 oz 6 oz
+
+
+white russian
+vodka 2.0 oz 2 oz 
+coffee liqueur 1.0 oz 1 oz 
+
+
+zenmeister
+jägermeister 0.5 oz 1/2 oz 
+root beer 0.5 oz 1/2 oz 
+
+
+ziemes martini apfelsaft
+vermouth 1.3527223537368955 oz 4 cl 
+apple juice 5.410889414947582 oz 16 cl 
+
+

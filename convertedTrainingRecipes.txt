@@ -1,388 +1,387 @@
-abilene:(Ordinary Drink, Alcoholic)
-dark rum 1.5 oz,  1 1/2 oz 
-peach nectar 2.0 oz,  2 oz 
-orange juice 3.0 oz,  3 oz 
-
-bloody mary:(Ordinary Drink, Alcoholic)
-vodka 1.5 oz,  1 1/2 oz 
-tomato juice 3.0 oz,  3 oz 
-lemon juice 1.0 dash,  1 dash 
-worcestershire sauce 0.08333333333333333 oz,  1/2 tsp 
-tabasco sauce 2.5 drops,  2-3 drops 
-lime 1.0 wedge,  1 wedge 
-
-cuba libra:(Ordinary Drink, Alcoholic)
-dark rum 2.25 oz,  1-2 shot 
-lime  squeeze,   squeeze 
-coca-cola  fill with,   fill with 
-ice  
-
-cream soda:(Cocktail, Alcoholic)
-spiced rum 1.0 oz,  1 oz 
-ginger ale  
-
-caipirissima:(Ordinary Drink, Alcoholic)
-lime 2.0 ,  2  
-sugar 1.0 oz,  2 tblsp 
-white rum 2.5 oz,  2-3 oz 
-ice  crushed,   crushed 
-
-daiquiri:(Ordinary Drink, Alcoholic)
-light rum 1.5 oz,  1 1/2 oz 
-lime 0.5 juiceof,  1/2 juiceof 
-powdered sugar 0.16666666666666666 oz,  1 tsp 
-
-dragonfly:(Ordinary Drink, Alcoholic)
-gin 1.5 oz,  1 1/2 oz 
-ginger ale 4.0 oz,  4 oz 
-lime 1.0 ,  1  
-
-dark and stormy:(Ordinary Drink, Alcoholic)
-dark rum 1.6909029421711195 oz,  5 cl 
-ginger beer 3.381805884342239 oz,  10 cl 
-
-espresso martini:(Cocktail, Alcoholic)
-vodka 1.6909029421711195 oz,  5 cl 
-kahlua 0.3381805884342239 oz,  1 cl 
-sugar syrup 1.0 dash,  1 dash 
-
-frozen mint daiquiri:(Ordinary Drink, Alcoholic)
-light rum 2.0 oz,  2 oz 
-lime juice 0.5 oz,  1 tblsp 
-mint 6.0 ,  6  
-sugar 0.16666666666666666 oz,  1 tsp 
-
-frozen pineapple daiquiri:(Ordinary Drink, Alcoholic)
-light rum 1.5 oz,  1 1/2 oz 
-pineapple 4.0 chunks,  4 chunks 
-lime juice 0.5 oz,  1 tblsp 
-sugar 0.08333333333333333 oz,  1/2 tsp 
-
-gimlet:(Cocktail, Alcoholic)
-gin 2.5 oz,  2 1/2 oz 
-lime juice 0.5 oz,  1/2 oz 
-sugar syrup 0.5 oz,  1/2 oz 
-lime 1.0 ,  1  
-
-gin fizz:(Ordinary Drink, Alcoholic)
-gin 2.0 oz,  2 oz 
-lemon 0.5 juiceof,  1/2 juiceof 
-powdered sugar 0.16666666666666666 oz,  1 tsp 
-carbonated water  
-
-gin sling:(Ordinary Drink, Alcoholic)
-gin 2.0 oz,  2 oz 
-lemon 0.5 juiceof,  1/2 juiceof 
-powdered sugar 0.16666666666666666 oz,  1 tsp 
-water 0.16666666666666666 oz,  1 tsp 
-orange peel  twist of,   twist of 
-
-gin smash:(Ordinary Drink, Alcoholic)
-gin 2.0 oz,  2 oz 
-carbonated water 1.0 oz,  1 oz 
-sugar 1.0 cube,  1 cube 
-mint 4.0 ,  4  
-orange 1.0 slice,  1 slice 
-cherry 1.0 ,  1  
-
-gin toddy:(Ordinary Drink, Alcoholic)
-gin 2.0 oz,  2 oz 
-water 0.3333333333333333 oz,  2 tsp 
-powdered sugar 0.08333333333333333 oz,  1/2 tsp 
-lemon peel 1.0 twist of,  1 twist of 
-
-greyhound:(Cocktail, Alcoholic)
-vodka 1.5 oz,  1 1/2 oz 
-grapefruit juice 3.0 oz,  3 oz 
-
-grass skirt:(Ordinary Drink, Alcoholic)
-gin 1.5 oz,  1 1/2 oz 
-triple sec 1.0 oz,  1 oz 
-pineapple juice 1.0 oz,  1 oz 
-grenadine 0.08333333333333333 oz,  1/2 tsp 
-pineapple 1.0 ,  1  
-
-honey bee:(Cocktail, Alcoholic)
-white rum 2.029083530605343 oz,  6 cl 
-honey 0.6763611768684478 oz,  2 cl 
-lemon juice 0.6763611768684478 oz,  2 cl 
-
-hot toddy:(Cocktail, Alcoholic)
-whiskey 1.6906742408872657 oz,  50 ml 
-honey 0.5072022722661798 oz,  15 ml 
-cinnamon 1.0 ,  1  
-lemon 1.0 ,  1  
-cloves 2.0 ,  2  
-
-happy skipper:(Ordinary Drink, Alcoholic)
-spiced rum 0.5072708826513358 oz,  1 1/2 cl 
-ginger ale  
-lime  
-ice  
-
-havana cocktail:(Ordinary Drink, Alcoholic)
-light rum 1.0 oz,  1 oz 
-pineapple juice 1.0 oz,  1 oz 
-lemon juice 0.16666666666666666 oz,  1 tsp 
-
-hawaiian cocktail:(Ordinary Drink, Alcoholic)
-gin 2.0 oz,  2 oz 
-triple sec 0.5 oz,  1/2 oz 
-pineapple juice 0.5 oz,  1 tblsp 
-
-ipamena:(Ordinary Drink, Non alcoholic)
-lime  ½,   ½ 
-brown sugar 0.3333333333333333 oz,  2 tsp 
-passion fruit juice 1.3527223537368955 oz,  4 cl 
-ginger ale  top up with,   top up with 
-ice  fill,   fill 
-
-ice pick:(Ordinary Drink, Alcoholic)
-vodka 1.5 oz,  1 1/2 oz 
-iced tea 6.0 oz,  6 oz 
-lemon juice  to taste,   to taste 
-
-irish russian:(Beer, Alcoholic)
-vodka 1.5 oz,  1 shot 
-kahlua 1.5 oz,  1 shot 
-coca-cola 1.0 dash,  1 dash 
-guinness stout  fill with,   fill with 
-
-jitterbug:(Cocktail, Alcoholic)
-gin 2.0 oz,  2 jiggers 
-vodka 1.0 oz,  1 jigger 
-grenadine 3.0 dashes,  3 dashes 
-lime juice 1.5 oz,  1 shot 
-sugar 1.0 aroundrimputpinch,  1 aroundrimputpinch 
-sugar syrup 3.0 dashes,  3 dashes 
-soda water  fill to top with,   fill to top with 
-
-jello shots:(Shot, Alcoholic)
-vodka 16.0 oz,  2 cups 
-jello 3.0 packages,  3 packages 
-water 24.0 oz,  3 cups 
-
-kamikaze:(Ordinary Drink, Alcoholic)
-vodka 1.0 oz,  1 oz 
-triple sec 1.0 oz,  1 oz 
-lime juice 1.0 oz,  1 oz 
-
-kiwi martini:(Cocktail, Alcoholic)
-kiwi 0.5 ,  1/2  
-sugar syrup 0.16666666666666666 oz,  1 tsp 
-vodka 1.5 oz,  1 1/2 oz 
-kiwi  garnish with,   garnish with 
-
-kool-aid slammer:(Shot, Alcoholic)
-kool-aid 0.5 oz grape,  1/2 oz grape 
-vodka 0.5 oz,  1/2 oz 
-
-long island tea:(Ordinary Drink, Alcoholic)
-vodka 0.5 oz,  1/2 oz 
-light rum 0.5 oz,  1/2 oz 
-gin 0.5 oz,  1/2 oz 
-tequila 0.5 oz,  1/2 oz 
-lemon 0.5 juiceof,  1/2 juiceof 
-coca-cola 1.0 splash,  1 splash 
-
-mojito:(Cocktail, Alcoholic)
-light rum 2.5 oz,  2-3 oz 
-lime 1.0 juiceof,  1 juiceof 
-sugar 0.3333333333333333 oz,  2 tsp 
-mint 3.0 ,  2-4  
-soda water  
-
-margarita:(Ordinary Drink, Alcoholic)
-tequila 1.5 oz,  1 1/2 oz 
-triple sec 0.5 oz,  1/2 oz 
-lime juice 1.0 oz,  1 oz 
-salt  
-
-mint julep:(Ordinary Drink, Alcoholic)
-mint 4.0 fresh,  4 fresh 
-bourbon 2.5 oz,  2 1/2 oz 
-powdered sugar 0.16666666666666666 oz,  1 tsp 
-water 0.3333333333333333 oz,  2 tsp 
-
-moscow mule:(Punch / Party Drink, Alcoholic)
-vodka 2.0 oz,  2 oz 
-lime juice 2.0 oz,  2 oz 
-ginger ale 8.0 oz,  8 oz 
-
-munich mule:(Cocktail, Alcoholic)
-gin 1.6909029421711195 oz,  5 cl 
-lime juice 0.6763611768684478 oz,  2 cl 
-ginger beer 3.381805884342239 oz,  10 cl 
-cucumber  chopped,   chopped 
-lemon  chopped,   chopped 
-
-mango mojito:(Cocktail, Alcoholic)
-lime 3.0 ,  3  
-mango 1.0 fresh,  1 fresh 
-mint  sprig,   sprig 
-white rum 6.762696963549063 oz,  200 ml 
-ice  cubes,   cubes 
-soda water  top,   top 
-mango  garnish with,   garnish with 
-
-monkey wrench:(Ordinary Drink, Alcoholic)
-light rum 1.5 oz,  1 1/2 oz 
-grapefruit juice 3.0 oz,  3 oz 
-bitters 1.0 dash,  1 dash 
-
-orange whip:(Other/Unknown, Alcoholic)
-orange juice 4.0 oz,  4 oz 
-rum 1.0 oz,  1 oz 
-vodka 1.0 oz,  1 oz 
-cream 1.0 package,  1 package 
-ice  over,   over 
-
-orange crush:(Shot, Alcoholic)
-vodka 1.0 oz,  1 oz 
-triple sec 1.0 oz,  1 oz 
-orange juice 1.0 oz,  1 oz 
-
-oreo mudslide:(Ordinary Drink, Alcoholic)
-vodka 1.0 oz,  1 oz 
-kahlua 1.0 oz,  1 oz 
-baileys irish cream 1.0 oz,  1 oz 
-vanilla ice-cream 2.0 scoops,  2 scoops 
-oreo cookie 1.0 ,  1  
-
-orange push-up:(Ordinary Drink, Alcoholic)
-spiced rum 1.5 oz,  1.5 oz 
-grenadine 0.5 oz,  0.5 oz 
-orange juice 4.0 oz,  4 oz 
-sour mix 1.0 splash,  1 splash 
-
-paloma:(Cocktail, Alcoholic)
-grape soda 3.0 oz,  3 oz 
-tequila 1.5 oz,  1 1/2 oz 
-
-pineapple paloma:(Cocktail, Alcoholic)
-tequila 4.0 oz,  4 oz 
-grapefruit juice 4.0 oz,  4 oz 
-fresh lime juice 1.0 oz,  1 oz 
-pineapple juice 8.0 oz,  8 oz 
-lime  garnish with,   garnish with 
-pepper  rimmed,   rimmed 
-
-pink panty pulldowns:(Ordinary Drink, Alcoholic)
-sprite 1.0 l,  1 l 
-pink lemonade 16.0 oz,  2 cups 
-vodka 16.0 oz,  2 cups 
-
-passion fruit martini:(Cocktail, Alcoholic)
-vodka 1.5 oz,  1 shot 
-sugar syrup 0.75 oz,  1/2 shot 
-passion fruit juice  full glass,   full glass 
-
-quentin:(Ordinary Drink, Alcoholic)
-dark rum 1.5 oz,  1 1/2 oz 
-kahlua 0.5 oz,  1/2 oz 
-light cream 1.0 oz,  1 oz 
-nutmeg 0.125 tsp grated,  1/8 tsp grated 
-
-rum toddy:(Ordinary Drink, Alcoholic)
-rum 2.0 oz light or dark,  2 oz light or dark 
-powdered sugar 0.3333333333333333 oz,  2 tsp 
-lemon peel 1.0 twist of,  1 twist of 
-water 0.3333333333333333 oz,  2 tsp 
-
-rum screwdriver:(Ordinary Drink, Alcoholic)
-light rum 1.5 oz,  1 1/2 oz 
-orange juice 5.0 oz,  5 oz 
-
-sangria:(Punch / Party Drink, Alcoholic)
-red wine 1.0 bottle,  1 bottle 
-sugar 4.0 oz,  1/2 cup 
-orange juice 8.0 oz,  1 cup 
-lemon juice 8.0 oz,  1 cup 
-cloves  
-cinnamon  
-
-salty dog:(Ordinary Drink, Alcoholic)
-grapefruit juice 5.0 oz,  5 oz 
-gin 1.5 oz,  1 1/2 oz 
-salt 0.041666666666666664 oz,  1/4 tsp 
-
-sea breeze:(Ordinary Drink, Alcoholic)
-vodka 1.5 oz,  1 1/2 oz 
-cranberry juice 4.0 oz,  4 oz 
-grapefruit juice 1.0 oz,  1 oz 
-
-scotch sour:(Ordinary Drink, Alcoholic)
-scotch 1.5 oz,  1 1/2 oz 
-lime 0.5 juiceof,  1/2 juiceof 
-powdered sugar 0.08333333333333333 oz,  1/2 tsp 
-lemon 0.5 slice,  1/2 slice 
-cherry 1.0 ,  1  
-
-screwdriver:(Ordinary Drink, Alcoholic)
-vodka 2.0 oz,  2 oz 
-orange juice  
-
-tequila sour:(Ordinary Drink, Alcoholic)
-tequila 2.0 oz,  2 oz 
-lemon 0.5 juiceof,  1/2 juiceof 
-powdered sugar 0.16666666666666666 oz,  1 tsp 
-lemon 0.5 slice,  1/2 slice 
-cherry 1.0 ,  1  
-
-tequila sunrise:(Cocktail, Alcoholic)
-tequila 2.0 measures,  2 measures 
-orange juice  
-grenadine  
-
-tequila slammer:(Shot, Alcoholic)
-tequila 1.5 oz,  1 shot 
-7-up 1.0 part,  1 part 
-
-vampiro:(Ordinary Drink, Alcoholic)
-tequila 2.029083530605343 oz,  6 cl 
-tomato juice 1.0145417653026716 oz,  3 cl 
-orange juice 1.0145417653026716 oz,  3 cl 
-lime juice 0.5072708826513358 oz,  1.5 cl 
-sugar syrup 1.0 dash,  1 dash 
-salt 1.0 pinch,  1 pinch 
-
-van vleet:(Ordinary Drink, Alcoholic)
-light rum 3.0 oz,  3 oz 
-maple syrup 1.0 oz,  1 oz 
-lemon juice 1.0 oz,  1 oz 
-
-vodka fizz:(Other/Unknown, Alcoholic)
-vodka 2.0 oz,  2 oz 
-half-and-half 2.0 oz,  2 oz 
-limeade 2.0 oz,  2 oz 
-ice  
-nutmeg  
-
-victory collins:(Ordinary Drink, Alcoholic)
-vodka 1.5 oz,  1 1/2 oz 
-lemon juice 3.0 oz,  3 oz 
-grape juice 3.0 oz unsweetened,  3 oz unsweetened 
-powdered sugar 0.16666666666666666 oz,  1 tsp 
-orange 1.0 slice,  1 slice 
-
-vodka and tonic:(Ordinary Drink, Alcoholic)
-vodka 2.0 oz,  2 oz 
-tonic water  
-
-white lady:(Ordinary Drink, Alcoholic)
-gin 1.3527223537368955 oz,  4 cl 
-triple sec 1.0145417653026716 oz,  3 cl 
-lemon juice 0.6763611768684478 oz,  2 cl 
-
-white russian:(Ordinary Drink, Alcoholic)
-vodka 2.0 oz,  2 oz 
-coffee liqueur 1.0 oz,  1 oz 
-light cream  
-
-winter paloma:(Cocktail, Alcoholic)
-tequila 3.0 oz,  2 shots 
-grapefruit juice  top,   top 
-lime juice 1.0 juiceof,  1 juiceof 
-agave syrup 0.16666666666666666 oz,  1 tsp 
-pepper  dash,   dash 
-
+abilene
+dark rum  1.5  1 1/2 oz 
+peach nectar  2.0  2 oz 
+orange juice  3.0  3 oz 
+
+bloody mary
+vodka  1.5  1 1/2 oz 
+tomato juice  3.0  3 oz 
+lemon juice  0.03125  1 dash 
+worcestershire sauce  0.08333333333333333  1/2 tsp 
+tabasco sauce  0.00422675  2-3 drops 
+lime wedge  1.0  1 
+
+cuba libre
+dark rum  2.25  1-2 shot 
+lime wedge  1  1 
+coca-cola  4.5  fill with 
+ice  1  1
+
+rum and ginger ale
+spiced rum  2.0  2 oz 
+ginger ale  4  4 oz
+lime wedge  1  1
+ice  1  1
+
+caipirissima
+lime wedge  4  4  
+sugar  1.0  2 tblsp 
+white rum  2.5  2-3 oz 
+ice  1  1
+
+daiquiri
+light rum  1.5  1 1/2 oz 
+lime juice  0.25  1/2 juice of 
+powdered sugar  0.16666666666666666  1 tsp 
+
+dragonfly
+gin  1.5  1 1/2 oz 
+ginger ale  4.0  4 oz 
+lime wedge  1.0  1
+
+dark and stormy
+dark rum  1.6909029421711195  5 cl 
+ginger beer  3.381805884342239  10 cl 
+
+espresso martini
+vodka  1.6909029421711195  5 cl 
+kahlua  0.3381805884342239  1 cl 
+sugar syrup  0.03125  1 dash 
+
+frozen mint daiquiri
+light rum  2.0  2 oz 
+lime juice  0.5  1 tblsp 
+mint  6.0 leaves  6 leaves
+sugar  0.16666666666666666  1 tsp 
+
+frozen pineapple daiquiri
+light rum  1.5  1 1/2 oz 
+pineapple  4.0 chunks  4 chunks 
+lime juice  0.5  1 tblsp 
+sugar  0.08333333333333333  1/2 tsp 
+
+gimlet
+gin  2.5  2 1/2 oz 
+lime juice  0.5  1/2 oz 
+sugar syrup  0.5  1/2 oz 
+lime wedge  1.0  1
+
+gin fizz
+gin  2.0  2 oz 
+lemon juice  0.25  1/2 juice of 
+powdered sugar  0.16666666666666666  1 tsp 
+carbonated water  0.5  to top
+
+gin sling
+gin  2.0  2 oz 
+lemon juice  0.25  1/2 juice of 
+powdered sugar  0.16666666666666666  1 tsp 
+water  0.16666666666666666  1 tsp 
+orange peel  1 twist  1 twist of
+
+gin smash
+gin  2.0  2 oz 
+carbonated water  1.0  1 oz 
+sugar  0.25  1 cube 
+mint  4.0 leaves  4  
+orange slice  1.0  1
+cherry  1.0  1  
+
+gin toddy
+gin  2.0  2 oz 
+water  0.3333333333333333  2 tsp 
+powdered sugar  0.08333333333333333  1/2 tsp 
+lemon peel  1.0  1 twist of 
+
+greyhound
+vodka  1.5  1 1/2 oz 
+grapefruit juice  3.0  3 oz 
+
+grass skirt
+gin  1.5  1 1/2 oz 
+triple sec  1.0  1 oz 
+pineapple juice  1.0  1 oz 
+grenadine  0.08333333333333333  1/2 tsp 
+pineapple  1.0 chunk  1  
+
+honey bee
+white rum  2.029083530605343  6 cl 
+honey  0.6763611768684478  2 cl 
+lemon juice  0.6763611768684478  2 cl 
+
+hot toddy
+whiskey  1.6906742408872657  50 ml 
+honey  0.5072022722661798  15 ml 
+cinnamon  1.0 stick  1 stick
+lemon wedge  1  1
+cloves  2.0 cloves  2 cloves
+
+happy skipper
+spiced rum  0.5072708826513358  1 1/2 cl 
+ginger ale  1.666  3/5 oz
+lime wedge  1  1
+ice  1  1
+
+havana cocktail
+light rum  1.0  1 oz 
+pineapple juice  1.0  1 oz 
+lemon juice  0.16666666666666666  1 tsp 
+
+hawaiian cocktail
+gin  2.0  2 oz 
+triple sec  0.5  1/2 oz 
+pineapple juice  0.5  1 tblsp 
+
+ipanema
+lime juice  0.25 oz  1/2 juice of
+brown sugar  0.3333333333333333  2 tsp 
+passion fruit juice  1.3527223537368955  4 cl 
+ginger ale  3  top up with 
+ice  1  1
+
+ice pick
+vodka  1.5  1 1/2 oz 
+iced tea  6.0  6 oz 
+lemon juice  0.1  to taste 
+
+irish russian
+vodka  1.5  1 shot 
+kahlua  1.5  1 shot 
+coca-cola  0.03125  1 dash 
+guinness stout  2  fill with 
+
+jitterbug
+gin  2.0  2 jiggers 
+vodka  1.0  1 jigger 
+grenadine  0.09375  3 dashes 
+lime juice  1.5  1 shot 
+sugar  0.03  1 pinch 
+sugar syrup  0.09375  3 dashes 
+soda water  2  fill to top with 
+
+jello shots
+vodka  16.0  2 cups 
+jello  3.0 packages  3 packages 
+water  24.0  3 cups 
+
+kamikaze
+vodka  1.0  1 oz 
+triple sec  1.0  1 oz 
+lime juice  1.0  1 oz 
+
+kiwi martini
+kiwi  0.5  1/2
+sugar syrup  0.16666666666666666  1 tsp 
+vodka  1.5  1 1/2 oz 
+kiwi slice  1  1 garnish with 
+
+kool-aid slammer
+kool-aid  0.5  1/2 oz grape 
+vodka  0.5  1/2 oz 
+
+long island tea
+vodka  0.5  1/2 oz 
+light rum  0.5  1/2 oz 
+gin  0.5  1/2 oz 
+tequila  0.5  1/2 oz 
+lemon juice  0.25  1/2 juice of 
+coca-cola  0.2  1 splash 
+
+mojito
+light rum  2.5  2-3 oz 
+lime juice  0.5  1 juice of 
+sugar  0.3333333333333333  2 tsp 
+mint  3.0 leaves  2-4  
+soda water  1  to top
+
+margarita
+tequila  1.5  1 1/2 oz 
+triple sec  0.5  1/2 oz 
+lime juice  1.0  1 oz 
+salt  0.1  dash
+
+mint julep
+mint  4.0 leaves  4 fresh leaves
+bourbon  2.5  2 1/2 oz 
+powdered sugar  0.16666666666666666  1 tsp 
+water  0.3333333333333333  2 tsp 
+
+moscow mule
+vodka  2.0  2 oz 
+lime juice  2.0  2 oz 
+ginger beer  6.0  6 oz 
+
+munich mule
+gin  1.6909029421711195  5 cl 
+lime juice  0.6763611768684478  2 cl 
+ginger beer  3.381805884342239  10 cl 
+cucumber  0.25  0.25 chopped 
+lemon slice  2  2
+
+mango mojito
+lime juice  0.25  0.5 of a
+mango nectar  4  4 oz
+mint  5 leaves  5 leaves 
+white rum  2  2 oz 
+ice  1  1
+soda water  1  top with
+
+monkey wrench
+light rum  1.5  1 1/2 oz 
+grapefruit juice  3.0  3 oz 
+bitters  0.03125  1 dash 
+
+orange whip
+orange juice  4.0  4 oz 
+rum  1.0  1 oz 
+vodka  1.0  1 oz 
+cream  1.0  1 package 
+ice  1  1
+
+orange crush
+vodka  1.0  1 oz 
+triple sec  1.0  1 oz 
+orange juice  1.0  1 oz 
+
+oreo mudslide
+vodka  1.0  1 oz 
+kahlua  1.0  1 oz 
+baileys irish cream  1.0  1 oz 
+vanilla ice-cream  4.5  2 scoops 
+oreo cookie  1.0 cookie  1 cookie
+
+orange push-up
+spiced rum  1.5  1.5 oz 
+grenadine  0.5  0.5 oz 
+orange juice  4.0  4 oz 
+sour mix  0.2  1 splash 
+
+paloma
+grapefruit juice  1.5  1 1/2 oz
+club soda  1.5  1 1/2 oz
+tequila  1.5  1 1/2 oz 
+
+pineapple paloma
+tequila  4.0  4 oz 
+grapefruit juice  4.0  4 oz 
+lime juice  1.0  1 oz 
+pineapple juice  8.0  8 oz 
+lime wedge  1  garnish with 1
+
+pink panty pulldowns
+sprite  1.0  1 oz
+pink lemonade  2  2 oz 
+vodka  2  2 oz 
+
+passion fruit martini
+vodka  1.5  1 shot 
+sugar syrup  0.75  1/2 shot 
+passion fruit juice  0.5  top with 
+
+quentin
+dark rum  1.5  1 1/2 oz 
+kahlua  0.5  1/2 oz 
+light cream  1.0  1 oz 
+nutmeg  0.020833327  1/8 tsp grated 
+
+rum toddy
+rum  2.0  2 oz light or dark 
+powdered sugar  0.3333333333333333  2 tsp 
+lemon peel  1.0 twist  1 twist of 
+water  0.3333333333333333  2 tsp 
+
+rum screwdriver
+light rum  1.5  1 1/2 oz 
+orange juice  5.0  5 oz 
+
+sangria
+red wine  6  1/4 bottle 
+sugar  1  1/2 cup 
+orange juice  2  1 cup 
+lemon juice  2  1 cup 
+cloves  1 clove  1 clove
+
+salty dog
+grapefruit juice  5.0  5 oz 
+gin  1.5  1 1/2 oz 
+salt  0.041666666666666664  1/4 tsp 
+
+sea breeze
+vodka  1.5  1 1/2 oz 
+cranberry juice  4.0  4 oz 
+grapefruit juice  1.0  1 oz 
+
+scotch sour
+scotch  1.5  1 1/2 oz 
+lime juice  0.25  1/2 juiceof 
+powdered sugar  0.08333333333333333  1/2 tsp 
+lemon slice  0.5  1/2 
+cherry  1.0  1
+
+screwdriver
+vodka  2.0  2 oz 
+orange juice  4  4 oz
+
+tequila sour
+tequila  2.0  2 oz 
+lemon juice  0.25  1/2 juice of 
+powdered sugar  0.16666666666666666  1 tsp 
+lemon slice  0.5  1/2 
+cherry  1.0  1
+
+tequila sunrise
+tequila  1.5  1.5 oz 
+orange juice  6  0.75 cup
+grenadine  0.75  0.75 oz
+
+tequila slammer
+tequila  1.5  1 shot 
+7-up  1.5  1 shot 
+
+vampiro
+tequila  2.029083530605343  6 cl 
+tomato juice  1.0145417653026716  3 cl 
+orange juice  1.0145417653026716  3 cl 
+lime juice  0.5072708826513358  1.5 cl 
+sugar syrup  0.03125  1 dash 
+salt  0.002  1 pinch 
+
+van vleet
+light rum  3.0  3 oz 
+maple syrup  1.0  1 oz 
+lemon juice  1.0  1 oz 
+
+vodka fizz
+vodka  2.0  2 oz 
+half-and-half  2.0  2 oz 
+limeade  2.0  2 oz 
+ice  1  1
+
+victory collins
+vodka  1.5  1 1/2 oz 
+lemon juice  3.0  3 oz 
+grapefruit juice  3.0  3 oz unsweetened 
+powdered sugar  0.16666666666666666  1 tsp 
+orange slice  1.0  1 
+
+vodka and tonic
+vodka  2.0  2 oz 
+tonic water  4  4 oz
+lemon wedge  1  1
+
+white lady:
+gin  1.3527223537368955  4 cl 
+triple sec  1.0145417653026716  3 cl 
+lemon juice  0.6763611768684478  2 cl 
+
+white russian
+vodka  2.0  2 oz 
+coffee liqueur  1.0  1 oz 
+light cream  0.5  0.5 oz
+
+winter paloma
+tequila  3.0  2 shots 
+grapefruit juice  1  top with 
+lime juice  0.5  1 juice of 
+agave syrup  0.16666666666666666  1 tsp 
+pepper  0.03125  1 dash 

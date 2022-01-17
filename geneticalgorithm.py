@@ -9,10 +9,10 @@ class GeneticAlgorithm():
         self.n = n
         self.train_input = list()
         self.train_output = list()
-        self.ingredient_details = {}
+        self.ingredient_list = {}
     
     def population_setup(self):
-        f = open("trainingSetRecipes.txt", "r")
+        f = open("convertedTrainingRecipes.txt", "r")
         #d = open("Database/Mixai/allDrinks.txt", "r")
         i = open("normalIngredients.txt", "r")
         recipes = {}
@@ -35,6 +35,7 @@ class GeneticAlgorithm():
                 if ingredient[1][6:] not in ingredients['Alcohol']:
                     ingredients['Alcohol'][ingredient[1][6:]] = []
                 ingredients['Alcohol'][ingredient[1][6:]].append(ingredient[0])
+                self.ingredient_list[ingredient[0]] = ('Alcohol', ingredient[1][6:])
             else:
                 #print("Mixer?: " + ingredient[1][6:12])
                 if ingredient[1][6:11] == 'Mixer':
@@ -42,51 +43,67 @@ class GeneticAlgorithm():
                     if ingredient[1][12:] not in ingredients['Mixer']:
                         ingredients['Mixer'][ingredient[1][12:]] = []
                     ingredients['Mixer'][ingredient[1][12:]].append(ingredient[0])
+                    self.ingredient_list[ingredient[0]] = ('Mixer', ingredient[1][12:])
                 #print("Mod?: " + ingredient[1][6:14])
                 if ingredient[1][6:14] == 'Modifier':
                     #print(ingredient[1][15:])
                     if ingredient[1][15:] not in ingredients['Modifier']:
                         ingredients['Modifier'][ingredient[1][15:]] = []
                     ingredients['Modifier'][ingredient[1][15:]].append(ingredient[0])
+                    self.ingredient_list[ingredient[0]] = ('Modifier', ingredient[1][15:])
+
             #ingredients[ingredient[0][0:len(ingredient[0]) - 1]] = ingredient[1]
             #if ingredient[1] not in self.ingredient_details:
                 #self.ingredient_details[ingredient[1]] = []
             #self.ingredient_details[ingredient[1]].append(ingredient[0][0:len(ingredient[0]) - 1])
-        #print(ingredients)
+        print(ingredients)
+        print(self.ingredient_list)
+        for typ in ingredients:
+            print(typ)
+            for cat in ingredients[typ]:
+                print(cat)
         line = f.readline().rstrip()
         while line != '':
-            drink = line.rsplit(":")[0]
+            drink = line
             print(drink)
             chrom = Chromosome()
             line = f.readline()
-            while line != '\n':
-                line = line.rstrip().split()
-                ingredient, index = self.ingredient_parser(line, ingredients)
-                amt = float(line[index])
+            while line != '\n' and line != '':
+                line = line.rstrip().split('  ')
+                print(line)
+                ingredient = line[0]
+                special = ['Spice', 'Ice', 'Garnish', 'Fruit', 'Unique']
+                if self.ingredient_list[ingredient][1] not in special:
+                    amt = float(line[1])
+                og_amt = line[2]
+                #ingredient, index = self.ingredient_parser(line, ingredients)
+                #amt = float(line[index])
                 #og_amt = float(line[index + 2])
                 #og_unit = line[index + 3]
-                if drink not in recipes:
-                    recipes[drink] = []
-                recipes[drink].append([ingredient, amt]) #(og_unit, og_amt)])
+                #if drink not in recipes:
+                    #recipes[drink] = []
+                #recipes[drink].append([ingredient, amt]) #(og_unit, og_amt)])
                 chrom.name = drink
-                if ingredients['Alcohol'] == 'alcohol':
+                info = self.ingredient_list[ingredient]
+                kind = info[0]
+                if kind == 'Alcohol':
                     chrom.alcohol_types.append(ingredient)
                     chrom.alcohol_amts.append(amt)
-                if ingredients[ingredient] == 'liqueur':
-                    chrom.liqueur_types.append(ingredient)
-                    chrom.liqueur_amts.append(amt)
-                if ingredients[ingredient] == 'mixer':
+                #if ingredients[ingredient] == 'liqueur':
+                    #chrom.liqueur_types.append(ingredient)
+                    #chrom.liqueur_amts.append(amt)
+                if kind == 'Mixer':
                     chrom.mixer_types.append(ingredient)
                     chrom.mixer_amts.append(amt)
-                if ingredients[ingredient] == 'modifier':
+                if kind == 'Modifier':
                     chrom.modifier_types.append(ingredient)
                     chrom.modifier_amts.append(amt)
                 line = f.readline()
-                if line == '\n':
+                if line == '\n' or line == '':
                     self.population.append(chrom)
-            line = f.readline()
             line = f.readline().rstrip()
-            #print(line)
+            #line = f.readline()
+            print(line)
 
     def ingredient_parser(self, ingredient, ingredients):
         four_word = ''
@@ -122,7 +139,7 @@ class GeneticAlgorithm():
                     #print(ingredient[0])
                     if ingredient[0] in ingredients:
                         return ingredient[0], 1
-    
+    """
     def ingredient_deets(self):
         #self.ingredient_details['alcohol'] = {'dark rum': 3, 'light rum': 3, 'vodka': 1, 'gin': 1, 'tequila': 1, 'peach vodka': 2, 'vanilla vodka': 2, 'absolut citron': 2, 'absolut vodka': 1, 'applejack': 4, 'vermouth': 0.5, 'scotch': 0.5, 'sweet vermouth': 0.5, 'dry vermouth': 0.5, 'blended whiskey': 0.5, 'bourbon': -0.5, 'blackberry brandy': 4, 'champagne': 0.1, 'rye whiskey': 0.5, 'rum': 3, '151 proof rum': 0.25, 'sloe gin': 1, 'cherry brandy': 4, 'spiced rum': 3, 'port': 4, 'brandy': 4, 'lillet blanc': 0.5, 'pisco': 0.5, 'dubonnet rouge': 0.5, 'absinthe': 0.25, 'apricot brandy': 4, 'cachaca': 3, 'mezcal': 1, 'cognac': 0.5, 'malibu rum': 2, 'white rum': 3, 'whiskey': 0.5, 'irish whiskey': 0.5, 'peach brandy': 4, 'jack daniels': 0.5, 'apple brandy': 4, 'cranberry vodka': 2, 'beer': .1, 'southern comfort': 2, 'blended scotch': 0.5, 'islay single malt scotch': 0.5, 'everclear': 0.25, 'prosecco': 1, 'coffee brandy': 4, 'lime vodka': 2, 'red wine': 0.1, 'ricard': 0.5, 'ruby port': 4, 'anis': 0.25, 'rosso vermouth': 0.5, 'gold rum': 3, 'pernod': 0.25, 'jägermeister': 3, 'zima': 0.1}
         #self.ingredient_details['mixer'] = {'sweet': ['orange juice', 'coca-cola', 'cranberry juice',  'tonic water', 'grapefruit juice', 'peach nectar', 'pineapple juice', 'passion fruit juice', 'hot chocolate',  'ginger ale', 'ginger beer',  'pomegranate juice',  'lemonade', 'iced tea', 'schweppes russchian', 'apple juice',  'grape soda', 'coconut milk', '7-up', 'root beer', 'coca cola', 'cream soda'], 'nonsweet': ['milk', 'tomato juice', 'coffee'], 'neutral': ['carbonated water', 'water', 'soda water']}
@@ -152,61 +169,71 @@ class GeneticAlgorithm():
         self.ingredient_details['liqueur']['sweet'] = ['peach schnapps', 'blue curacao', 'midori melon liqueur', 'melon liqueur', 'coconut liqueur',  'cherry liqueur', 'triple sec', 'elderflower cordial', 'cointreau', 'raspberry liqueur']
         self.ingredient_details['liqueur']['bitter'] = ['coffee liqueur', 'campari', 'passoa']
         self.ingredient_details['liqueur']['weird'] = ['kahlua', 'baileys irish cream', 'amaretto']
-
+    """
     def train_input_setup(self):
         drinks = []
         for drink in self.population:
-            total_alc = [0, 0, 0, 0]
+            total_alc = [0, 0, 0, 0, 0, 0]
             for alc in range(len(drink.alcohol_amts)):
-                if drink.alcohol_types[alc] in self.ingredient_details['alcohol']['dark']:
+                a, d_type = self.ingredient_list[drink.alcohol_types[alc]]
+                if d_type == 'Rum':
                     total_alc[0] += drink.alcohol_amts[alc]
-                if drink.alcohol_types[alc] in self.ingredient_details['alcohol']['clear']:
+                if d_type == 'Spirit':
                     total_alc[1] += drink.alcohol_amts[alc]
-                if drink.alcohol_types[alc] in self.ingredient_details['alcohol']['sweet']:
+                if d_type == 'Whiskey':
                     total_alc[2] += drink.alcohol_amts[alc]
-                if drink.alcohol_types[alc] in self.ingredient_details['alcohol']['bitter']:
+                if d_type == 'Liqueur':
                     total_alc[3] += drink.alcohol_amts[alc]
-            total_liq = [0, 0, 0, 0]
-            for liq in range(len(drink.liqueur_amts)):
-                if drink.liqueur_types[liq] in self.ingredient_details['liqueur']['sweet']:
-                    total_liq[0] += drink.liqueur_amts[liq] 
-                if drink.liqueur_types[liq] in self.ingredient_details['liqueur']['bitter']:
-                    total_liq[2] += drink.liqueur_amts[liq] 
-                if drink.liqueur_types[liq] in self.ingredient_details['liqueur']['weird']:
-                    total_liq[3] += drink.liqueur_amts[liq]
-            total_mix = [0,0,0,0,0]
+                if d_type == 'Beer':
+                    total_alc[4] += drink.alcohol_amts[alc]
+                if d_type == 'Wine':
+                    total_alc[5] += drink.alcohol_amts[alc]
+            total_mix = [0,0,0,0,0,0,0]
             for mix in range(len(drink.mixer_amts)):
-                if drink.mixer_types[mix] in self.ingredient_details['mixer']['sweet']:
+                m, m_type = self.ingredient_list[drink.mixer_types[mix]]
+                if m_type == 'Juice':
                     total_mix[0] += drink.mixer_amts[mix]
-                if drink.mixer_types[mix] in self.ingredient_details['mixer']['sour']:
+                if m_type == 'Dairy':
                     total_mix[1] += drink.mixer_amts[mix]
-                if drink.mixer_types[mix] in self.ingredient_details['mixer']['bitter']:
+                if m_type == 'Soda':
                     total_mix[2] += drink.mixer_amts[mix]
-                if drink.mixer_types[mix] in self.ingredient_details['mixer']['weird']:
+                if m_type == 'Coffee':
                     total_mix[3] += drink.mixer_amts[mix]
-                if drink.mixer_types[mix] in self.ingredient_details['mixer']['neutral']:
+                if m_type == 'Mix':
                     total_mix[4] += drink.mixer_amts[mix]
-            total_mod = [0,0,0,0,0,0]
+                if m_type == 'Water':
+                    total_mix[5] += drink.mixer_amts[mix]
+                if m_type == 'Unique':
+                    total_mix[6] += drink.mixer_amts[mix]
+            total_mod = [0,0,0,0,0,0,0,0]
             for mod in range(len(drink.modifier_amts)):
-                if drink.modifier_types[mod] in self.ingredient_details['modifier']['sweet']:
+                m, m_type = self.ingredient_list[drink.modifier_types[mod]]
+                if m_type == 'Bitter':
                     total_mod[0] += drink.modifier_amts[mod]
-                if drink.modifier_types[mod] in self.ingredient_details['modifier']['sour']:
+                if m_type == 'Fruit':
                     total_mod[1] += drink.modifier_amts[mod]
-                if drink.modifier_types[mod] in self.ingredient_details['modifier']['bitter']:
+                if m_type == 'Sweetner':
                     total_mod[2] += drink.modifier_amts[mod]
-                if drink.modifier_types[mod] in self.ingredient_details['modifier']['weird']:
+                if m_type == 'Garnish':
                     total_mod[3] += drink.modifier_amts[mod]
-                if drink.modifier_types[mod] in self.ingredient_details['modifier']['neutral']:
+                if m_type == 'Ice':
                     total_mod[4] += drink.modifier_amts[mod]
-                if drink.modifier_types[mod] in self.ingredient_details['modifier']['salty']:
+                if m_type == 'Sauce':
                     total_mod[5] += drink.modifier_amts[mod]
-            d = total_alc + total_liq + total_mix + total_mod
+                if m_type == 'Spice':
+                    total_mod[6] += drink.modifier_amts[mod]
+                if m_type == 'Sour':
+                    total_mod[7] += drink.modifier_amts[mod]
+            d = total_alc + total_mix + total_mod
             self.train_input.append(d)
             #drinks.append(drink.name)
             #self.train_output.append(10)
-        self.train_output = [5, 10, 9, 5, 7, 9, 9, 7, 3, 10, 1, 1, 9, 8, 9, 10, 7, 7, 10, 9, 7, 8, 3, 9, 8, 8, 9, 9, 8, 8, 7, 9, 1, 7, 7, 10, 10, 8, 7, 2, 1, 10, 3, 10, 8, 8, 9, 3, 6, 4, 2, 8, 7, 7, 6, 7, 10, 2, 5, 10, 8, 7, 1]
-        print(len(self.train_input))
-        print(len(self.train_output))
+        o = open("train_out.txt", "r")
+        lines = o.readlines()
+        for l in lines:
+            self.train_output.append(int(l.strip()))
+        #print(len(self.train_input))
+        #print(len(self.train_output))
     
     #def make_bad_drinks(self):
 
@@ -254,7 +281,7 @@ class GeneticAlgorithm():
     def create_fitness_func(self):
         predictor = LinearRegression(n_jobs=-1)
         predictor.fit(X=self.train_input, y=self.train_output)
-        test = [[3, 0, 12, 0]]
+        test = [[0,2,0,0,0,0,10,0,0,0,0,0,0,0,0,0.5,0,0,0,0,1]]
         outcome = predictor.predict(X=test)
         coefficients = predictor.coef_
         print('Outcome : {}\nCoefficients : {}'.format(outcome, coefficients))
@@ -264,7 +291,7 @@ def main():
     gen_alg.population_setup()
     #print(gen_alg.population)
     #print(gen_alg.ingredient_details)
-    gen_alg.ingredient_deets()
+    #gen_alg.ingredient_deets()
     #print(gen_alg.ingredient_details)
     gen_alg.train_input_setup()
     #print('\n')

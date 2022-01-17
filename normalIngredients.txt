@@ -1,6 +1,6 @@
 dark rum  type: Rum  Alcohol?: Yes  ABV: 40
 light rum  type: Rum  Alcohol?: Yes  ABV: null
-vodka  type:  Spirit  Alcohol?: Yes  ABV: 40
+vodka  type: Spirit  Alcohol?: Yes  ABV: 40
 orange juice  type: Mixer Juice  Alcohol?: null  ABV: null
 malibu rum  type: Rum  Alcohol?: Yes  ABV: 21
 cranberry juice  type: Mixer Juice  Alcohol?: null  ABV: null
@@ -17,14 +17,13 @@ bitters  type: Modifier Bitter  Alcohol?: null  ABV: null
 lemon  type: Modifier Fruit  Alcohol?: null  ABV: null
 peach vodka  type: Spirit  Alcohol?: Yes  ABV: null
 7-up  type: Mixer Soda  Alcohol?: null  ABV: null
-lemon juice  type: Modifier Fruit  Alcohol?: null  ABV: null
+lemon juice  type: Modifier Sour  Alcohol?: null  ABV: null
 kahlua  type: Liqueur  Alcohol?: Yes  ABV: null
 baileys irish cream  type: Liqueur  Alcohol?: Yes  ABV: 13
 sprite  type: Mixer Soda  Alcohol?: null  ABV: null
-grenadine  type: Syrup  Alcohol?: null  ABV: null
+grenadine  type: Modifier Sweetner  Alcohol?: null  ABV: null
 cognac  type: Whiskey  Alcohol?: Yes  ABV: null
 heavy cream  type: Mixer Dairy  Alcohol?: null  ABV: null
-egg white  type: Modifier Weird  Alcohol?: null  ABV: null
 absolut vodka  type: Spirit  Alcohol?: Yes  ABV: 40
 tonic water  type: Mixer Soda  Alcohol?: null  ABV: null
 grapefruit juice  type: Mixer Juice  Alcohol?: null  ABV: null
@@ -33,7 +32,7 @@ peach nectar  type: Mixer Juice  Alcohol?: null  ABV: null
 lime juice  type: Modifier Fruit  Alcohol?: null  ABV: null
 sugar  type: Modifier Sweetner  Alcohol?: null  ABV: null
 mint  type: Modifier Garnish  Alcohol?: null  ABV: null
-scotch  type:  Whiskey  Alcohol?: Yes  ABV: null
+scotch  type: Whiskey  Alcohol?: Yes  ABV: null
 light cream  type: Mixer Dairy  Alcohol?: null  ABV: null
 bourbon  type: Whiskey  Alcohol?: Yes  ABV: null
 lemon peel  type: Modifier Fruit  Alcohol?: null  ABV: null
@@ -41,9 +40,7 @@ coffee  type: Mixer Coffee  Alcohol?: null  ABV: null
 sugar syrup  type: Modifier Sweetner  Alcohol?: null  ABV: null
 passion fruit juice  type: Mixer Juice  Alcohol?: null  ABV: null
 rum  type: Rum  Alcohol?: Yes  ABV: 40
-hot chocolate  type: Mixer Dairy  Alcohol?: null  ABV: null
 ice  type: Modifier Ice  Alcohol?: null  ABV: null
-lime  type: Mixer Fruit  Alcohol?: null  ABV: null
 sour mix  type: Mixer Mix  Alcohol?: null  ABV: null
 everclear  type: Spirit  Alcohol?: Yes  ABV: null
 mountain dew  type: Mixer Soda  Alcohol?: null  ABV: null
@@ -56,11 +53,7 @@ cherry  type: Modifier Fruit  Alcohol?: null  ABV: null
 spiced rum  type: Rum  Alcohol?: Yes  ABV: null
 brandy  type: Spirit  Alcohol?: Yes  ABV: null
 water  type: Mixer Water  Alcohol?: null  ABV: null
-vanilla  type: Modifier  Alcohol?: null  ABV: null
 white rum  type: Rum  Alcohol?: Yes  ABV: null
-egg yolk  type: Modifier  Alcohol?: null  ABV: null
-vanilla extract  type: null  Alcohol?: null  ABV: null
-chocolate  type: Modifier  Alcohol?: null  ABV: null
 cider  type: Beer  Alcohol?: Yes  ABV: 4
 ginger ale  type: Mixer Soda  Alcohol?: null  ABV: null
 fruit punch  type: Mixer Juice  Alcohol?: null  ABV: null
@@ -70,27 +63,22 @@ st. germain  type: Liqueur  Alcohol?: Yes  ABV: null
 pepper  type: Modifier Spice  Alcohol?: null  ABV: null
 lavender  type: Modifier Garnish  Alcohol?: No  ABV: null
 ginger beer  type: Mixer Soda  Alcohol?: null  ABV: null
-whiskey  type:  Whiskey  Alcohol?: Yes  ABV: 40
+whiskey  type: Whiskey  Alcohol?: Yes  ABV: 40
 cinnamon  type: Modifier Spice  Alcohol?: null  ABV: null
 whipped cream  type: Mixer Dairy  Alcohol?: null  ABV: null
 chocolate syrup  type: Modifier Sweetner  Alcohol?: null  ABV: null
 salt  type: Modifier Spice  Alcohol?: null  ABV: null
 whipping cream  type: Mixer Dairy  Alcohol?: null  ABV: null
 nutmeg  type: Modifier Spice  Alcohol?: null  ABV: null
-vanilla syrup  type: Modifier Sweetner  Alcohol?: null  ABV: null
 espresso  type: Mixer Coffee  Alcohol?: null  ABV: null
-egg  type: Modifier Weird  Alcohol?: null  ABV: null
 condensed milk  type: Mixer Dairy  Alcohol?: null  ABV: null
 mezcal  type: Spirit  Alcohol?: Yes  ABV: null
 coffee liqueur  type: Liqueur  Alcohol?: Yes  ABV: null
-strawberries  type: Modifier Fruit  Alcohol?: null  ABV: null
 orange  type: Modifier Fruit  Alcohol?: null  ABV: null
 yoghurt  type: Mixer Dairy  Alcohol?: null  ABV: null
-banana  type: Modifier Fruit  Alcohol?: null  ABV: null
 fruit  type: Modifier Fruit  Alcohol?: null  ABV: null
 honey  type: Modifier Sweetner  Alcohol?: null  ABV: null
 thyme  type: Modifier Spice  Alcohol?: No  ABV: null
-apple  type: Modifier Fruit  Alcohol?: null  ABV: null
 pomegranate juice  type: Mixer Juice  Alcohol?: No  ABV: null
 orange peel  type: Modifier Fruit  Alcohol?: null  ABV: null
 fruit juice  type: Mixer Juice  Alcohol?: null  ABV: null
@@ -104,22 +92,19 @@ cream  type: Mixer Dairy  Alcohol?: null  ABV: null
 Whiskey  type:  Whiskey  Alcohol?: Yes  ABV: 40
 tea  type: Mixer Water  Alcohol?: null  ABV: null
 lemonade  type: Mixer Juice  Alcohol?: null  ABV: null
-blackberries  type: Modifier Fruit  Alcohol?: null  ABV: null
 carbonated soft drink  type: Mixer Soda  Alcohol?: null  ABV: null
 ginger  type: Modifier Spice  Alcohol?: null  ABV: null
-butter  type: Modifier Weird  Alcohol?: null  ABV: null
 half-and-half  type: Mixer Dairy  Alcohol?: null  ABV: null
-marshmallows  type: Modifier Garnish  Alcohol?: null  ABV: null
 brown sugar  type: Modifier Sweetner  Alcohol?: null  ABV: null
 iced tea  type: Mixer Water  Alcohol?: null  ABV: null
 guinness stout  type: Beer  Alcohol?: Yes  ABV: null
-jello  type: Mixer Juice  Alcohol?: null  ABV: null
+jello  type: Mixer Unique  Alcohol?: null  ABV: null
 kiwi  type: Modifier Fruit  Alcohol?: null  ABV: null
+kiwi slice  type: Modifier Garnish  Alcohol?: null  ABV: null
 kool-aid  type: Mixer Juice  Alcohol?: null  ABV: null
-papaya  type: Modifier Fruit  Alcohol?: null  ABV: null
 cayenne pepper  type: Modifier Spice  Alcohol?: null  ABV: null
-mango  type: Modifier Fruit  Alcohol?: null  ABV: null
-fresh lemon juice  type: Modifier Juice  Alcohol?: null  ABV: null
+mango nectar  type: Mixer Juice  Alcohol?: null  ABV: null
+fresh lemon juice  type: Modifier Sour  Alcohol?: null  ABV: null
 hot sauce  type: Modifier Sauce  Alcohol?: null  ABV: null
 soy sauce  type: Modifier Sauce  Alcohol?: null  ABV: null
 pina colada mix  type: Mixer Mix  Alcohol?: null  ABV: null
@@ -134,7 +119,7 @@ oreo cookie  type: Modifier Garnish  Alcohol?: null  ABV: null
 bailey  type: Liqueur  Alcohol?: Yes  ABV: 13
 rosemary  type: Modifier Garnish  Alcohol?: null  ABV: null
 grape soda  type: Mixer Soda  Alcohol?: null  ABV: null
-fresh lime juice  type: Modifier Juice  Alcohol?: null  ABV: null
+fresh lime juice  type: Modifier Sour  Alcohol?: null  ABV: null
 pink lemonade  type: Mixer Juice  Alcohol?: null  ABV: null
 lime peel  type: Modifier Garnish  Alcohol?: null  ABV: null
 allspice  type: Modifier Spice  Alcohol?: No  ABV: null
@@ -146,3 +131,7 @@ agave syrup  type: Modifier Sweetner  Alcohol?: No  ABV: null
 white wine  type: Wine  Alcohol?: Yes  ABV: null
 gold rum  type: Rum  Alcohol?: Yes  ABV: null
 root beer  type: Mixer Soda  Alcohol?: null  ABV: null
+orange slice  type: Modifier Garnish  Alcohol?: null  ABV: null
+lemon wedge  type: Modifier Garnish  Alcohol?: null  ABV: null
+lime wedge  type: Modifier Garnish  Alcohol?: null  ABV: null
+lemon slice  type: Modifier Garnish  Alcohol?: null  ABV: null
