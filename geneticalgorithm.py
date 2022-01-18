@@ -245,6 +245,8 @@ class GeneticAlgorithm():
         c_new2.modifier_types = c2.modifier_types[:mod_crossover] + c1.modifier_types[mod_crossover:]
         c_new2.modifier_amts = c2.modifier_amts[:mod_crossover] + c1.modifier_amts[mod_crossover:]
         
+        print(c_new1.name)
+        print(c_new2.name)
         return c_new1, c_new2
 
     def mutation(self, c):
@@ -259,7 +261,7 @@ class GeneticAlgorithm():
                 new_alc = random.randint(0,len(self.simple_types['Alcohol']) - 1)
                 c_new.alcohol_types[i] = self.simple_types['Alcohol'][new_alc]
                 c_new.alcohol_amts[i] = random.randint(0,4)
-                special = c_new.alcohol_types[i]
+                special += c_new.alcohol_types[i] + ' '
         
         mix_num_points = random.randint(0, len(c.mixer_types)) #size of subset of random points
         mix_subset = random.sample(range(0, len(c.mixer_types)), mix_num_points) #subset of random points
@@ -270,6 +272,7 @@ class GeneticAlgorithm():
                 new_mix = random.randint(0,len(self.simple_types['Mixer']) - 1)
                 c_new.mixer_types[i] = self.simple_types['Mixer'][new_mix]
                 c_new.mixer_amts[i] = random.randint(0,6)
+                special += c_new.mixer_types[i] + ' '
         
         mod_num_points = random.randint(0, len(c.modifier_types)) #size of subset of random points
         mod_subset = random.sample(range(0, len(c.modifier_types)), mod_num_points) #subset of random points
@@ -280,10 +283,23 @@ class GeneticAlgorithm():
                 new_mod = random.randint(0,len(self.simple_types['Modifier']) - 1)
                 c_new.modifier_types[i] = self.simple_types['Modifier'][new_mod]
                 c_new.modifier_amts[i] = random.randint(0,1)
+                special += c_new.modifier_types[i]
         
         #c_new.set_from_attributes()
-        c_new.name = special + ' ' + c.name
-        #print(c_new)
+        words1 = special.split()
+        words2 = c.name.split()
+        flip = random.randint(0,1)
+        if flip == 0:
+            combo = words1[0:int(len(words1)/2)] + words2[int(len(words2)/2):]
+            for n in combo:
+                c_new.name += n
+                c_new.name += " "
+        else:
+            combo = words2[0:int(len(words2)/2)] + words1[int(len(words1)/2):]
+            for n in combo:
+                c_new.name += n
+                c_new.name += " "
+        print(c_new.name)
         return c_new
     
     def gen_alg(self):
@@ -357,7 +373,7 @@ def main():
     #print(gen_alg.train_input)
     gen_alg.create_fitness_func()
     gen_alg.gen_alg()
-    for i in range(10):#range(len(gen_alg.population)):
+    for i in range(25):#range(len(gen_alg.population)):
         print(gen_alg.population[i].recipe())
         print(gen_alg.train_output[i])
         print('\n')

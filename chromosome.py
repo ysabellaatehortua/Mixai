@@ -76,9 +76,9 @@ class Chromosome():
         chromosome = self.name
         chromosome += '\n'
         for alc in range(len(self.alcohol_types)):
-            chromosome += str(self.alcohol_amts[alc]) + ' ' + self.alcohol_types[alc] + '\n'
+            chromosome += str(self.alcohol_amts[alc]) + 'oz ' + self.alcohol_types[alc] + '\n'
         for mix in range(len(self.mixer_types)):
-            chromosome += str(self.mixer_amts[mix]) + ' ' + self.mixer_types[mix] + '\n'
+            chromosome += str(self.mixer_amts[mix]) + 'oz ' + self.mixer_types[mix] + '\n'
         for mod in range(len(self.modifier_types)):
             chromosome += str(self.modifier_amts[mod]) + ' ' + self.modifier_types[mod] + '\n'
         return chromosome
