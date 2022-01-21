@@ -1,1 +1,1 @@
-web: gunicorn mixai.wsgi --log-file -
+web: gunicorn Mixai.wsgi --log-file -
