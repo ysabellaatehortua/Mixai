@@ -16,16 +16,8 @@ class GeneticAlgorithm():
     
     def population_setup(self):
         f = open("convertedTrainingRecipes.txt", "r")
-        #d = open("Database/Mixai/allDrinks.txt", "r")
         i = open("normalIngredients.txt", "r")
         recipes = {}
-        #drinks = [] #store list of drinks
-        #ds = d.readlines() #read list of drinks 
-        #for drink in ds:
-            #drink = drink.rstrip()
-            #if drink != 'False':
-                #drinks.append(drink) #add each drink to list of drinks 
-        #print(drinks)
         ingredients = {}
         ingredients['Alcohol'] = {}
         ingredients['Mixer'] = {}
@@ -36,7 +28,6 @@ class GeneticAlgorithm():
         ings = i.readlines()
         for ingredient in ings:
             ingredient = ingredient.rstrip().rsplit('  ')
-            #print(ingredient)
             if ingredient[2][10:] == 'Yes':
                 if ingredient[1][6:] not in ingredients['Alcohol']:
                     ingredients['Alcohol'][ingredient[1][6:]] = []
@@ -44,63 +35,37 @@ class GeneticAlgorithm():
                 self.ingredient_list[ingredient[0]] = ('Alcohol', ingredient[1][6:])
                 self.simple_types['Alcohol'].append(ingredient[0])
             else:
-                #print("Mixer?: " + ingredient[1][6:12])
                 if ingredient[1][6:11] == 'Mixer':
-                    #print(ingredient[1][12:])
                     if ingredient[1][12:] not in ingredients['Mixer']:
                         ingredients['Mixer'][ingredient[1][12:]] = []
                     ingredients['Mixer'][ingredient[1][12:]].append(ingredient[0])
                     self.ingredient_list[ingredient[0]] = ('Mixer', ingredient[1][12:])
                     self.simple_types['Mixer'].append(ingredient[0])
-                #print("Mod?: " + ingredient[1][6:14])
                 if ingredient[1][6:14] == 'Modifier':
-                    #print(ingredient[1][15:])
                     if ingredient[1][15:] not in ingredients['Modifier']:
                         ingredients['Modifier'][ingredient[1][15:]] = []
                     ingredients['Modifier'][ingredient[1][15:]].append(ingredient[0])
                     self.ingredient_list[ingredient[0]] = ('Modifier', ingredient[1][15:])
                     self.simple_types['Modifier'].append(ingredient[0])
 
-            #ingredients[ingredient[0][0:len(ingredient[0]) - 1]] = ingredient[1]
-            #if ingredient[1] not in self.ingredient_details:
-                #self.ingredient_details[ingredient[1]] = []
-            #self.ingredient_details[ingredient[1]].append(ingredient[0][0:len(ingredient[0]) - 1])
-        #print(ingredients)
-        #print(self.ingredient_list)
-        #for typ in ingredients:
-            #print(typ)
-            #for cat in ingredients[typ]:
-                #print(cat)
         line = f.readline().rstrip()
         while line != '':
             drink = line
-            #print(drink)
             chrom = Chromosome()
             line = f.readline()
             while line != '\n' and line != '':
                 line = line.rstrip().split('  ')
-                #print(line)
                 ingredient = line[0]
                 special = ['Spice', 'Ice', 'Garnish', 'Fruit', 'Unique']
                 if self.ingredient_list[ingredient][1] not in special:
                     amt = float(line[1])
                 og_amt = line[2]
-                #ingredient, index = self.ingredient_parser(line, ingredients)
-                #amt = float(line[index])
-                #og_amt = float(line[index + 2])
-                #og_unit = line[index + 3]
-                #if drink not in recipes:
-                    #recipes[drink] = []
-                #recipes[drink].append([ingredient, amt]) #(og_unit, og_amt)])
                 chrom.name = drink
                 info = self.ingredient_list[ingredient]
                 kind = info[0]
                 if kind == 'Alcohol':
                     chrom.alcohol_types.append(ingredient)
                     chrom.alcohol_amts.append(amt)
-                #if ingredients[ingredient] == 'liqueur':
-                    #chrom.liqueur_types.append(ingredient)
-                    #chrom.liqueur_amts.append(amt)
                 if kind == 'Mixer':
                     chrom.mixer_types.append(ingredient)
                     chrom.mixer_amts.append(amt)
@@ -144,6 +109,7 @@ class GeneticAlgorithm():
         self.ingredient_details['liqueur']['bitter'] = ['coffee liqueur', 'campari', 'passoa']
         self.ingredient_details['liqueur']['weird'] = ['kahlua', 'baileys irish cream', 'amaretto']
     """
+
     def train_input_setup(self, population):
         drinks = []
         train_input = []
@@ -201,8 +167,6 @@ class GeneticAlgorithm():
                     total_mod[7] += drink.modifier_amts[mod]
             d = total_alc + total_mix + total_mod
             train_input.append(d)
-            #drinks.append(drink.name)
-            #self.train_output.append(10)
         return train_input
 
     def make_initial_io(self):
@@ -245,8 +209,6 @@ class GeneticAlgorithm():
         c_new2.modifier_types = c2.modifier_types[:mod_crossover] + c1.modifier_types[mod_crossover:]
         c_new2.modifier_amts = c2.modifier_amts[:mod_crossover] + c1.modifier_amts[mod_crossover:]
         
-        print(c_new1.name)
-        print(c_new2.name)
         return c_new1, c_new2
 
     def mutation(self, c):
@@ -285,7 +247,6 @@ class GeneticAlgorithm():
                 c_new.modifier_amts[i] = random.randint(0,1)
                 special += c_new.modifier_types[i]
         
-        #c_new.set_from_attributes()
         words1 = special.split()
         words2 = c.name.split()
         flip = random.randint(0,1)
@@ -299,7 +260,6 @@ class GeneticAlgorithm():
             for n in combo:
                 c_new.name += n
                 c_new.name += " "
-        print(c_new.name)
         return c_new
     
     def gen_alg(self):
@@ -320,14 +280,9 @@ class GeneticAlgorithm():
             omg = 0
             for i in new_input:
                 self.train_output.append(self.predictor.predict(X=[i])[0])
-                #print(new_population[omg])
-                #print(self.predictor.predict(X=[i]))
                 omg += 1
             self.population += new_population
             self.train_input += new_input
-            print(len(self.population))
-            #rint(self.train_output)
-            #print(self.train_input)
             data = list(zip(self.train_output, self.train_input, self.population))
             data = sorted(data, key=lambda x: x[0],reverse=True)
             pop = []
@@ -340,37 +295,19 @@ class GeneticAlgorithm():
             self.population = pop
             self.train_input = train_in
             self.train_output = train_out
-
-            #print(self.train_output)
-            #print(self.train_input)
-            """
-            for element in range(len(self.population)):
-                if element < len(self.train_output):
-                    if self.train_output[element] < 7:
-                        self.population.pop(element)
-                        self.train_input.pop(element)
-                        self.train_output.pop(element)"""
-            print(len(self.population))
-            print(min(self.train_output))
             n += 1
 
     def create_fitness_func(self):
         self.predictor.fit(X=self.train_input, y=self.train_output)
-        test = [[0,2,0,0,0,0,10,0,0,0,0,0,0,0,0,0.5,0,0,0,0,1]]
-        outcome = self.predictor.predict(X=test)
-        coefficients = self.predictor.coef_
-        print('Outcome : {}\nCoefficients : {}'.format(outcome, coefficients))
+        #test = [[0,2,0,0,0,0,10,0,0,0,0,0,0,0,0,0.5,0,0,0,0,1]]
+        #outcome = self.predictor.predict(X=test)
+        #coefficients = self.predictor.coef_
+        #print('Outcome : {}\nCoefficients : {}'.format(outcome, coefficients))
     
 def main():
     gen_alg = GeneticAlgorithm()
     gen_alg.population_setup()
-    #print(gen_alg.population)
-    #print(gen_alg.ingredient_details)
-    #gen_alg.ingredient_deets()
-    #print(gen_alg.ingredient_details)
     gen_alg.make_initial_io()
-    #print('\n')
-    #print(gen_alg.train_input)
     gen_alg.create_fitness_func()
     gen_alg.gen_alg()
     for i in range(25):#range(len(gen_alg.population)):
