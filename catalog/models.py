@@ -27,7 +27,7 @@ class Cocktails(models.Model):
 
 #     #type of Tools: shaker, cocktail shaker, strainer, ...
 
-#     def __str__(self):
+#     def __str__(self): 
 #         """String for representing the Model object."""
 #         return self.tool_name
 
@@ -36,7 +36,6 @@ class Ingredients(models.Model):
         ('alcohol', 'Alcohol'),
         ('mixer', 'Mixer'),
         ('modifier', 'Modifier'),
-        ('liqueur','Liqueur')
     )
 
     ingredient_id = models.AutoField(primary_key=True)
@@ -89,3 +88,11 @@ class RecipeSteps(models.Model):
         """String for representing the Model object."""
         returnString = str(self.measurement) + " ounces of " + str(self.ingredient)
         return str(returnString)
+
+
+# class AvailableIngredients(models.Model):
+#     id = models.AutoField(primary_key=True)
+
+#     user = models.ForeignKey('User', on_delete=models.SET_NULL, null=True)
+
+#     ingredient = models.ForeignKey('Ingredients', on_delete=models.SET_NULL, null=True)
