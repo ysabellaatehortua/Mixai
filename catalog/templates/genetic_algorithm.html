@@ -1,0 +1,10 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+
+{% for chromosome in output_chromosomes %}
+    <div>{{ chromosome.name }}</div>      
+{% endfor %}
+
+
+{% endblock %}
