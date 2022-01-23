@@ -60,7 +60,7 @@ class Ingredients(models.Model):
 
     def __str__(self):
         """String for representing the Model object."""
-        return self.name
+        return str(self.name)
 
 
 class Measurements(models.Model):
