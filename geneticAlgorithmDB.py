@@ -171,7 +171,7 @@ class GeneticAlgorithm():
         all_mixers = Ingredients.objects.filter(type = 'mixer')
         all_modifiers = Ingredients.objects.filter(type = 'modifier')
 
-        new_amount0 = Measurements(amount_ounces = 0)
+        new_amount0 = Measurements(amount_ounces = 0.1)
         new_amount0.save()
         new_amount1 = Measurements(amount_ounces = 1)
         new_amount1.save()
@@ -282,7 +282,7 @@ class GeneticAlgorithm():
         c_new = ChromosomeDB(name = special, population = new_population) #we will change the name down below
         c_new.save()
         
-        new_amount0 = Measurements(amount_ounces = 0)
+        new_amount0 = Measurements(amount_ounces = 0.1)
         new_amount0.save()
         new_amount1 = Measurements(amount_ounces = 1)
         new_amount1.save()
@@ -294,7 +294,7 @@ class GeneticAlgorithm():
         new_amount4.save()
         new_amount5 = Measurements(amount_ounces = 5)
         new_amount5.save()
-        new_amount6= Measurements(amount_ounces = 6)
+        new_amount6 = Measurements(amount_ounces = 6)
         new_amount6.save()
         amounts = [new_amount0, new_amount1, new_amount2, new_amount3, new_amount4, new_amount4, new_amount6]
 
@@ -406,20 +406,36 @@ class GeneticAlgorithm():
         #outcome = self.predictor.predict(X=test)
         #coefficients = self.predictor.coef_
         #print('Outcome : {}\nCoefficients : {}'.format(outcome, coefficients))
-    def filter_drinks():
+
+
+    def filter_drinks(self):
         diff = 0
         good_drinks = {}
-        user_ingredients = AvailableIngredients.objects.filter(user = request.user)
-        output_chromosomes = ChromosomeDB.objects.filter(population = gen_alg.training_population)
+        user_available_ingredients = AvailableIngredients.objects.filter(user = self.user)
+        output_chromosomes = ChromosomeDB.objects.filter(population = self.training_population)
         for drink in output_chromosomes:
+            
+            diff = 0
+            drink_to_add = [drink.name]
             genes = Gene.objects.filter(chromosomeDB = drink)
+            if len(genes) <  4:
+                continue
             for gene in genes:
-                if gene.ingredient not in user_ingredients.ingredient:
-                    diff += 1
+                print(gene)
+                drink_to_add.append(gene)
+                have_ingredient = False
+                for user_ingredient in user_available_ingredients:
+                    if gene.ingredient.name == user_ingredient.ingredient.name:
+                        have_ingredient = True
+                        break
+                if have_ingredient:
+                    diff+=1
             if diff not in good_drinks:
                 good_drinks[diff] = []
-            good_drinks[diff] = drink
+            good_drinks[diff] = drink_to_add
+        print("good Drinks", good_drinks)
         sorted_drinks = sorted(good_drinks.items())
+        print("sorted_drinks", sorted_drinks)
         return sorted_drinks[0][1]
         
 # def main(user):

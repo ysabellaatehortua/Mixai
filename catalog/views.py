@@ -57,6 +57,13 @@ def genetic_alg(request):
     gen_alg = GeneticAlgorithm(user = request.user)
     gen_alg.create_fitness_func()
     gen_alg.gen_alg()
+    closest_to_make_output = gen_alg.filter_drinks()
+    # closest_to_make = gen_alg.filter_drinks()
+    # closest_to_make_genes = Gene.objects.filter(chromosomeDB = closest_to_make)
+    # closest_to_make_output = [closest_to_make.name]
+    # for gene in closest_to_make_genes:
+    #     print(gene)
+    #     closest_to_make_output.append(gene)
     output_chromosomes = ChromosomeDB.objects.filter(population = gen_alg.training_population)
     return_chromosome = output_chromosomes[0]
     print(return_chromosome.name)
@@ -92,6 +99,7 @@ def genetic_alg(request):
     context = {
         'available_ingredients': available_ingredients,
         'to_dispaly' : to_dispaly,
+        'closest_to_make_output' : closest_to_make_output,
     }
 
 
