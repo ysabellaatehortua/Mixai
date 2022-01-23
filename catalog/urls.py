@@ -5,5 +5,5 @@ urlpatterns = [
     path('', views.index, name='index'),
     path('genetic_algorithm/', views.genetic_alg, name='genetic-algorithm'),
     path("register/", views.register_request, name="register"),
-    path("about/", views.register_request, name="about")
+    path("about.html/", views.about, name="about")
 ]
