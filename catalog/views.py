@@ -58,34 +58,40 @@ def genetic_alg(request):
     gen_alg.create_fitness_func()
     gen_alg.gen_alg()
     output_chromosomes = ChromosomeDB.objects.filter(population = gen_alg.training_population)
-    return_chromosomes = []
-    for i in range(len(output_chromosomes)):#range(len(gen_alg.population)):
-        same_drink = False
-        chromosome = output_chromosomes[i]
-        cur_chromosome = [chromosome.name]
-        genes = Gene.objects.filter(chromosomeDB = chromosome)
-        print(chromosome.name)
-        for gene in genes:
-            cur_chromosome.append(gene)
-            print("gene ingredient", gene.ingredient)
-        for chrom in return_chromosomes:
-            same_drink = True
-            for i in range(len(cur_chromosome)-2):
-                print("comparing",  chrom[i+1].ingredient.name, " and ", cur_chromosome[i+1].ingredient.name)
-                if chrom[i+1].ingredient.name != cur_chromosome[i+1].ingredient.name and chrom[i+1].amount != cur_chromosome[i+1].amount:
-                    same_drink = False
-        if not same_drink:
-            return_chromosomes.append(cur_chromosome)
-        if len(return_chromosomes) == 5:
-            break
-        print()
-        print(gen_alg.train_output[i])
-        print('\n')
+    return_chromosome = output_chromosomes[0]
+    print(return_chromosome.name)
+    to_dispaly = [return_chromosome.name]
+    genes = Gene.objects.filter(chromosomeDB = return_chromosome)
+    for gene in genes:
+        print(gene)
+        to_dispaly.append(gene)
+    # for i in range(len(output_chromosomes)):#range(len(gen_alg.population)):
+    #     same_drink = False
+    #     chromosome = output_chromosomes[i]
+    #     cur_chromosome = [chromosome.name]
+    #     genes = Gene.objects.filter(chromosomeDB = chromosome)
+    #     print(chromosome.name)
+    #     for gene in genes:
+    #         cur_chromosome.append(gene)
+    #         print("gene ingredient", gene.ingredient)
+    #     for chrom in return_chromosomes:
+    #         same_drink = True
+    #         for i in range(len(cur_chromosome)-2):
+    #             if chrom[i+1].ingredient.name != cur_chromosome[i+1].ingredient.name and chrom[i+1].amount != cur_chromosome[i+1].amount:
+    #                 same_drink = False
+    #                 break
+    #     if not same_drink:
+    #         return_chromosomes.append(cur_chromosome)
+    #     if len(return_chromosomes) == 5:
+    #         break
+    #     print()
+    #     print(gen_alg.train_output[i])
+    #     print('\n')
         
 
     context = {
         'available_ingredients': available_ingredients,
-        'return_chromosomes' : return_chromosomes,
+        'to_dispaly' : to_dispaly,
     }
 
 

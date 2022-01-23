@@ -2,19 +2,13 @@
 
 {% block content %}
 
-<div class="row" style="margin-top:7%">
-    {% for chromosome in return_chromosomes %}
-        <div class="column" style = "margin-right: 40px;">
-            {% for gene in chromosome %}
-                {% if forloop.first %}
-                    <p style="font-weight: bold;">{{ gene }}</p>
-                {% else %}
-                    <p>{{ gene.amount }} {{ gene.ingredient }}</p>
-                {% endif %}
-            {% endfor %}
-        </div>
+    {% for gene in to_dispaly %}
+        {% if forloop.first %}
+            <p style="font-weight: bold;">{{ gene }}</p>
+        {% else %}
+            <p>{{ gene.amount }} oz of {{ gene.ingredient }}</p>
+        {% endif %}
     {% endfor %}
-</div>
 
 
 {% endblock %}

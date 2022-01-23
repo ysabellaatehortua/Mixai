@@ -160,9 +160,9 @@ sugar syrup  0.09375  3 dashes
 soda water  2  fill to top with 
 
 jello shots
-vodka  16.0  2 cups 
-jello  3.0 packages  3 packages 
-water  24.0  3 cups 
+vodka  4.0  2 cups 
+jello  1.0 packages  3 packages 
+water  6.0  3 cups 
 
 kamikaze
 vodka  1.0  1 oz 
