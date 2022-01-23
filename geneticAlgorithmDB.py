@@ -2,7 +2,7 @@ from sklearn.linear_model import LinearRegression
 import random
 import copy 
 from django.contrib.auth.models import User
-from catalog.models import ChromosomeDB, Gene, Ingredients, Measurements, Population
+from catalog.models import ChromosomeDB, Gene, Ingredients, Measurements, Population, AvailableIngredients
 
 
 
@@ -406,7 +406,22 @@ class GeneticAlgorithm():
         #outcome = self.predictor.predict(X=test)
         #coefficients = self.predictor.coef_
         #print('Outcome : {}\nCoefficients : {}'.format(outcome, coefficients))
-    
+    def filter_drinks():
+        diff = 0
+        good_drinks = {}
+        user_ingredients = AvailableIngredients.objects.filter(user = request.user)
+        output_chromosomes = ChromosomeDB.objects.filter(population = gen_alg.training_population)
+        for drink in output_chromosomes:
+            genes = Gene.objects.filter(chromosomeDB = drink)
+            for gene in genes:
+                if gene.ingredient not in user_ingredients.ingredient:
+                    diff += 1
+            if diff not in good_drinks:
+                good_drinks[diff] = []
+            good_drinks[diff] = drink
+        sorted_drinks = sorted(good_drinks.items())
+        return sorted_drinks[0][1]
+        
 # def main(user):
 #     gen_alg = GeneticAlgorithm(user)
 #     gen_alg.create_fitness_func()
