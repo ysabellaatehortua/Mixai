@@ -1,353 +1,336 @@
-
-{% extends "base_generic.html" %}
-
-{% block content %}
-
 <html>
 <head>
 <title>MixAI</title>
 </head>
-<body style="background-color:#ddfffa;">
+<body style="background-color:rgb(113, 117, 117);">
+    <link rel="stylesheet" href="style.css">
 <style>
 p {
-  font-family: Didot;
+  font-family: Roobert,-apple-system,BlinkMacSystemFont;
 }
-label {font-family: Didot;
+label {font-family: Roobert,-apple-system,BlinkMacSystemFont;
 }
 </style>
 <center>
-<font face = "Didot" size = "10">MixAI</font><br />
+<font size = "20" face = "Optima" weight = 600>MixAI</font>
 	</center>
-
 <body>
+
 </html>
-<p><font face = "Didot" size = "5"><a href=about.html>About Us</a></font><br />
+<p><div style="position: absolute; top: 15; right: 20; width: 200x; text-align:right;"><font size = "5"><a href=about.html>About Us</a></font></div>
+    <a href="http://127.0.0.1:8000/catalog/genetic_algorithm/" class="button" style="position:absolute;top:15px;left:10px;">Generate a Random Drink</a>
     
 
     <form>
-<body face = "Didot">
-
-<hr>
-
-<font face = "Didot" size = "5">Click <b> <a href="http://127.0.0.1:8000/catalog/genetic_algorithm/">HERE</a> </b> to Generate a Random Drink</font>
-<hr>
-		<p><font face = "Didot" size = "5">Help Us Rate!</font><br />
-<p>
-		<p> To help us improve our algorithm, click <b>here</b> to rank some drinks.<p>
-		
+	
 	<hr>
 		<center>
-		<font face = "Didot" size = "5">Use What You Got!</font><br />
+		<font size = "5"> Please enter the items you have available:</font>
 		</center>
-{% for ingredient in available_ingredients %}
-    <div>{{ ingredient }}</div>
-{% endfor %}
 
 <form action="" method="POST" name="alcohol">
-{% csrf_token %}
 	
-    <p> Please enter the items you have available:</p>
-    <p>Liquors:</p>
-    <input form="myForm" type="checkbox" name="liquors" id="vodka"  value="vodka" onclick="return ValidateSelection();"> 
-    <label for="vodka">vodka</label>
-    <input type="checkbox" name="liquors" id="peach vodka" value="peach vodka" onclick="return ValidateSelection();"> 
-    <label for="peach vodka">peach vodka</label>
-    <input form="myForm" type="checkbox" name="liquors" id="gin"  value="gin" onclick="return ValidateSelection();"> 
-    <label for="gin">gin</label>
-    <input type="checkbox" name="liquors" id="whiskey" value="whiskey" onclick="return ValidateSelection();"> 
-    <label for="whiskey">whiskey</label>
-    <input type="checkbox" name="liquors" id="tequila" value="tequila" onclick="return ValidateSelection();"> 
-    <label for="tequila">tequila</label>
-    <input type="checkbox" name="liquors" id="tequila" value="tequila" onclick="return ValidateSelection();"> 
-    <label for="cider">cider</label>
-<input type="checkbox" name="liquors" id="cider" value="cider" onclick="return ValidateSelection();"> 
-    <label for="brandy">brandy</label>
-    <input form="myForm" type="checkbox" name="liquors" id="spiced rum"  value="spiced rum" onclick="return ValidateSelection();"> 
-    <label for="spiced rum">spiced rum</label>
-    <input type="checkbox" name="liquors" id="light rum" value="light rum" onclick="return ValidateSelection();"> 
-    <label for="light rum">light rum</label>
-    <input form="myForm" type="checkbox" name="liquors" id="triple sec"  value="triple sec" onclick="return ValidateSelection();"> 
-    <label for="triple sec">triple sec</label>
-    <input form="myForm" type="checkbox" name="liquors" id="dark rum"  value="dark rum" onclick="return ValidateSelection();"> 
-    <label for="dark rum">dark rum</label>
-    <input form="myForm" type="checkbox" name="liquors" id="mezcal"  value="mezcal" onclick="return ValidateSelection();"> 
-    <label for="mezcal">mezcal</label>
-    <input form="myForm" type="checkbox" name="liquors" id="coffee liqueur"  value="coffee liqueur" onclick="return ValidateSelection();"> 
-    <label for="coffee liqueur">coffee liqueur</label>
-    <input form="myForm" type="checkbox" name="liquors" id="cognac"  value="cognac" onclick="return ValidateSelection();"> 
-    <label for="cognac">cognac</label>
-    <input type="checkbox" name="liquors" id="kahlua" value="kahlua" onclick="return ValidateSelection();"> 
-    <label for="kahlua">kahlua</label>
-  <input type="checkbox" name="liquors" id="rum" value="rum" onclick="return ValidateSelection();"> 
-    <label for="rum">rum</label>
-  <input type="checkbox" name="liquors" id="gold rum" value="gold rum" onclick="return ValidateSelection();"> 
-    <label for="gold rum">gold rum</label>
-  <input type="checkbox" name="liquors" id="white wine" value="white wine" onclick="return ValidateSelection();"> 
-    <label for="white wine">white wine</label>
-    <input form="myForm" type="checkbox" name="liquors" id="baileys irish cream"  value="baileys irish cream" onclick="return ValidateSelection();"> 
-    <label for="baileys irish cream">baileys irish cream</label>
-    <input form="myForm" type="checkbox" name="liquors" id="bailey"  value="bailey" onclick="return ValidateSelection();"> 
-    <label for="bailey">bailey</label>
-    <input type="checkbox" name="liquors" id="scotch" value="scotch" onclick="return ValidateSelection();"> 
-    <label for="scotch">scotch</label>
-    <input form="myForm" type="checkbox" name="liquors" id="malibu rum"  value="malibu rum" onclick="return ValidateSelection();"> 
-    <label for="malibu rum">malibu rum</label>
-    <input form="myForm" type="checkbox" name="liquors" id="white rum"  value="white rum" onclick="return ValidateSelection();"> 
-    <label for="white rum">white rum</label>
-    <input form="myForm" type="checkbox" name="liquors" id="everclear"  value="everclear" onclick="return ValidateSelection();"> 
-    <label for="everclear">everclear</label>
-    <input type="checkbox" name="liquors" id="bourbon" value="bourbon" onclick="return ValidateSelection();"> 
-    <label for="bourbon">bourbon</label>
-    <input form="myForm" type="checkbox" name="liquors" id="jack daniels"  value="jack daniels" onclick="return ValidateSelection();"> 
-    <label for="jack daniels">jack daniels</label>
-    <input form="myForm" type="checkbox" name="liquors" id="st. germain"  value="st. germain" onclick="return ValidateSelection();"> 
-    <label for="st. germain">st. germain</label>
-<input form="myForm" type="checkbox" name="liquors" id="jack daniels"  value="jack daniels" onclick="return ValidateSelection();"> 
-    <label for="jack daniels">jack daniels</label>
-<input form="myForm" type="checkbox" name="liquors" id="jim beam"  value="jim beam" onclick="return ValidateSelection();"> 
-    <label for="jim beam">jim beam</label>
-    <input form="myForm" type="checkbox" name="liquors" id="red wine"  value="red wine" onclick="return ValidateSelection();"> 
-    <label for="red wine">red wine</label>
-    <input type="checkbox" name="liquors" id="guinness" value="guinness" onclick="return ValidateSelection();"> 
-    <label for="guinness">guinness</label>
-<input type="checkbox" name="liquors" id="absolut vodka" value="absolut vodka" onclick="return ValidateSelection();"> 
-    <label for="absolut vodka">absolut vodka</label>
-    <input form="myForm" type="checkbox" name="liquors" id="cognac"  value="cognac" onclick="return ValidateSelection();"> 
-    <label for="cognac">cognac</label>
+    <p><font size = "3">Liquors:</font></p>
+    
+    <ul class="checkbox">
+        <li><input form="myForm" type="checkbox" name="liquors" id="vodka"  value="vodka" onclick="return ValidateSelection();"> 
+        <label for="vodka">vodka</label></li>
+        <li><input type="checkbox" name="liquors" id="whiskey" value="whiskey" onclick="return ValidateSelection();"> 
+        <label for="whiskey">whiskey</label></li>
+        <li><input type="checkbox" name="liquors" id="peach vodka" value="peach vodka" onclick="return ValidateSelection();"> 
+        <label for="peach vodka">peach vodka</label></li>
+        <li><input form="myForm" type="checkbox" name="liquors" id="gin"  value="gin" onclick="return ValidateSelection();"> 
+        <label for="gin">gin</label></li>
+        <li><input type="checkbox" name="liquors" id="tequila" value="tequila" onclick="return ValidateSelection();"> 
+        <label for="tequila">tequila</label></li>
+        <li><input type="checkbox" name="liquors" id="tequila" value="tequila" onclick="return ValidateSelection();"> 
+        <label for="cider">cider</label></li>
+        <li><input type="checkbox" name="liquors" id="cider" value="cider" onclick="return ValidateSelection();"> 
+        <label for="brandy">brandy</label></li>
+        <li><input form="myForm" type="checkbox" name="liquors" id="spiced rum"  value="spiced rum" onclick="return ValidateSelection();"> 
+        <label for="spiced rum">spiced rum</label></li>
+        <li><input type="checkbox" name="liquors" id="light rum" value="light rum" onclick="return ValidateSelection();"> 
+        <label for="light rum">light rum</label></li>
+        <li><input form="myForm" type="checkbox" name="liquors" id="triple sec"  value="triple sec" onclick="return ValidateSelection();"> 
+        <label for="triple sec">triple sec</label></li>
+        <li><input form="myForm" type="checkbox" name="liquors" id="dark rum"  value="dark rum" onclick="return ValidateSelection();"> 
+        <label for="dark rum">dark rum</label></li>
+        <li><input form="myForm" type="checkbox" name="liquors" id="mezcal"  value="mezcal" onclick="return ValidateSelection();"> 
+        <label for="mezcal">mezcal</label></li>
+        <li><input form="myForm" type="checkbox" name="liquors" id="coffee liqueur"  value="coffee liqueur" onclick="return ValidateSelection();"> 
+        <label for="coffee liqueur">coffee liqueur</label></li>
+        <li><input form="myForm" type="checkbox" name="liquors" id="cognac"  value="cognac" onclick="return ValidateSelection();"> 
+        <label for="cognac">cognac</label></li>
+        <li><input type="checkbox" name="liquors" id="kahlua" value="kahlua" onclick="return ValidateSelection();"> 
+        <label for="kahlua">kahlua</label></li>
+        <li><input type="checkbox" name="liquors" id="rum" value="rum" onclick="return ValidateSelection();"> 
+        <label for="rum">rum</label></li>
+        <li><input type="checkbox" name="liquors" id="gold rum" value="gold rum" onclick="return ValidateSelection();"> 
+        <label for="gold rum">gold rum</label></li>
+        <li><input type="checkbox" name="liquors" id="white wine" value="white wine" onclick="return ValidateSelection();"> 
+        <label for="white wine">white wine</label></li>
+        <li><input form="myForm" type="checkbox" name="liquors" id="baileys irish cream"  value="baileys irish cream" onclick="return ValidateSelection();"> 
+        <label for="baileys irish cream">baileys irish cream</label></li>
+        <li><input form="myForm" type="checkbox" name="liquors" id="bailey"  value="bailey" onclick="return ValidateSelection();"> 
+        <label for="bailey">bailey</label></li>
+        <li><input type="checkbox" name="liquors" id="scotch" value="scotch" onclick="return ValidateSelection();"> 
+        <label for="scotch">scotch</label></li>
+        <li><input form="myForm" type="checkbox" name="liquors" id="malibu rum"  value="malibu rum" onclick="return ValidateSelection();"> 
+        <label for="malibu rum">malibu rum</label></li>
+        <li><input form="myForm" type="checkbox" name="liquors" id="white rum"  value="white rum" onclick="return ValidateSelection();"> 
+        <label for="white rum">white rum</label></li>
+        <li><input form="myForm" type="checkbox" name="liquors" id="everclear"  value="everclear" onclick="return ValidateSelection();"> 
+        <label for="everclear">everclear</label></li>
+        <li><input type="checkbox" name="liquors" id="bourbon" value="bourbon" onclick="return ValidateSelection();"> 
+        <label for="bourbon">bourbon</label></li>
+        <li><input form="myForm" type="checkbox" name="liquors" id="jack daniels"  value="jack daniels" onclick="return ValidateSelection();"> 
+        <label for="jack daniels">jack daniels</label></li>
+        <li><input form="myForm" type="checkbox" name="liquors" id="st. germain"  value="st. germain" onclick="return ValidateSelection();"> 
+        <label for="st. germain">st. germain</label></li>
+        <li><input form="myForm" type="checkbox" name="liquors" id="jack daniels"  value="jack daniels" onclick="return ValidateSelection();"> 
+        <label for="jack daniels">jack daniels</label></li>
+        <li><input form="myForm" type="checkbox" name="liquors" id="jim beam"  value="jim beam" onclick="return ValidateSelection();"> 
+        <label for="jim beam">jim beam</label></li>
+        <li><input form="myForm" type="checkbox" name="liquors" id="red wine"  value="red wine" onclick="return ValidateSelection();"> 
+        <label for="red wine">red wine</label></li>
+        <li><input type="checkbox" name="liquors" id="guinness" value="guinness" onclick="return ValidateSelection();"> 
+        <label for="guinness">guinness</label></li>
+        <li><input type="checkbox" name="liquors" id="absolut vodka" value="absolut vodka" onclick="return ValidateSelection();"> 
+        <label for="absolut vodka">absolut vodka</label></li>
+        <li><input form="myForm" type="checkbox" name="liquors" id="cognac"  value="cognac" onclick="return ValidateSelection();"> 
+        <label for="cognac">cognac</label></li>
+</ul>
 <p><input type="submit" value="Submit"></p>
 <!-- <form action="" target="result3" method="get" id="myForm"> -->
 </form>
 
 <form action="" method="POST" name="mixers">
-    {% csrf_token %}
     <p>Mixers:</p>
-    <input type="checkbox" name="mixers" id="orange juice" value="orange juice" onclick="return       ValidateSelection();">
-    <label for="orange juice">orange juice</label>
-    <input form="myForm" type="checkbox" name="mixers" id="coca-cola"  value="coca-cola" onclick="return ValidateSelection();"> 
-    <label for="coca-cola">coca-cola</label>
-    <input form="myForm" type="checkbox" name="mixers" id="tonic water"  value="tonic water" onclick="return ValidateSelection();"> 
-    <label for="tonic water">tonic water</label>
-    <input type="checkbox" name="mixers" id="peach nectar" value="peach nectar" > 
-    <label for="peach nectar">peach nectar</label>
-    <input form="myForm" type="checkbox" name="mixers" id="pineapple juice"  value="pineapple juice" onclick="return ValidateSelection();"> 
-    <label for="pineapple juice">pineapple juice</label>
-    <input form="myForm" type="checkbox" name="mixers" id="ginger ale"  value="ginger ale" onclick="return ValidateSelection();"> 
-    <label for="ginger ale">ginger ale</label>
-    <input type="checkbox" name="mixers" id="ginger beer" value="ginger beer" > 
-    <label for="ginger beer">ginger beer</label>
-    <input form="myForm" type="checkbox" name="mixers" id="apple juice"  value="apple juice" onclick="return ValidateSelection();"> 
-    <label for="apple juice">apple juice</label>
-    <input type="checkbox" name="mixers" id="grape soda" value="grape soda" > 
-    <label for="grape soda">grape soda</label>
-        <input form="myForm" type="checkbox" name="mixers" id="7-up"  value="7-up" onclick="return ValidateSelection();"> 
-    <label for="7-up">7-up</label>
-        <input form="myForm" type="checkbox" name="mixers" id="club soda"  value="club soda" onclick="return ValidateSelection();"> 
-    <label for="club soda">club soda</label>
-    <input form="myForm" type="checkbox" name="mixers" id="root beer"  value="root beer" onclick="return ValidateSelection();"> 
-    <label for="root beer">root beer</label>
-	    <input form="myForm" type="checkbox" name="mixers" id="milk"  value="milk" onclick="return ValidateSelection();"> 
-    <label for="milk">milk</label>
-	    <input form="myForm" type="checkbox" name="mixers" id="cream"  value="cream" onclick="return ValidateSelection();"> 
-    <label for="cream">cream</label>
-	<input form="myForm" type="checkbox" name="mixers" id="vanilla ice-cream"  value="vanilla ice-cream" onclick="return ValidateSelection();"> 
-    <label for="vanilla ice-cream">vanilla ice-cream</label>
- <input form="myForm" type="checkbox" name="mixers" id="mountain dew"  value="mountain dew" onclick="return ValidateSelection();"> 
-    <label for="mountain dew">mountain dew</label>
-<input form="myForm" type="checkbox" name="mixers" id="surge"  value="surge" onclick="return ValidateSelection();"> 
-    <label for="surge">surge</label>
-<input form="myForm" type="checkbox" name="mixers" id="root beer"  value="root beer" onclick="return ValidateSelection();"> 
-    <label for="root beer">root beer</label>
-
-	<input form="myForm" type="checkbox" name="mixers" id="fruit punch"  value="fruit punch" onclick="return ValidateSelection();"> 
-    <label for="fruit punch">fruit punch</label>
-
-<input form="myForm" type="checkbox" name="mixers" id="fruit juice"  value="fruit juice" onclick="return ValidateSelection();"> 
-    <label for="fruit juice">fruit juice</label>
-        <input form="myForm" type="checkbox" name="mixers" id="passionfruit juice"  value="passionfruit juice" onclick="return ValidateSelection();"> 
-    <label for="passionfruit juice">passionfruit juice</label>
-    <input type="checkbox" name="mixers" id="pomegranate juice" value="pomegranate juice" > 
-    <label for="pomegranate juice">pomegranate juice</label>
-    <input form="myForm" type="checkbox" name="mixers" id="lemonade"  value="lemonade" onclick="return ValidateSelection();"> 
-    <label for="lemonade">lemonade</label>
-    <input form="myForm" type="checkbox" name="mixers" id="pink lemonade"  value="pink lemonade" onclick="return ValidateSelection();"> 
-    <label for="pink lemonade">pink lemonade</label>
-    <input form="myForm" type="checkbox" name="mixers" id="mango nectar"  value="mango nectar" onclick="return ValidateSelection();"> 
-    <label for="mango nectar">mango nectar</label>
-    <input form="myForm" type="checkbox" name="mixers" id="jello"  value="jello" onclick="return ValidateSelection();"> 
-    <label for="jello">jello</label>
-<input form="myForm" type="checkbox" name="mixers" id="dr. pepper"  value="dr. pepper" onclick="return ValidateSelection();"> 
-    <label for="dr. pepper">dr. pepper</label>
-    <input form="myForm" type="checkbox" name="mixers" id="cranberry juice"  value="cranberry juice" onclick="return ValidateSelection();"> 
-    <label for="cranberry juice">cranberry juice</label>
-    <input type="checkbox" name="mixers" id="grapefruit juice" value="grapefruit juice" > 
-    <label for="grapefruit juice">grapefruit juice</label>
-    <input type="checkbox" name="mixers" id="grape juice" value="grape juice" > 
-    <label for="grape juice">grape juice</label>
-    <input type="checkbox" name="mixers" id="espresso" value="espresso" > 
-    <label for="espresso">espresso</label>
-    <input type="checkbox" name="mixers" id="thyme" value="thyme" > 
-    <label for="thyme">thyme</label>
-    <input type="checkbox" name="mixers" id="fruit" value="fruit" > 
-    <label for="fruit">fruit</label>
-<input type="checkbox" name="mixers" id="lemon-lime soda" value="lemon-lime soda" > 
-    <label for="lemon-lime soda">lemon-lime soda</label>
-	<input type="checkbox" name="mixers" id="yoghurt" value="yoghurt" > 
-    <label for="yoghurt">yoghurt</label>
-    <input type="checkbox" name="mixers" id="condensed milk" value="condensed milk" > 
-    <label for="condensed milk">condensed milk</label>
-    <input form="myForm" type="checkbox" name="mixers" id="iced tea"  value="iced tea" onclick="return ValidateSelection();"> 
-    <label for="iced tea">iced tea</label>
-    <input form="myForm" type="checkbox" name="mixers" id="tea"  value="tea" onclick="return ValidateSelection();"> 
-    <label for="tea">tea</label>
-    <input form="myForm" type="checkbox" name="mixers" id="carbonated soft drink"  value="carbonated soft drink" onclick="return ValidateSelection();"> 
-    <label for="carbonated soft drink">carbonated soft drink</label>
-    <input type="checkbox" name="mixers" id="coffee" value="coffee" > 
-    <label for="coffee">coffee</label>
-    <input type="checkbox" name="mixers" id="pepsi cola" value="pepsi cola" > 
-    <label for="pepsi cola">pepsi cola</label>
-    <input type="checkbox" name="mixers" id="daiquiri mix" value="daiquiri mix" > 
-    <label for="daiquiri mix">daiquiri mix</label>
-    <input type="checkbox" name="mixers" id="pina colada mix" value="pina colada mix" > 
-    <label for="pina colada mix">pina colada mix</label>
-        <input form="myForm" type="checkbox" name="mixers" id="sprite"  value="sprite" onclick="return ValidateSelection();"> 
-    <label for="sprite">sprite</label>
-        <input form="myForm" type="checkbox" name="mixers" id="kool-aid"  value="kool-aid" onclick="return ValidateSelection();"> 
-    <label for="kool-aid">kool-aid</label>
-        <input form="myForm" type="checkbox" name="mixers" id="whipped cream"  value="whipped cream" onclick="return ValidateSelection();"> 
-    <label for="whipped cream">whipped cream</label>
-        <input form="myForm" type="checkbox" name="mixers" id="whipping cream"  value="whipping cream" onclick="return ValidateSelection();"> 
-    <label for="whipping cream">whipping cream</label>
-    <input form="myForm" type="checkbox" name="mixers" id="tomato juice"  value="tomato juice" onclick="return ValidateSelection();"> 
-    <label for="tomato juice">tomato juice</label>
-           <input form="myForm" type="checkbox" name="mixers" id="carbonated water"  value="carbonated water" onclick="return ValidateSelection();"> 
-    <label for="carbonated water">carbonated water</label>
-    <input form="myForm" type="checkbox" name="mixers" id="water"  value="water" onclick="return ValidateSelection();"> 
-    <label for="water">water</label>
-    <input form="myForm" type="checkbox" name="mixers" id="soda water"  value="soda water" onclick="return ValidateSelection();"> 
-    <label for="soda water">soda water</label>
+    <ul class="checkbox">
+        <li><input type="checkbox" name="mixers" id="orange juice" value="orange juice" onclick="return       ValidateSelection();">
+        <label for="orange juice">orange juice</label></li>
+        <li><input form="myForm" type="checkbox" name="mixers" id="coca-cola"  value="coca-cola" onclick="return ValidateSelection();"> 
+        <label for="coca-cola">coca-cola</label></li>
+        <li><input form="myForm" type="checkbox" name="mixers" id="tonic water"  value="tonic water" onclick="return ValidateSelection();"> 
+        <label for="tonic water">tonic water</label></li>
+        <li><input type="checkbox" name="mixers" id="peach nectar" value="peach nectar" > 
+        <label for="peach nectar">peach nectar</label></li>
+        <li><input form="myForm" type="checkbox" name="mixers" id="pineapple juice"  value="pineapple juice" onclick="return ValidateSelection();"> 
+        <label for="pineapple juice">pineapple juice</label></li>
+        <li><input form="myForm" type="checkbox" name="mixers" id="ginger ale"  value="ginger ale" onclick="return ValidateSelection();"> 
+        <label for="ginger ale">ginger ale</label></li>
+        <li><input type="checkbox" name="mixers" id="ginger beer" value="ginger beer" > 
+        <label for="ginger beer">ginger beer</label></li>
+        <li><input form="myForm" type="checkbox" name="mixers" id="apple juice"  value="apple juice" onclick="return ValidateSelection();"> 
+        <label for="apple juice">apple juice</label></li>
+        <li><input type="checkbox" name="mixers" id="grape soda" value="grape soda" > 
+        <label for="grape soda">grape soda</label></li>
+        <li><input form="myForm" type="checkbox" name="mixers" id="7-up"  value="7-up" onclick="return ValidateSelection();"> 
+        <label for="7-up">7-up</label></li>
+        <li><input form="myForm" type="checkbox" name="mixers" id="club soda"  value="club soda" onclick="return ValidateSelection();"> 
+        <label for="club soda">club soda</label></li>
+        <li><input form="myForm" type="checkbox" name="mixers" id="root beer"  value="root beer" onclick="return ValidateSelection();"> 
+        <label for="root beer">root beer</label></li>
+        <li><input form="myForm" type="checkbox" name="mixers" id="milk"  value="milk" onclick="return ValidateSelection();"> 
+        <label for="milk">milk</label></li>
+        <li><input form="myForm" type="checkbox" name="mixers" id="cream"  value="cream" onclick="return ValidateSelection();"> 
+        <label for="cream">cream</label></li>
+        <li><input form="myForm" type="checkbox" name="mixers" id="vanilla ice-cream"  value="vanilla ice-cream" onclick="return ValidateSelection();"> 
+        <label for="vanilla ice-cream">vanilla ice-cream</label></li>
+        <li><input form="myForm" type="checkbox" name="mixers" id="mountain dew"  value="mountain dew" onclick="return ValidateSelection();"> 
+        <label for="mountain dew">mountain dew</label></li>
+        <li><input form="myForm" type="checkbox" name="mixers" id="surge"  value="surge" onclick="return ValidateSelection();"> 
+        <label for="surge">surge</label></li>
+        <li><input form="myForm" type="checkbox" name="mixers" id="root beer"  value="root beer" onclick="return ValidateSelection();"> 
+        <label for="root beer">root beer</label></li>
+        <li><input form="myForm" type="checkbox" name="mixers" id="fruit punch"  value="fruit punch" onclick="return ValidateSelection();"> 
+        <label for="fruit punch">fruit punch</label></li>
+        <li><input form="myForm" type="checkbox" name="mixers" id="fruit juice"  value="fruit juice" onclick="return ValidateSelection();"> 
+        <label for="fruit juice">fruit juice</label></li>
+        <li><input form="myForm" type="checkbox" name="mixers" id="passionfruit juice"  value="passionfruit juice" onclick="return ValidateSelection();"> 
+        <label for="passionfruit juice">passionfruit juice</label></li>
+        <li><input type="checkbox" name="mixers" id="pomegranate juice" value="pomegranate juice" > 
+        <label for="pomegranate juice">pomegranate juice</label></li>
+        <li><input form="myForm" type="checkbox" name="mixers" id="lemonade"  value="lemonade" onclick="return ValidateSelection();"> 
+        <label for="lemonade">lemonade</label></li>
+        <li><input form="myForm" type="checkbox" name="mixers" id="pink lemonade"  value="pink lemonade" onclick="return ValidateSelection();"> 
+        <label for="pink lemonade">pink lemonade</label></li>
+        <li><input form="myForm" type="checkbox" name="mixers" id="mango nectar"  value="mango nectar" onclick="return ValidateSelection();"> 
+        <label for="mango nectar">mango nectar</label></li>
+        <li><input form="myForm" type="checkbox" name="mixers" id="jello"  value="jello" onclick="return ValidateSelection();"> 
+        <label for="jello">jello</label></li>
+        <li><input form="myForm" type="checkbox" name="mixers" id="dr. pepper"  value="dr. pepper" onclick="return ValidateSelection();"> 
+        <label for="dr. pepper">dr. pepper</label></li>
+        <li><input form="myForm" type="checkbox" name="mixers" id="cranberry juice"  value="cranberry juice" onclick="return ValidateSelection();"> 
+        <label for="cranberry juice">cranberry juice</label></li>
+        <li><input type="checkbox" name="mixers" id="grapefruit juice" value="grapefruit juice" > 
+        <label for="grapefruit juice">grapefruit juice</label></li>
+        <li><input type="checkbox" name="mixers" id="grape juice" value="grape juice" > 
+        <label for="grape juice">grape juice</label></li>
+        <li><input type="checkbox" name="mixers" id="espresso" value="espresso" > 
+        <label for="espresso">espresso</label></li>
+        <li><input type="checkbox" name="mixers" id="thyme" value="thyme" > 
+        <label for="thyme">thyme</label></li>
+        <li><input type="checkbox" name="mixers" id="fruit" value="fruit" > 
+        <label for="fruit">fruit</label></li>
+        <li><input type="checkbox" name="mixers" id="lemon-lime soda" value="lemon-lime soda" > 
+        <label for="lemon-lime soda">lemon-lime soda</label></li>
+        <li><input type="checkbox" name="mixers" id="yoghurt" value="yoghurt" > 
+        <label for="yoghurt">yoghurt</label></li>
+        <li><input type="checkbox" name="mixers" id="condensed milk" value="condensed milk" > 
+        <label for="condensed milk">condensed milk</label></li>
+        <li><input form="myForm" type="checkbox" name="mixers" id="iced tea"  value="iced tea" onclick="return ValidateSelection();"> 
+        <label for="iced tea">iced tea</label></li>
+        <li><input form="myForm" type="checkbox" name="mixers" id="tea"  value="tea" onclick="return ValidateSelection();"> 
+        <label for="tea">tea</label></li>
+        <li><input form="myForm" type="checkbox" name="mixers" id="carbonated soft drink"  value="carbonated soft drink" onclick="return ValidateSelection();"> 
+        <label for="carbonated soft drink">carbonated soft drink</label></li>
+        <li><input type="checkbox" name="mixers" id="coffee" value="coffee" > 
+        <label for="coffee">coffee</label></li>
+        <li><input type="checkbox" name="mixers" id="pepsi cola" value="pepsi cola" > 
+        <label for="pepsi cola">pepsi cola</label></li>
+        <li><input type="checkbox" name="mixers" id="daiquiri mix" value="daiquiri mix" > 
+        <label for="daiquiri mix">daiquiri mix</label></li>
+        <li><input type="checkbox" name="mixers" id="pina colada mix" value="pina colada mix" > 
+        <label for="pina colada mix">pina colada mix</label></li>
+        <li><input form="myForm" type="checkbox" name="mixers" id="sprite"  value="sprite" onclick="return ValidateSelection();"> 
+        <label for="sprite">sprite</label></li>
+        <li><input form="myForm" type="checkbox" name="mixers" id="kool-aid"  value="kool-aid" onclick="return ValidateSelection();"> 
+        <label for="kool-aid">kool-aid</label></li>
+        <li><input form="myForm" type="checkbox" name="mixers" id="whipped cream"  value="whipped cream" onclick="return ValidateSelection();"> 
+        <label for="whipped cream">whipped cream</label></li>
+        <li><input form="myForm" type="checkbox" name="mixers" id="whipping cream"  value="whipping cream" onclick="return ValidateSelection();"> 
+        <label for="whipping cream">whipping cream</label></li>
+        <li><input form="myForm" type="checkbox" name="mixers" id="tomato juice"  value="tomato juice" onclick="return ValidateSelection();"> 
+        <label for="tomato juice">tomato juice</label></li>
+        <li><input form="myForm" type="checkbox" name="mixers" id="carbonated water"  value="carbonated water" onclick="return ValidateSelection();"> 
+        <label for="carbonated water">carbonated water</label></li>
+        <li><input form="myForm" type="checkbox" name="mixers" id="water"  value="water" onclick="return ValidateSelection();"> 
+        <label for="water">water</label></li>
+        <li><input form="myForm" type="checkbox" name="mixers" id="soda water"  value="soda water" onclick="return ValidateSelection();"> 
+        <label for="soda water">soda water</label></li>
+    </ul>   
     <p><input type="submit" value="Submit"></p>
 <!-- <form action="" target="result3" method="get" id="myForm"> -->
 </form>
 
-
-
 <form action="" method="POST" name="Add-Ins">
-    {% csrf_token %}
     <p>Add-Ins:</p>
-    <input type="checkbox" name="Add-Ins" id="sugar" value="sugar" onclick="return       ValidateSelection();">
-    <label for="sugar">sugar</label>
-    <input form="myForm" type="checkbox" name="Add-Ins" id="sugar syrup"  value="sugar syrup" onclick="return ValidateSelection();"> 
-    <label for="sugar syrup">sugar syrup</label>
-    <input form="myForm" type="checkbox" name="Add-Ins" id="pineapple syrup"  value="pineapple syrup" onclick="return ValidateSelection();"> 
-    <label for="pineapple syrup">pineapple syrup</label>
-    <input form="myForm" type="checkbox" name="Add-Ins" id="honey"  value="honey" onclick="return ValidateSelection();"> 
-    <label for="honey">honey</label>
-    <input type="checkbox" name="Add-Ins" id="powdered sugar" value="powdered sugar" > 
-    <label for="powdered sugar">powdered sugar</label>
-        <input form="myForm" type="checkbox" name="Add-Ins" id="pineapple"  value="pineapple" onclick="return ValidateSelection();"> 
-    <label for="pineapple">pineapple</label>
-        <input form="myForm" type="checkbox" name="Add-Ins" id="cherry"  value="cherry" onclick="return ValidateSelection();"> 
-    <label for="cherry">cherry</label>
-        <input form="myForm" type="checkbox" name="Add-Ins" id="tabasco sauce"  value="tabasco sauce" onclick="return ValidateSelection();"> 
-    <label for="tabasco sauce">tabasco sauce</label>
- <input form="myForm" type="checkbox" name="Add-Ins" id="worcestershire sauce"  value="worcestershire sauce" onclick="return ValidateSelection();"> 
-    <label for="worcestershire sauce">worcestershire sauce</label>
-    <input form="myForm" type="checkbox" name="Add-Ins" id="passion fruit syrup"  value="passion fruit syrup" onclick="return ValidateSelection();"> 
-    <label for="passion fruit syrup">passion fruit syrup</label>
-    <input form="myForm" type="checkbox" name="Add-Ins" id="maple syrup"  value="maple syrup" onclick="return ValidateSelection();"> 
-    <label for="maple syrup">maple syrup</label>
-    <input form="myForm" type="checkbox" name="Add-Ins" id="mint"  value="mint" onclick="return ValidateSelection();"> 
-	    <label for="mint">mint</label>
+    <ul class="checkbox">
+    <li><input type="checkbox" name="Add-Ins" id="sugar" value="sugar" onclick="return       ValidateSelection();">
+    <label for="sugar">sugar</label></li>
+    <li><input form="myForm" type="checkbox" name="Add-Ins" id="sugar syrup"  value="sugar syrup" onclick="return ValidateSelection();"> 
+    <label for="sugar syrup">sugar syrup</label></li>
+    <li><input form="myForm" type="checkbox" name="Add-Ins" id="pineapple syrup"  value="pineapple syrup" onclick="return ValidateSelection();"> 
+    <label for="pineapple syrup">pineapple syrup</label></li>
+    <li><input form="myForm" type="checkbox" name="Add-Ins" id="honey"  value="honey" onclick="return ValidateSelection();"> 
+    <label for="honey">honey</label></li>
+    <li><input type="checkbox" name="Add-Ins" id="powdered sugar" value="powdered sugar" > 
+    <label for="powdered sugar">powdered sugar</label></li>
+        <li><input form="myForm" type="checkbox" name="Add-Ins" id="pineapple"  value="pineapple" onclick="return ValidateSelection();"> 
+    <label for="pineapple">pineapple</label></li>
+        <li><input form="myForm" type="checkbox" name="Add-Ins" id="cherry"  value="cherry" onclick="return ValidateSelection();"> 
+    <label for="cherry">cherry</label></li>
+        <li><input form="myForm" type="checkbox" name="Add-Ins" id="tabasco sauce"  value="tabasco sauce" onclick="return ValidateSelection();"> 
+    <label for="tabasco sauce">tabasco sauce</label></li>
+ <li><input form="myForm" type="checkbox" name="Add-Ins" id="worcestershire sauce"  value="worcestershire sauce" onclick="return ValidateSelection();"> 
+    <label for="worcestershire sauce">worcestershire sauce</label></li>
+    <li><input form="myForm" type="checkbox" name="Add-Ins" id="passion fruit syrup"  value="passion fruit syrup" onclick="return ValidateSelection();"> 
+    <label for="passion fruit syrup">passion fruit syrup</label></li>
+    <li><input form="myForm" type="checkbox" name="Add-Ins" id="maple syrup"  value="maple syrup" onclick="return ValidateSelection();"> 
+    <label for="maple syrup">maple syrup</label></li>
+    <li><input form="myForm" type="checkbox" name="Add-Ins" id="mint"  value="mint" onclick="return ValidateSelection();"> 
+	    <label for="mint">mint</label></li>
 
-    <input form="myForm" type="checkbox" name="Add-Ins" id="lemon peel"  value="lemon peel" onclick="return ValidateSelection();"> 
-    <label for="lemon peel">lemon peel</label>
-<input form="myForm" type="checkbox" name="Add-Ins" id="orange peel"  value="orange peel" onclick="return ValidateSelection();"> 
-    <label for="orange peel">orange peel</label>
-    <input form="myForm" type="checkbox" name="Add-Ins" id="grenadine"  value="grenadine" onclick="return ValidateSelection();"> 
-    <label for="grenadine">grenadine</label>
-<input form="myForm" type="checkbox" name="Add-Ins" id="kiwi"  value="kiwi" onclick="return ValidateSelection();"> 
-    <label for="kiwi">kiwi</label>
-<input form="myForm" type="checkbox" name="Add-Ins" id="hot sauce"  value="hot sauce" onclick="return ValidateSelection();"> 
-    <label for="hot sauce">hot sauce</label>
-<input form="myForm" type="checkbox" name="Add-Ins" id="soy sauce"  value="soy sauce" onclick="return ValidateSelection();"> 
-    <label for="soy sauce">soy sauce</label>
-<input form="myForm" type="checkbox" name="Add-Ins" id="kiwi slice"  value="kiwi slice" onclick="return ValidateSelection();"> 
-    <label for="kiwi slice">kiwi slice</label>
-    <input type="checkbox" name="Add-Ins" id="lemon juice" value="lemon juice" > 
-    <label for="lemon juice">lemon juice</label>
-    <input type="checkbox" name="Add-Ins" id="fresh lemon juice" value="fresh lemon juice" > 
-    <label for="fresh lemon juice">fresh lemon juice</label>
-    <input type="checkbox" name="Add-Ins" id="lemon" value="lemon" > 
-    <label for="lemon">lemon</label>
-    <input form="myForm" type="checkbox" name="Add-Ins" id="lime juice"  value="lime juice" onclick="return ValidateSelection();"> 
-    <label for="lime juice">lime juice</label>
-    <input form="myForm" type="checkbox" name="Add-Ins" id="fresh lime juice"  value="fresh lime juice" onclick="return ValidateSelection();"> 
-    <label for="fresh lime juice">fresh lime juice</label>
-    <input type="checkbox" name="Add-Ins" id="sour mix" value="sour mix" > 
-    <label for="sour mix">sour mix</label>
-    <input type="checkbox" name="Add-Ins" id="limeade" value="limeade" > 
-    <label for="limeade">limeade</label>
-    <input type="checkbox" name="Add-Ins" id="orange spiral" value="orange spiral" > 
-    <label for="orange spiral">orange spiral</label>
-    <input type="checkbox" name="Add-Ins" id="lime peel" value="lime peel" > 
-    <label for="lime peel">lime peel</label>
-    <input type="checkbox" name="Add-Ins" id="oreo cookie" value="oreo cookie" > 
-    <label for="oreo cookie">oreo cookie</label>
-<input type="checkbox" name="Add-Ins" id="cloves" value="cloves" > 
-    <label for="cloves">cloves</label>
-    <input type="checkbox" name="Add-Ins" id="cucumber" value="cucumber" > 
-    <label for="cucumber">cucumber</label>
-    <input type="checkbox" name="Add-Ins" id="cocoa powder" value="cocoa powder" > 
-    <label for="cocoa powder">cocoa powder</label>
-    <input type="checkbox" name="Add-Ins" id="black pepper" value="black pepper" > 
-    <label for="black pepper">black pepper</label>
-<input type="checkbox" name="Add-Ins" id="cardamom" value="cardamom" > 
-    <label for="cardamom">cardamom</label>
-        <input form="myForm" type="checkbox" name="Add-Ins" id="heavy cream"  value="heavy cream" onclick="return ValidateSelection();"> 
-    <label for="heavy cream">heavy cream</label>
-    <input form="myForm" type="checkbox" name="Add-Ins" id="light cream"  value="light cream" onclick="return ValidateSelection();"> 
-    <label for="light cream">light cream</label>
-    <input type="checkbox" name="Add-Ins" id="allspice" value="allspice" > 
-    <label for="allspice">allspice</label>
-<input type="checkbox" name="Add-Ins" id="bitters" value="bitters" > 
-    <label for="bitters">bitters</label>
-    <input form="myForm" type="checkbox" name="Add-Ins" id="ice"  value="ice" onclick="return ValidateSelection();"> 
-    <label for="ice">ice</label>
-    <input form="myForm" type="checkbox" name="Add-Ins" id="pepper"  value="pepper" onclick="return ValidateSelection();"> 
-    <label for="pepper">pepper</label>
-    <input form="myForm" type="checkbox" name="Add-Ins" id="lavender"  value="lavender" onclick="return ValidateSelection();"> 
-    <label for="lavender">lavender</label>
-    <input form="myForm" type="checkbox" name="Add-Ins" id="chocolate syrup"  value="chocolate syrup" onclick="return ValidateSelection();"> 
-    <label for="chocolate syrup">chocolate syrup</label>
-    <input form="myForm" type="checkbox" name="Add-Ins" id="cinnamon"  value="cinnamon" onclick="return ValidateSelection();"> 
-    <label for="cinnamon">cinnamon</label>
-    <input form="myForm" type="checkbox" name="Add-Ins" id="ginger"  value="ginger" onclick="return ValidateSelection();"> 
-    <label for="ginger">ginger</label>
-    <input form="myForm" type="checkbox" name="Add-Ins" id="lemon wedge"  value="lemon wedge" onclick="return ValidateSelection();"> 
-    <label for="lemon wedge">lemon wedge</label>
-    <input form="myForm" type="checkbox" name="Add-Ins" id="lemon slice"  value="lemon slice" onclick="return ValidateSelection();"> 
-    <label for="lemon slice">lemon slice</label>
-    <input form="myForm" type="checkbox" name="Add-Ins" id="lime wedge"  value="lime wedge" onclick="return ValidateSelection();"> 
-    <label for="lime wedge">lime wedge</label>
-    <input form="myForm" type="checkbox" name="Add-Ins" id="orange slice"  value="orange slice" onclick="return ValidateSelection();"> 
-    <label for="orange slice">orange slice</label>
-    <input form="myForm" type="checkbox" name="Add-Ins" id="rosemary"  value="rosemary" onclick="return ValidateSelection();"> 
-    <label for="rosemary">rosemary</label>
-    <input form="myForm" type="checkbox" name="Add-Ins" id="brown sugar"  value="brown sugar" onclick="return ValidateSelection();"> 
-    <label for="brown sugar">brown sugar</label>
-    <input form="myForm" type="checkbox" name="Add-Ins" id="half-and-half "  value="half-and-half " onclick="return ValidateSelection();"> 
-    <label for="half-and-half ">half-and-half </label>
-    <input form="myForm" type="checkbox" name="Add-Ins" id="orange"  value="orange" onclick="return ValidateSelection();"> 
-    <label for="orange">orange</label>
-    <input form="myForm" type="checkbox" name="Add-Ins" id="cayenne pepper"  value="cayenne pepper" onclick="return ValidateSelection();"> 
-    <label for="cayenne pepper">cayenne pepper</label>
-    <input type="checkbox" name="Add-Ins" id="salt" value="salt" > 
-    <label for="salt">salt</label>
-    <input type="checkbox" name="Add-Ins" id="agave syrup" value="agave syrup" > 
-    <label for="agave syrup">agave syrup</label>
-    <input type="checkbox" name="Add-Ins" id="nutmeg" value="nutmeg" > 
-    <label for="nutmeg">nutmeg</label>
+    <li><input form="myForm" type="checkbox" name="Add-Ins" id="lemon peel"  value="lemon peel" onclick="return ValidateSelection();"> 
+    <label for="lemon peel">lemon peel</label></li>
+<li><input form="myForm" type="checkbox" name="Add-Ins" id="orange peel"  value="orange peel" onclick="return ValidateSelection();"> 
+    <label for="orange peel">orange peel</label></li>
+    <li><input form="myForm" type="checkbox" name="Add-Ins" id="grenadine"  value="grenadine" onclick="return ValidateSelection();"> 
+    <label for="grenadine">grenadine</label></li>
+<li><input form="myForm" type="checkbox" name="Add-Ins" id="kiwi"  value="kiwi" onclick="return ValidateSelection();"> 
+    <label for="kiwi">kiwi</label></li>
+<li><input form="myForm" type="checkbox" name="Add-Ins" id="hot sauce"  value="hot sauce" onclick="return ValidateSelection();"> 
+    <label for="hot sauce">hot sauce</label></li>
+<li><input form="myForm" type="checkbox" name="Add-Ins" id="soy sauce"  value="soy sauce" onclick="return ValidateSelection();"> 
+    <label for="soy sauce">soy sauce</label></li>
+<li><input form="myForm" type="checkbox" name="Add-Ins" id="kiwi slice"  value="kiwi slice" onclick="return ValidateSelection();"> 
+    <label for="kiwi slice">kiwi slice</label></li>
+    <li><input type="checkbox" name="Add-Ins" id="lemon juice" value="lemon juice" > 
+    <label for="lemon juice">lemon juice</label></li>
+    <li><input type="checkbox" name="Add-Ins" id="fresh lemon juice" value="fresh lemon juice" > 
+    <label for="fresh lemon juice">fresh lemon juice</label></li>
+    <li><input type="checkbox" name="Add-Ins" id="lemon" value="lemon" > 
+    <label for="lemon">lemon</label></li>
+    <li><input form="myForm" type="checkbox" name="Add-Ins" id="lime juice"  value="lime juice" onclick="return ValidateSelection();"> 
+    <label for="lime juice">lime juice</label></li>
+    <li><input form="myForm" type="checkbox" name="Add-Ins" id="fresh lime juice"  value="fresh lime juice" onclick="return ValidateSelection();"> 
+    <label for="fresh lime juice">fresh lime juice</label></li>
+    <li><input type="checkbox" name="Add-Ins" id="sour mix" value="sour mix" > 
+    <label for="sour mix">sour mix</label></li>
+    <li><input type="checkbox" name="Add-Ins" id="limeade" value="limeade" > 
+    <label for="limeade">limeade</label></li>
+    <li><input type="checkbox" name="Add-Ins" id="orange spiral" value="orange spiral" > 
+    <label for="orange spiral">orange spiral</label></li>
+    <li><input type="checkbox" name="Add-Ins" id="lime peel" value="lime peel" > 
+    <label for="lime peel">lime peel</label></li>
+    <li><input type="checkbox" name="Add-Ins" id="oreo cookie" value="oreo cookie" > 
+    <label for="oreo cookie">oreo cookie</label></li>
+<li><input type="checkbox" name="Add-Ins" id="cloves" value="cloves" > 
+    <label for="cloves">cloves</label></li>
+    <li><input type="checkbox" name="Add-Ins" id="cucumber" value="cucumber" > 
+    <label for="cucumber">cucumber</label></li>
+    <li><input type="checkbox" name="Add-Ins" id="cocoa powder" value="cocoa powder" > 
+    <label for="cocoa powder">cocoa powder</label></li>
+    <li><input type="checkbox" name="Add-Ins" id="black pepper" value="black pepper" > 
+    <label for="black pepper">black pepper</label></li>
+<li><input type="checkbox" name="Add-Ins" id="cardamom" value="cardamom" > 
+    <label for="cardamom">cardamom</label></li>
+        <li><input form="myForm" type="checkbox" name="Add-Ins" id="heavy cream"  value="heavy cream" onclick="return ValidateSelection();"> 
+    <label for="heavy cream">heavy cream</label></li>
+    <li><input form="myForm" type="checkbox" name="Add-Ins" id="light cream"  value="light cream" onclick="return ValidateSelection();"> 
+    <label for="light cream">light cream</label></li>
+    <li><input type="checkbox" name="Add-Ins" id="allspice" value="allspice" > 
+    <label for="allspice">allspice</label></li>
+<li><input type="checkbox" name="Add-Ins" id="bitters" value="bitters" > 
+    <label for="bitters">bitters</label></li>
+    <li><input form="myForm" type="checkbox" name="Add-Ins" id="ice"  value="ice" onclick="return ValidateSelection();"> 
+    <label for="ice">ice</label></li>
+    <li><input form="myForm" type="checkbox" name="Add-Ins" id="pepper"  value="pepper" onclick="return ValidateSelection();"> 
+    <label for="pepper">pepper</label></li>
+    <li><input form="myForm" type="checkbox" name="Add-Ins" id="lavender"  value="lavender" onclick="return ValidateSelection();"> 
+    <label for="lavender">lavender</label></li>
+    <li><input form="myForm" type="checkbox" name="Add-Ins" id="chocolate syrup"  value="chocolate syrup" onclick="return ValidateSelection();"> 
+    <label for="chocolate syrup">chocolate syrup</label></li>
+    <li><input form="myForm" type="checkbox" name="Add-Ins" id="cinnamon"  value="cinnamon" onclick="return ValidateSelection();"> 
+    <label for="cinnamon">cinnamon</label></li>
+    <li><input form="myForm" type="checkbox" name="Add-Ins" id="ginger"  value="ginger" onclick="return ValidateSelection();"> 
+    <label for="ginger">ginger</label></li>
+    <li><input form="myForm" type="checkbox" name="Add-Ins" id="lemon wedge"  value="lemon wedge" onclick="return ValidateSelection();"> 
+    <label for="lemon wedge">lemon wedge</label></li>
+    <li><input form="myForm" type="checkbox" name="Add-Ins" id="lemon slice"  value="lemon slice" onclick="return ValidateSelection();"> 
+    <label for="lemon slice">lemon slice</label></li>
+    <li><input form="myForm" type="checkbox" name="Add-Ins" id="lime wedge"  value="lime wedge" onclick="return ValidateSelection();"> 
+    <label for="lime wedge">lime wedge</label></li>
+    <li><input form="myForm" type="checkbox" name="Add-Ins" id="orange slice"  value="orange slice" onclick="return ValidateSelection();"> 
+    <label for="orange slice">orange slice</label></li>
+    <li><input form="myForm" type="checkbox" name="Add-Ins" id="rosemary"  value="rosemary" onclick="return ValidateSelection();"> 
+    <label for="rosemary">rosemary</label></li>
+    <li><input form="myForm" type="checkbox" name="Add-Ins" id="brown sugar"  value="brown sugar" onclick="return ValidateSelection();"> 
+    <label for="brown sugar">brown sugar</label></li>
+    <li><input form="myForm" type="checkbox" name="Add-Ins" id="half-and-half "  value="half-and-half " onclick="return ValidateSelection();"> 
+    <label for="half-and-half ">half-and-half </label></li>
+    <li><input form="myForm" type="checkbox" name="Add-Ins" id="orange"  value="orange" onclick="return ValidateSelection();"> 
+    <label for="orange">orange</label></li>
+    <li><input form="myForm" type="checkbox" name="Add-Ins" id="cayenne pepper"  value="cayenne pepper" onclick="return ValidateSelection();"> 
+    <label for="cayenne pepper">cayenne pepper</label></li>
+    <li><input type="checkbox" name="Add-Ins" id="salt" value="salt" > 
+    <label for="salt">salt</label></li>
+    <li><input type="checkbox" name="Add-Ins" id="agave syrup" value="agave syrup" > 
+    <label for="agave syrup">agave syrup</label></li>
+    <li><input type="checkbox" name="Add-Ins" id="nutmeg" value="nutmeg" > 
+    <label for="nutmeg">nutmeg</label></li>
+</ul>
 <p><input type="submit" value="Submit"></p>
 <!-- <form action="" target="result3" method="get" id="myForm"> -->
 </form>
-{% endblock %}
