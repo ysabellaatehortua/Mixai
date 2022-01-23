@@ -15,19 +15,19 @@ cuba libre
 dark rum  2.25  1-2 shot 
 lime wedge  1  1 
 coca-cola  4.5  fill with 
-ice  1  1
+ice cubes  1  1
 
 rum and ginger ale
 spiced rum  2.0  2 oz 
 ginger ale  4  4 oz
 lime wedge  1  1
-ice  1  1
+ice cubes  1  1
 
 caipirissima
 lime wedge  4  4  
 sugar  1.0  2 tblsp 
 white rum  2.5  2-3 oz 
-ice  1  1
+ice cubes  1  1
 
 daiquiri
 light rum  1.5  1 1/2 oz 
@@ -48,10 +48,10 @@ vodka  1.6909029421711195  5 cl
 kahlua  0.3381805884342239  1 cl 
 sugar syrup  0.03125  1 dash 
 
-frozen mint daiquiri
+frozen mint leaf daiquiri
 light rum  2.0  2 oz 
 lime juice  0.5  1 tblsp 
-mint  6.0 leaves  6 leaves
+mint leaf  6.0 leaves  6 leaves
 sugar  0.16666666666666666  1 tsp 
 
 frozen pineapple daiquiri
@@ -83,7 +83,7 @@ gin smash
 gin  2.0  2 oz 
 carbonated water  1.0  1 oz 
 sugar  0.25  1 cube 
-mint  4.0 leaves  4  
+mint leaf  4.0 leaves  4  
 orange slice  1.0  1
 cherry  1.0  1  
 
@@ -120,7 +120,7 @@ happy skipper
 spiced rum  0.5072708826513358  1 1/2 cl 
 ginger ale  1.666  3/5 oz
 lime wedge  1  1
-ice  1  1
+ice cubes  1  1
 
 havana cocktail
 light rum  1.0  1 oz 
@@ -137,7 +137,7 @@ lime juice  0.25 oz  1/2 juice of
 brown sugar  0.3333333333333333  2 tsp 
 passion fruit juice  1.3527223537368955  4 cl 
 ginger ale  3  top up with 
-ice  1  1
+ice cubes  1  1
 
 ice pick
 vodka  1.5  1 1/2 oz 
@@ -191,7 +191,7 @@ mojito
 light rum  2.5  2-3 oz 
 lime juice  0.5  1 juice of 
 sugar  0.3333333333333333  2 tsp 
-mint  3.0 leaves  2-4  
+mint leaf  3.0 leaves  2-4  
 soda water  1  to top
 
 margarita
@@ -201,7 +201,7 @@ lime juice  1.0  1 oz
 salt  0.1  dash
 
 mint julep
-mint  4.0 leaves  4 fresh leaves
+mint leaf  4.0 leaves  4 fresh leaves
 bourbon  2.5  2 1/2 oz 
 powdered sugar  0.16666666666666666  1 tsp 
 water  0.3333333333333333  2 tsp 
@@ -221,9 +221,9 @@ lemon slice  2  2
 mango mojito
 lime juice  0.25  0.5 of a
 mango nectar  4  4 oz
-mint  5 leaves  5 leaves 
+mint leaf  5 leaves  5 leaves 
 white rum  2  2 oz 
-ice  1  1
+ice cubes  1  1
 soda water  1  top with
 
 monkey wrench
@@ -236,7 +236,7 @@ orange juice  4.0  4 oz
 rum  1.0  1 oz 
 vodka  1.0  1 oz 
 cream  1.0  1 package 
-ice  1  1
+ice cubes  1  1
 
 orange crush
 vodka  1.0  1 oz 
@@ -355,7 +355,7 @@ vodka fizz
 vodka  2.0  2 oz 
 half-and-half  2.0  2 oz 
 limeade  2.0  2 oz 
-ice  1  1
+ice cubes  1  1
 
 victory collins
 vodka  1.5  1 1/2 oz 

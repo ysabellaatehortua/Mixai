@@ -31,7 +31,7 @@ apple juice  type: Mixer Juice  Alcohol?: null  ABV: null
 peach nectar  type: Mixer Juice  Alcohol?: null  ABV: null
 lime juice  type: Modifier Fruit  Alcohol?: null  ABV: null
 sugar  type: Modifier Sweetner  Alcohol?: null  ABV: null
-mint  type: Modifier Garnish  Alcohol?: null  ABV: null
+mint leaf  type: Modifier Garnish  Alcohol?: null  ABV: null
 scotch  type: Whiskey  Alcohol?: Yes  ABV: null
 light cream  type: Mixer Dairy  Alcohol?: null  ABV: null
 bourbon  type: Whiskey  Alcohol?: Yes  ABV: null
@@ -40,7 +40,7 @@ coffee  type: Mixer Coffee  Alcohol?: null  ABV: null
 sugar syrup  type: Modifier Sweetner  Alcohol?: null  ABV: null
 passion fruit juice  type: Mixer Juice  Alcohol?: null  ABV: null
 rum  type: Rum  Alcohol?: Yes  ABV: 40
-ice  type: Modifier Ice  Alcohol?: null  ABV: null
+ice cubes  type: Modifier Ice  Alcohol?: null  ABV: null
 sour mix  type: Mixer Mix  Alcohol?: null  ABV: null
 everclear  type: Spirit  Alcohol?: Yes  ABV: null
 mountain dew  type: Mixer Soda  Alcohol?: null  ABV: null

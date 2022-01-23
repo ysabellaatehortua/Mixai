@@ -4,6 +4,7 @@
 
     {% for gene in to_dispaly %}
         {% if forloop.first %}
+            <p style="font-weight: bold;">Random Highest Scoring Drink:</p>
             <p style="font-weight: bold;">{{ gene }}</p>
         {% else %}
             <p>{{ gene.amount }} oz of {{ gene.ingredient }}</p>
