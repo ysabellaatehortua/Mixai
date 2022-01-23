@@ -47,6 +47,7 @@ class GeneticAlgorithm():
                     ingredients['Modifier'][ingredient[1][15:]].append(ingredient[0])
                     self.ingredient_list[ingredient[0]] = ('Modifier', ingredient[1][15:])
                     self.simple_types['Modifier'].append(ingredient[0])
+        print(self.simple_types)
 
         line = f.readline().rstrip()
         while line != '':
@@ -222,7 +223,7 @@ class GeneticAlgorithm():
             if i in alc_subset:
                 new_alc = random.randint(0,len(self.simple_types['Alcohol']) - 1)
                 c_new.alcohol_types[i] = self.simple_types['Alcohol'][new_alc]
-                c_new.alcohol_amts[i] = random.randint(0,4)
+                c_new.alcohol_amts[i] = random.randint(1,4)
                 special += c_new.alcohol_types[i] + ' '
         
         mix_num_points = random.randint(0, len(c.mixer_types)) #size of subset of random points
@@ -233,7 +234,7 @@ class GeneticAlgorithm():
             if i in mix_subset:
                 new_mix = random.randint(0,len(self.simple_types['Mixer']) - 1)
                 c_new.mixer_types[i] = self.simple_types['Mixer'][new_mix]
-                c_new.mixer_amts[i] = random.randint(0,6)
+                c_new.mixer_amts[i] = random.randint(1,6)
                 special += c_new.mixer_types[i] + ' '
         
         mod_num_points = random.randint(0, len(c.modifier_types)) #size of subset of random points
@@ -244,7 +245,7 @@ class GeneticAlgorithm():
             if i in mod_subset:
                 new_mod = random.randint(0,len(self.simple_types['Modifier']) - 1)
                 c_new.modifier_types[i] = self.simple_types['Modifier'][new_mod]
-                c_new.modifier_amts[i] = random.randint(0,1)
+                c_new.modifier_amts[i] = random.randint(1,2)
                 special += c_new.modifier_types[i]
         
         words1 = special.split()
@@ -264,8 +265,7 @@ class GeneticAlgorithm():
     
     def gen_alg(self):
         n = 0
-        while n < 50:
-            print('n: ' + str(n))
+        while n < 5:
             new_population = []
             pop_split = random.randint(0,len(self.population))
             #print(pop_split)
@@ -303,6 +303,26 @@ class GeneticAlgorithm():
         #outcome = self.predictor.predict(X=test)
         #coefficients = self.predictor.coef_
         #print('Outcome : {}\nCoefficients : {}'.format(outcome, coefficients))
+
+    def parse_ingredients(self, users_list):
+        user_good = {}
+        for drink in self.population:
+            diff = 0
+            for a in drink.alcohol_types:
+                if a not in users_list:
+                    diff += 1
+            for mod in drink.modifier_types:
+                if mod not in users_list:
+                    diff += 1
+            for mix in drink.mixer_types:
+                if mix not in users_list:
+                    diff += 1
+            if diff not in user_good:
+                user_good[diff] = []
+            user_good[diff].append(drink)
+        for d in user_good:
+            print(d + len(user_good[d]))
+        return user_good
     
 def main():
     gen_alg = GeneticAlgorithm()
@@ -310,10 +330,18 @@ def main():
     gen_alg.make_initial_io()
     gen_alg.create_fitness_func()
     gen_alg.gen_alg()
-    for i in range(25):#range(len(gen_alg.population)):
-        print(gen_alg.population[i].recipe())
-        print(gen_alg.train_output[i])
-        print('\n')
+    l = ['malibu rum', 'vodka', 'tonic water', 'grapefruit juice', 'apple juice', 'lime juice', 'sugar', '7-up', 'sprite']
+    ug = gen_alg.parse_ingredients(l)
+    ug = sorted(ug.items())
+    #print(ug)
+    for num in ug:
+        if num[0] < 2:
+            print(str(num[0]) + " ingredients needed:\n" + str(num[1]) + "\n")
+        
+    #for i in range(25):#range(len(gen_alg.population)):
+        #print(gen_alg.population[i].recipe())
+        #print(gen_alg.train_output[i])
+        #print('\n')
 
 if __name__ == "__main__":
     main()
