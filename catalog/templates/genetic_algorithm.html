@@ -2,9 +2,19 @@
 
 {% block content %}
 
-{% for chromosome in output_chromosomes %}
-    <div>{{ chromosome.name }}</div>      
-{% endfor %}
+<div class="row" style="margin-top:7%">
+    {% for chromosome in return_chromosomes %}
+        <div class="column" style = "margin-right: 40px;">
+            {% for gene in chromosome %}
+                {% if forloop.first %}
+                    <p style="font-weight: bold;">{{ gene }}</p>
+                {% else %}
+                    <p>{{ gene.amount }} {{ gene.ingredient }}</p>
+                {% endif %}
+            {% endfor %}
+        </div>
+    {% endfor %}
+</div>
 
 
 {% endblock %}

@@ -22,8 +22,7 @@
           {% else %}
           <li><a href="{% url 'login'%}?next={{request.path}}">Login</a></li>
           {% endif %}
-          <li><a href="">All cocktails</a></li>
-          <li><a href="">All ingredients</a></li>
+          <li><a href="{% url 'genetic-algorithm'%}">Genetic Algorithm</a></li>
         </ul>
      {% endblock %}
       </div>

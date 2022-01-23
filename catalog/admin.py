@@ -1,6 +1,6 @@
 from django.contrib import admin
 
-from .models import Cocktails, Ingredients, RecipeSteps, Measurements, AvailableIngredients, ChromosomeDB, Gene
+from .models import Cocktails, Ingredients, RecipeSteps, Measurements, AvailableIngredients, ChromosomeDB, Gene, Population
 
 # Register your models here.
 
@@ -11,3 +11,4 @@ admin.site.register(Measurements)
 admin.site.register(AvailableIngredients)
 admin.site.register(ChromosomeDB)
 admin.site.register(Gene)
+admin.site.register(Population)

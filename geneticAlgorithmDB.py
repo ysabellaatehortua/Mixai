@@ -166,6 +166,26 @@ class GeneticAlgorithm():
         c_new2.name = c_new2_name
         c_new1.save()
         c_new2.save()
+
+        all_alcohol = Ingredients.objects.filter(type = 'alcohol')
+        all_mixers = Ingredients.objects.filter(type = 'mixer')
+        all_modifiers = Ingredients.objects.filter(type = 'modifier')
+
+        new_amount0 = Measurements(amount_ounces = 0)
+        new_amount0.save()
+        new_amount1 = Measurements(amount_ounces = 1)
+        new_amount1.save()
+        new_amount2 = Measurements(amount_ounces = 2)
+        new_amount2.save()
+        new_amount3 = Measurements(amount_ounces = 3)
+        new_amount3.save()
+        new_amount4 = Measurements(amount_ounces = 4)
+        new_amount4.save()
+        new_amount5 = Measurements(amount_ounces = 5)
+        new_amount5.save()
+        new_amount6= Measurements(amount_ounces = 6)
+        new_amount6.save()
+        amounts = [new_amount0, new_amount1, new_amount2, new_amount3, new_amount4, new_amount4, new_amount6]
         
         c1_alcohol = Gene.objects.filter(chromosomeDB = c1, ingredient__type__contains = 'alcohol')
         c2_alcohol = Gene.objects.filter(chromosomeDB = c2, ingredient__type__contains = 'alcohol')
@@ -174,14 +194,26 @@ class GeneticAlgorithm():
             newGene = Gene(chromosomeDB = c_new1, ingredient = alc.ingredient, amount = alc.amount)
             newGene.save()
         for alc in c2_alcohol[alc_crossover:]: #add the second half of the alcohol from gene 2 to new gene 1
-            newGene = Gene(chromosomeDB = c_new1, ingredient = alc.ingredient, amount = alc.amount)
-            newGene.save()
+            if Gene.objects.filter(chromosomeDB = c_new1, ingredient = alc.ingredient).exists(): #check if we are about to add a duplicate ingredient
+                index = random.randint(0, len(all_alcohol) - 1)
+                rand_alc = all_alcohol[index]
+                newGene = Gene(chromosomeDB = c_new1, ingredient = rand_alc, amount = amounts[random.randint(0,4)])
+                newGene.save()
+            else:
+                newGene = Gene(chromosomeDB = c_new1, ingredient = alc.ingredient, amount = alc.amount)
+                newGene.save()
         for alc in c1_alcohol[alc_crossover:]: #add the second half of the alcohol from gene 1 to new gene 2
             newGene = Gene(chromosomeDB = c_new2, ingredient = alc.ingredient, amount = alc.amount)
             newGene.save()
         for alc in c2_alcohol[:alc_crossover]: #add the first half of the alcohol from gene 2 to new gene 2
-            newGene = Gene(chromosomeDB = c_new2, ingredient = alc.ingredient, amount = alc.amount)
-            newGene.save()
+            if Gene.objects.filter(chromosomeDB = c_new2, ingredient = alc.ingredient).exists(): #check if we are about to add a duplicate ingredient
+                index = random.randint(0, len(all_alcohol) - 1)
+                rand_alc = all_alcohol[index]
+                newGene = Gene(chromosomeDB = c_new2, ingredient = rand_alc, amount = amounts[random.randint(0,4)])
+                newGene.save()
+            else:
+                newGene = Gene(chromosomeDB = c_new2, ingredient = alc.ingredient, amount = alc.amount)
+                newGene.save()
 
         
         c1_mixer= Gene.objects.filter(chromosomeDB = c1, ingredient__type__contains = 'mixer')
@@ -191,30 +223,54 @@ class GeneticAlgorithm():
             newGene = Gene(chromosomeDB = c_new1, ingredient = mix.ingredient, amount = mix.amount)
             newGene.save()
         for mix in c2_mixer[mix_crossover:]: #add the second half of the mixer from gene 2 to new gene 1
-            newGene = Gene(chromosomeDB = c_new1, ingredient = mix.ingredient, amount = mix.amount)
-            newGene.save()
+            if Gene.objects.filter(chromosomeDB = c_new1, ingredient = mix.ingredient).exists(): #check if we are about to add a duplicate ingredient
+                index = random.randint(0, len(all_mixers) - 1)
+                rand_mix = all_mixers[index]
+                newGene = Gene(chromosomeDB = c_new1, ingredient = rand_mix, amount = amounts[random.randint(0,6)])
+                newGene.save()
+            else:
+                newGene = Gene(chromosomeDB = c_new1, ingredient = mix.ingredient, amount = mix.amount)
+                newGene.save()
         for mix in c1_mixer[mix_crossover:]: #add the second half of the mixer from gene 1 to new gene 2
             newGene = Gene(chromosomeDB = c_new2, ingredient = mix.ingredient, amount = mix.amount)
             newGene.save()
         for mix in c2_mixer[:mix_crossover]: #add the first half of the mixer from gene 2 to new gene 2
-            newGene = Gene(chromosomeDB = c_new2, ingredient = mix.ingredient, amount = mix.amount)
-            newGene.save()
+            if Gene.objects.filter(chromosomeDB = c_new2, ingredient = mix.ingredient).exists(): #check if we are about to add a duplicate ingredient
+                index = random.randint(0, len(all_mixers) - 1)
+                rand_mix = all_mixers[index]
+                newGene = Gene(chromosomeDB = c_new2, ingredient = rand_mix, amount = amounts[random.randint(0,6)])
+                newGene.save()
+            else:
+                newGene = Gene(chromosomeDB = c_new2, ingredient = mix.ingredient, amount = mix.amount)
+                newGene.save()
         
-        c1_mod= Gene.objects.filter(chromosomeDB = c1, ingredient__type__contains = 'mixer')
-        c2_mod = Gene.objects.filter(chromosomeDB = c2, ingredient__type__contains = 'mixer')
+        c1_mod= Gene.objects.filter(chromosomeDB = c1, ingredient__type__contains = 'modifier')
+        c2_mod = Gene.objects.filter(chromosomeDB = c2, ingredient__type__contains = 'modifier')
         mod_crossover = random.randint(0, min(len(c1_mod),len(c2_mod)))
         for mod in c1_mod[:mod_crossover]: #add the first half of the modifier from gene 1 to new gene 1
             newGene = Gene(chromosomeDB = c_new1, ingredient = mod.ingredient, amount = mod.amount)
             newGene.save()
         for mod in c2_mod[mod_crossover:]: #add the second half of the modifier from gene 2 to new gene 1
-            newGene = Gene(chromosomeDB = c_new1, ingredient = mod.ingredient, amount = mod.amount)
-            newGene.save()
+            if Gene.objects.filter(chromosomeDB = c_new1, ingredient = mod.ingredient).exists(): #check if we are about to add a duplicate ingredient
+                index = random.randint(0, len(all_modifiers) - 1)
+                rand_mod = all_modifiers[index]
+                newGene = Gene(chromosomeDB = c_new1, ingredient = rand_mod, amount = amounts[random.randint(0,1)])
+                newGene.save()
+            else:
+                newGene = Gene(chromosomeDB = c_new1, ingredient = mod.ingredient, amount = mod.amount)
+                newGene.save()
         for mod in c1_mod[mod_crossover:]: #add the second half of the modifier from gene 1 to new gene 2
             newGene = Gene(chromosomeDB = c_new2, ingredient = mod.ingredient, amount = mod.amount)
             newGene.save()
         for mod in c2_mod[:mod_crossover]: #add the first half of the modifier from gene 2 to new gene 2
-            newGene = Gene(chromosomeDB = c_new2, ingredient = mod.ingredient, amount = mod.amount)
-            newGene.save()
+            if Gene.objects.filter(chromosomeDB = c_new2, ingredient = mod.ingredient).exists(): #check if we are about to add a duplicate ingredient
+                index = random.randint(0, len(all_modifiers) - 1)
+                rand_mod = all_modifiers[index]
+                newGene = Gene(chromosomeDB = c_new2, ingredient = rand_mod, amount = amounts[random.randint(0,1)])
+                newGene.save()
+            else:
+                newGene = Gene(chromosomeDB = c_new2, ingredient = mod.ingredient, amount = mod.amount)
+                newGene.save()
 
         c_new1.save()
         c_new2.save()
@@ -225,18 +281,6 @@ class GeneticAlgorithm():
         special = ''
         c_new = ChromosomeDB(name = special, population = new_population) #we will change the name down below
         c_new.save()
-
-        c_genes = Gene.objects.filter(chromosomeDB = c)
-        num_points = random.randint(0, len(c_genes))
-        subset = random.sample(range(0, len(c_genes)), num_points) #subset of random points
-        for gene in c_genes: #copy over all of the genes from chromosome c to chromosome c_new
-            new_gene = Gene(chromosomeDB = c_new, ingredient = gene.ingredient, amount = gene.amount)
-            new_gene.save()
-
-        
-        all_alcohol = Ingredients.objects.filter(type = 'alcohol')
-        all_mixers = Ingredients.objects.filter(type = 'mixer')
-        all_modifiers = Ingredients.objects.filter(type = 'modifier')
         
         new_amount0 = Measurements(amount_ounces = 0)
         new_amount0.save()
@@ -253,6 +297,14 @@ class GeneticAlgorithm():
         new_amount6= Measurements(amount_ounces = 6)
         new_amount6.save()
         amounts = [new_amount0, new_amount1, new_amount2, new_amount3, new_amount4, new_amount4, new_amount6]
+
+        c_genes = Gene.objects.filter(chromosomeDB = c)
+        num_points = random.randint(0, len(c_genes))
+        subset = random.sample(range(0, len(c_genes)), num_points) #subset of random points
+        
+        all_alcohol = Ingredients.objects.filter(type = 'alcohol')
+        all_mixers = Ingredients.objects.filter(type = 'mixer')
+        all_modifiers = Ingredients.objects.filter(type = 'modifier')
 
         for i in range(0, len(c_genes)):
             if i in subset:
@@ -297,7 +349,7 @@ class GeneticAlgorithm():
     
     def gen_alg(self):
         n = 0
-        while n < 50:
+        while n < 5:
             print('n: ' + str(n))
             new_population = Population(user = self.user)
             new_population.save()
@@ -305,11 +357,9 @@ class GeneticAlgorithm():
             pop_split = random.randint(0,len(cur_population))
             #print(pop_split)
             for chrom in range(0, pop_split, 2):
-                c1, c2 = self.crossover(cur_population[chrom], cur_population[chrom + 1], new_population)
+                self.crossover(cur_population[chrom], cur_population[chrom + 1], new_population)
             for chrom in range(pop_split, len(cur_population)):
-                c = self.mutation(cur_population[chrom], new_population)
-                c.population = new_population
-                c.save()
+                self.mutation(cur_population[chrom], new_population)
             new_input = self.get_new_train_input(new_population)
             omg = 0 #not sure what this is for
             for i in new_input:
@@ -332,26 +382,23 @@ class GeneticAlgorithm():
             data = list(zip(self.train_output, self.train_input, combined_population_chromosomes)) #creates tuples to link the the combined drink data, ratings, and combined drink objects
             data = sorted(data, key=lambda x: x[0],reverse=True) #sort the combined drink population by best rating
             next_generation = Population(user = self.user)
+            next_generation.save()
             train_in = []
             train_out = []
             for d in range(min(len(data), 100)):
                 old_chromosome = data[d][2]
+                genes = Gene.objects.filter(chromosomeDB = old_chromosome)
                 new_chromosome = ChromosomeDB(name = old_chromosome.name, population = next_generation, rating = data[d][0]) #could also take the rating from the old chromosome, should be the same
+                new_chromosome.save()
+                for gene in genes:
+                    new_gene = Gene(chromosomeDB = new_chromosome, ingredient = gene.ingredient, amount = gene.amount)
+                    new_gene.save()
                 train_in.append(data[d][1])
                 train_out.append(data[d][0])
             self.training_population = next_generation
             self.train_input = train_in
             self.train_output = train_out
             n += 1
-        # output_chromosomes = ChromosomeDB.objects.filter(population = next_generation)
-        # for i in range(min( 25, len(combined_population_chromosomes))):#range(len(gen_alg.population)):
-        #     chromosome = output_chromosomes[i]
-        #     genes = Gene.objects.filter(chromosomeDB = chromosome)
-        #     print(chromosome.name)
-        #     for gene in genes:
-        #         print(gene)
-        #     print(self.train_output[i])
-        #     print('\n')
 
     def create_fitness_func(self):
         self.predictor.fit(X=self.train_input, y=self.train_output)
