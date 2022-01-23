@@ -36,7 +36,7 @@ def index(request):
     #     username = request.user.username
     if request.method == 'POST':
         for ingredient in all_ingredients:
-            if request.POST.get(ingredient.name) and not AvailableIngredients.objects.filter(ingredient = ingredient).exists():
+            if request.POST.get(ingredient.name) and not AvailableIngredients.objects.filter(ingredient = ingredient, user = request.user ).exists():
                 newAvailableIngredients = AvailableIngredients(user = request.user, ingredient = ingredient)
                 newAvailableIngredients.save()
 
@@ -59,15 +59,25 @@ def genetic_alg(request):
     gen_alg.gen_alg()
     output_chromosomes = ChromosomeDB.objects.filter(population = gen_alg.training_population)
     return_chromosomes = []
-    for i in range(min( 5, len(output_chromosomes))):#range(len(gen_alg.population)):
+    for i in range(len(output_chromosomes)):#range(len(gen_alg.population)):
+        same_drink = False
         chromosome = output_chromosomes[i]
         cur_chromosome = [chromosome.name]
         genes = Gene.objects.filter(chromosomeDB = chromosome)
         print(chromosome.name)
         for gene in genes:
             cur_chromosome.append(gene)
-            print(gene)
-        return_chromosomes.append(cur_chromosome)
+            print("gene ingredient", gene.ingredient)
+        for chrom in return_chromosomes:
+            same_drink = True
+            for i in range(len(cur_chromosome)-2):
+                print("comparing",  chrom[i+1].ingredient.name, " and ", cur_chromosome[i+1].ingredient.name)
+                if chrom[i+1].ingredient.name != cur_chromosome[i+1].ingredient.name and chrom[i+1].amount != cur_chromosome[i+1].amount:
+                    same_drink = False
+        if not same_drink:
+            return_chromosomes.append(cur_chromosome)
+        if len(return_chromosomes) == 5:
+            break
         print()
         print(gen_alg.train_output[i])
         print('\n')
