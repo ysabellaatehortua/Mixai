@@ -349,7 +349,7 @@ class GeneticAlgorithm():
     
     def gen_alg(self):
         n = 0
-        while n < 5:
+        while n < 3:
             print('n: ' + str(n))
             new_population = Population(user = self.user)
             new_population.save()
