@@ -2,13 +2,29 @@
 
 {% block content %}
 
-    {% for gene in to_dispaly %}
-        {% if forloop.first %}
-            <p style="font-weight: bold;">{{ gene }}</p>
-        {% else %}
-            <p>{{ gene.amount }} oz of {{ gene.ingredient }}</p>
-        {% endif %}
-    {% endfor %}
+<div class = "row" style="margin-top: 20px;">
+    <div class = "column" style = "margin-right: 30px">
+        <h2 style="margin-bottom: 10px;">This is the highest rated drink in the population</h2>
+        {% for gene in to_dispaly %}
+            {% if forloop.first %}
+                <p style="font-weight: bold;">{{ gene }}</p>
+            {% else %}
+                <p>{{ gene.amount }} oz of {{ gene.ingredient }}</p>
+            {% endif %}
+        {% endfor %}
+    </div>  
+
+    <div class = "column" style = "margin-top: 50px">
+        <h2 style="margin-bottom: 10px;">This is the closest drink to the ingredients you have</h2>
+        {% for gene in closest_to_make_output %}
+            {% if forloop.first %}
+                <p style="font-weight: bold;">{{ gene }}</p>
+            {% else %}
+                <p>{{ gene.amount }} oz of {{ gene.ingredient }}</p>
+            {% endif %}
+        {% endfor %}
+        </div>  
+</div>
 
 
 {% endblock %}
